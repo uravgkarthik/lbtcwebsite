@@ -1,0 +1,1266 @@
+/*========================================== MASTER STYLESHEET ===================================================================
+
+	Project     :	CHARITY TEMPLATES
+	Version     :	1.0
+	Last Change : 	31/01/2017
+	Primary Use :   CHARITY TEMPLATES
+
+=================================================================================================================================*/
+
+/*========================================== LAYOUT ===================================================================
+
+		1.GLOBAL STYLES
+		2.COMMON STYLES
+		3.THEME COLOR
+		4.NAVIGATION
+		5.BUTTON
+		6.HEADER		
+		7.VARIOUS CAUSES
+		8.WHO WE CARE
+		9.HELP REDUCE
+		10.TOP DONATORS
+		11.ORPHAN CHILDREN
+		12.VOLUNTEERS
+		13.EVENTS
+		14.TESTIMONIAL
+		15.BLOG
+		16.FOOTER
+		17.MEDIA QUERIES	
+
+=================================================================================================================================*/
+
+/*========================================== COLOR CODES =========================================================================
+
+	Background         :#ffffff [white]
+	Theme Color        :#fea501 [Yellow]	
+	Main Heading Color :#333333 [Dark Gray]	
+	Content Color      :#666666 [light Gray]
+
+=================================================================================================================================*/
+
+/*========================================== TYPOGRAPHY =========================================================================
+
+	Heading:font-family: 'Raleway', serif;	
+	Body :font-family: 'Open Sans', sans-serif , Arial , Vedana  , Trebuchet MS;
+
+=================================================================================================================================*/
+
+/*========================================== 1.GLOBAL CSS START ===========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+  background: #ffffff;
+  color: #666666;
+  font-family: 'Open Sans', sans-serif , Arial , Verdana , 'Trebuchet MS';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+p {
+  color: #666666;
+  margin: 0;
+}
+.p-white{color:#ffffff;}
+
+h2,
+h3 {
+  color: #333333;  
+}
+
+h1 {	
+	font-size:40px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size:30px;
+	font-weight:600;
+	margin-top:0;
+	text-transform: uppercase;	
+}
+
+h3 {
+	font-size:20px;
+	font-weight:600;
+	line-height:26px;
+	text-transform:capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', serif;	
+	letter-spacing:1px;	
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.no-margin{margin:0;}
+
+.close-icon{
+font-size: 20px;
+font-weight: 700;
+color: #ff0000;
+text-shadow: 0 1px 0 #666666;
+opacity: .3;}
+
+.close-icon:hover{
+font-size: 20px;
+font-weight: 700;
+color: #ff0000;
+text-shadow: 0 1px 0 #666666;
+opacity: 1;}
+
+.close-icon-1{
+font-size: 20px;
+font-weight: 700;
+color: #ffffff;
+text-shadow: 0 1px 1px #ffffff;
+opacity: 1;}
+
+.close-icon-1:hover{
+font-size: 20px;
+font-weight: 700;
+color: #ff0000;
+text-shadow: 0 1px 1px #ffffff;
+opacity: 1;}
+
+.ok-icon{
+font-size: 12px;
+font-weight: 700;
+color: #ffffff;
+background-color:#fea501;
+border-radius:3px;
+display:inline-block;
+    float: none;
+	text-align:center;
+    line-height: 20px;
+	padding:5px 10px 5px 10px;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+}
+
+.ok-icon:hover{
+font-size: 12px;
+font-weight: 700;
+color: #ffffff;
+background-color:#fea501;
+border-radius:3px;
+display:inline-block;
+float: none;
+text-align:center;
+line-height: 20px;
+padding:5px 10px 5px 10px;
+text-shadow: 0 1px 0 #fff;
+opacity: 1;
+}
+
+.float-left{float:left;}
+.float-left-pad{padding-left:170px;}
+
+/*========================================== 1.GLOBAL CSS END ===========================================*/
+
+/*========================================== 2.COMMON CSS START ===========================================*/
+
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-1-bg {
+  background-color:#ffffff;
+}
+
+.section-2-bg {
+  background-color:#f7f7f7;
+}
+
+.section-3-bg {
+  background-color:#333333;
+}
+
+.section-4-bg {
+  background-color:#fea501;
+}
+
+.heading-div-2,
+.heading-div {
+	padding-bottom:50px;
+}
+
+.heading-div > p {
+	font-size:16px;
+    letter-spacing:0.5px;
+    padding-top:12px;
+}
+
+.orphan-children-section,
+.who-care-img,
+.header-image {	
+	background-position: center center;
+	background-size: cover;
+}
+
+.bottom-space {
+	padding-bottom:30px;
+}
+
+.no_padding {
+	padding:0;
+}
+
+.no-row {
+	margin:0;
+}
+
+.heading-div-2 h2 {
+	color:#ffffff;
+}
+
+/*========================================== 2.COMMON CSS END ===========================================*/
+
+/*========================================== 3.THEME COLOR START ============================================*/
+
+.navbar-default .navbar-nav.clearfix.fixed-header> li > a.active,
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover	{
+	background-color: none;
+	color: #fea501 !important;	
+	border-bottom: 1px dotted #fea501;
+}
+
+.menu  a{   
+  transition: 0.3s ease; 
+}
+
+.menu a:hover {
+	color: #fea501 !important;	
+	border-bottom: 1px dotted #fea501;  
+}
+
+/*========================================== 3.THEME COLOR ENDS ============================================*/
+
+/*========================================== 4.NAVIGATION START ===========================================*/
+
+.navbar-default .navbar-nav > li > a {	
+	font-size: 13px;
+	font-weight:600;
+	letter-spacing:1px;
+	padding: 7px 0;
+	text-transform:uppercase;
+	 
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+  background-image: none;
+  box-shadow: none;
+  background-color: unset;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  background-image: none;
+  border: 0px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-nav {
+	padding-top:21px;
+}
+
+.logo-image {
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.menu {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*========================================== 4.NAVIGATION END ===========================================*/
+
+/*================================================ 5.BUTTON STRAT =========================================*/
+
+.btn {
+	background-color:#fea501;
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: inherit;		
+	font-weight:600;
+	letter-spacing:0.5px;
+	outline: none;
+	padding: 10px 20px;
+	position: relative;
+	text-transform:uppercase;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;	
+}
+
+.btn.header-btn {
+	background-color:#c13a0d;	
+}
+
+.btn.header-btn:hover {
+	color:#ffffff;
+}
+
+.btn:focus,
+.btn:hover { 
+	color: #ffffff;
+}
+
+.btn.btn-1 {
+	background-color:#ffffff;
+	color:#fea501;
+}
+.btn-cancel{border: 1px solid #ffffff; padding:15px 15px 14px 15px; background-color:transparent;}
+.donate-bg{background-color:#c13a0d; border: 1px solid #ffffff;}
+/*================================================ 5.BUTTON ENDS ==========================================*/
+
+/*======================================= 6.SECTION : HEADER START ========================================*/
+
+.header-image {
+	background-image: url("../../images/1500x780x1.jpg");	
+	padding-bottom:50px;
+	padding-top:450px;	
+}
+
+.header-div, .header2-div h1 {
+	color:#ffffff;	
+	letter-spacing:3px;
+	margin-bottom:25px;	
+}
+
+.header-div p, .header2-div p{color:#ffffff;
+	font-size:14px;
+	letter-spacing:0.5px;
+	line-height:28px;
+	text-transform: uppercase;}
+
+.header-div p {
+	margin:0 auto;
+	width:80%;
+}
+
+.header-btn {
+	margin-top:30px;
+}
+
+.header-section {
+	background-color:rgba(254, 165, 1, 0.6);
+	padding:10px 0 30px 0;
+}
+.header2-bgimage, .header3-bgimage{
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;} 
+	
+.header2-bgimage {
+    background-image: url("../../images/1500x780x2.jpg");
+}
+.header2-section-space{padding:200px 0;}
+
+.header3-bgimage {
+    background-image: url("../../images/1500x780x3.jpg");
+}
+
+/*============================================= 6.SECTION : HEADER END ======================================================*/
+
+/*============================================= 7.SECTION : VARIOUS CAUSES START ===============================================*/
+
+.progress-value {
+	color:#c13a0d;
+	font-weight:600;	
+	letter-spacing:1px;
+}
+
+.progress-bar-outer {
+	background-color:#cccccc;
+	height:3px;
+	position:relative;
+	width:100%;
+}
+
+.progress-bar-inner-3,
+.progress-bar-inner-2,
+.progress-bar-inner-1 {
+	background-color:#fea501;
+	height:3px;
+	position:absolute;	
+}
+
+.progress-bar-inner-1 {	
+	width:51%;
+}
+
+.progress-bar-inner-2 {	
+	width:72%;
+}
+
+.progress-bar-inner-3 {	
+	width:41%;
+}
+
+.progress-title {
+	color:#666666;
+	font-weight:600;	
+	letter-spacing:1px;
+	padding-top:5px;
+}
+
+/*============================================= 7.SECTION : VARIOUS CAUSES END ===============================================*/
+
+/*============================================= 8.SECTION : WHO WE CARE START ===============================================*/
+
+.who-care-img {
+	background-image: url("../../images/960x540.jpg");	
+	height:535px;
+}
+
+.who-care-col {
+	padding:80px 90px 80px 40px;	
+}
+
+.section-3-bg p,
+.section-3-bg h2 {
+	color:#ffffff;
+}
+
+.who-care-col-1 .second-para {
+	padding:20px 0 30px 0; 
+	
+}
+
+.heading-div-1 p {
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:1px;
+	text-transform:uppercase;	
+}
+
+.heading-div-1 h2 {
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+.heading-div-1 img {
+	padding-bottom:20px;
+}
+
+/*============================================= 8.SECTION : WHO WE CARE END ===============================================*/
+
+/*============================================= 9.SECTION : HELP REDUCE START ===============================================*/
+
+.help-reduce-row-1 .col-sm-2 {
+	padding:0;
+	width:70px;
+}
+
+.help-reduce-row-1 .col-sm-10  h3{
+	margin-top:0;
+}
+
+.help-reduce-row-2 {
+	margin-bottom:30px;
+}
+
+.help-reduce-col  h3{
+	margin-top:0;
+}
+
+.camps-done-col p {
+	padding-bottom:20px;
+}
+
+/*============================================= 9.SECTION : HELP REDUCE END ===============================================*/
+
+/*============================================= 10.SECTION : TOP DONATORS START ===============================================*/
+
+.donators-details {
+	margin:0 auto;
+	padding-bottom:40px;
+	width:50%;
+}
+
+.donators-details p {
+	color:#ffffff;
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.donators-details ul {
+	padding-left:0;
+}
+
+.donators-details li {
+	display:table-cell;
+	list-style:none;	
+}
+
+.donators-details li img {
+	padding-right:10px;
+}
+
+.donators-profile {
+	margin:0 auto;
+	width:80%;
+}
+
+.donators-profile-col {
+	border:5px solid #ffffff;
+	padding:20px;
+}
+
+.donators-profile-col  p{
+	color:#ffffff;
+	font-size:18px;
+	font-weight:600;
+	letter-spacing:1px;	
+	padding-top:10px;
+}
+
+.donators-btn {
+	padding-top:40px;
+}
+
+/*============================================= 10.SECTION : TOP DONATORS END ===============================================*/
+
+/*============================================= 11.SECTION : ORPHAN CHILDREN START ===============================================*/
+
+.involvements-col p {
+	padding-bottom:20px;
+}
+
+.orphan-children-section {
+	background-image: url("../../images/1500x700.jpg");	
+}
+
+.orphan-children-col {
+	background-color:#fea501;
+	padding:40px 10px 60px 10px;
+}
+
+.orphan-children-col p,
+.orphan-children-col h2 {
+	color:#ffffff;
+}
+
+.orphan-children-col h2 {
+	font-weight:700;
+}
+
+.orphan-children-col p {
+	font-weight:600;
+	margin:0 auto;
+	padding-bottom:20px;
+	padding-top:5px;
+	width:70%;
+}
+
+.gallery-div img {
+	border:2px solid #666666;
+}
+
+/*============================================= 11.SECTION : ORPHAN CHILDREN END ===============================================*/
+
+/*============================================= 12.SECTION : VOLUNTEERS START ===============================================*/
+
+.news-row .col-sm-2 {
+	padding:0;
+	width:60px;
+}
+
+.news-row h3 {
+	margin-bottom:5px;
+	margin-top:0;
+}
+
+.news-date {
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:1px;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+
+.news-date  a{
+	color:#666666;
+}
+
+.news-row-1 {
+	margin-top:40px;
+}
+
+.news-col p {
+	padding-top:10px;
+}
+
+.relief-camp {
+	margin-top:40px;
+}
+
+.volunteers-col p {
+	padding-bottom:20px;
+	padding-top:10px;
+}
+
+.volunteers-col ul {
+	margin-bottom:0;
+	padding-left:0;
+}
+
+.volunteers-col li {
+	display:inline-block;
+	list-style:none;
+	margin-right:5px;
+}
+
+.volunteers-row-1 {
+	margin-bottom:40px;
+}
+
+.best-moment img {
+	margin:0 auto;
+}
+
+/*============================================= 12.SECTION : VOLUNTEERS END ===============================================*/
+
+/*============================================= 13.SECTION : EVENTS START ===============================================*/
+
+.events-date-div {
+	padding:5px 0 5px 0;
+}
+
+.events-date-div .col-sm-6 {
+	padding:0;
+	width:150px;
+}
+
+
+.events-date-div  ul {
+	padding-left:0;
+}
+
+.events-date-div  li{
+	display:inline-block;
+	list-style:none;
+	padding-right:10px;
+}
+
+.events-col  p{
+	padding-top:10px;
+}
+
+.events-date-div li {
+	display:table-cell;
+	font-size:13px;
+	letter-spacing:1px;
+	line-height:0;	
+}
+
+.events-date-div li  img{ 
+	margin-right:10px;
+}
+
+.events-date {
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.events-second-row {
+	margin-top:40px;
+}
+
+/*============================================= 13.SECTION : EVENTS END ===============================================*/
+
+/*============================================= 14.SECTION : TESTIMONIAL START ===============================================*/
+
+.testimonial-div {
+	margin:0 auto;
+	width:60%;
+}
+
+.testimonial-div img {
+	padding-bottom:20px;
+}
+
+.testimonial-border {
+	border-bottom:1px solid #ffffff;
+	margin:0 auto;
+	padding-top:20px;
+	width:40%;
+}
+
+.testimonial-div p {
+	color:#ffffff;
+}
+
+.testimonial-name {
+	letter-spacing:1px;
+	padding-top:15px;
+	text-transform:uppercase;
+}
+
+.testimonial-name span {
+	font-size:16px;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+
+.moving-row {
+	background-color: rgba(254, 165, 1, 0.6);
+}
+ 
+.moving-col {	
+	padding:40px 20px;
+}
+
+.moving-col-2 {
+	background-color: rgba(254, 165, 1, 0.2);
+}
+
+.happiest-col h3,
+.wonderful-col h3 {
+	padding-top:0px;
+}
+
+.happiest-col p,
+.wonderful-col p {
+	padding:10px 0 20px 0;	
+}
+
+/*============================================= 14.SECTION : TESTIMONIAL END ===============================================*/
+
+/*============================================= 15.SECTION : BLOG START ===============================================*/
+
+.blog-date {
+	padding-left:0;
+}
+
+.blog-date li {
+	font-size:13px;
+	font-weight:600;	
+	display:table-cell;
+	letter-spacing:1px;
+	list-style:none;
+	padding-right:10px;	
+} 
+ 
+.blog-col  p{
+	padding:10px 0 20px 0;	
+}
+
+.blog-second-row {
+	margin-top:40px;
+}
+
+.faq-col ul {
+	padding-left:0;
+	margin-bottom:0;
+}
+
+.faq-col li {	
+	display:table-cell;
+	letter-spacing:1px;	
+	list-style:none;		
+	padding-right:15px;	
+	
+} 
+
+.faq-col li img {	
+	padding-bottom:10px;
+}
+
+.faq-col-1 {
+	margin-bottom:10px;
+}
+
+.faq-col .col-sm-12 {
+	padding:0;
+}
+
+/*============================================= 15.SECTION : BLOG START ===============================================*/
+
+/*============================================= 16.SECTION : FOOTER START ===============================================*/
+
+.contact-row {
+	margin:0 auto;
+	width:80%;
+}
+
+.contact-row p {
+	letter-spacing:1px;
+	padding-top:15px;
+}
+
+.footer-div ul {	
+	padding-left:0;
+}
+
+.footer-div li {
+	display:inline-block;
+	list-style:none;
+	margin:0 5px;	
+}
+
+.footer-div  p { 
+	width:80%;
+	margin:0 auto;
+}
+
+.separator {
+	border-bottom:1px solid #dddddd;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+.popup-bg{
+	background: linear-gradient(#fea501, #C9860A);
+	background: -moz-linear-gradient(#fea501, #C9860A);
+	background: -webkit-linear-gradient(#fea501, #C9860A);
+	background: -o-linear-gradient(#fea501, #C9860A);
+	background: -ms-linear-gradient(#fea501, #C9860A);
+	border-radius:5px;
+	width:360px;
+}
+.popup-bg-pad{padding:0 40px 30px 40px;}
+
+input.error {
+	border-color: #ff0000 !important;
+	-moz-border-top-colors:	#ff0000 !important;
+	-moz-border-left-colors:	#ff0000 !important;
+	-moz-border-bottom-colors:	#ff0000 !important;
+	-moz-border-right-colors:	#ff0000 !important;
+}
+
+label.error {
+	display:none !important;
+}
+
+.popup-form select,
+.popup-form input {
+	font-size:15px;
+	font-weight:600;
+	height:50px;
+	margin-bottom:20px;	
+}
+
+select {
+	height:50px;
+	line-height:50px;
+}
+
+.popup-form > h2 {
+	color:#ffffff;
+	margin-bottom:25px;
+	text-align:center;
+}
+
+.name,
+.email,
+.phoneno,
+#amounts,
+#price-1 {
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.col-xs-2.col-sm-2.or {
+	padding-top:15px;
+}
+
+#cancel_btn .cancel-head-pad> h3 {
+    color: #ff0000;
+	padding-bottom:8px;
+	padding-top:20px;
+    text-align: center;
+}
+
+#success_btn .cancel-head-pad h3 {
+    color: #008000;
+    text-align: center;
+}
+
+#messageDiv {
+	display:block;
+}
+
+/* lightbox popup */
+#fade{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1001;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity=70);	
+}
+#success_btn, #cancel_btn{
+	background-color:#ffffff;  
+	border:10px solid #fea501;	
+   display: none;
+    position: fixed; 
+    border-radius: 5px;
+    padding: 7px 10px 30px 10px;
+	margin:0 auto;
+    z-index: 99999;
+	width: 35%;
+	top:30%;
+	left:0;
+	right:0;
+}
+.cancel-head-pad{padding:30px 10px 15px 10px;}
+
+
+
+
+
+
+/*============================================= 16.SECTION : FOOTER START ===============================================*/
+
+/*============================================= 17.SECTION : MEDIA QUERIES START ===============================================*/
+
+@media only screen and (min-width: 250px) and (max-width: 767px) {
+	.navbar-toggle.collapsed {
+		margin-top:18px;
+	}
+	.menu {
+		padding-bottom:5px;		
+	}	
+	.navbar-default .navbar-nav > li > a {
+		display:inline-block;
+	}
+	.responsive-top-space {
+		margin-top:40px;
+	}
+	.who-care-col {
+		padding:40px 15px 80px 15px;
+	}	
+	.help-reduce-row-3 {
+		margin-bottom:30px;
+	}	
+	.donator-top-space {
+		padding-top:30px;
+	}
+	.contact-row,
+	.testimonial-div,
+	.donators-profile {
+		width:100%;
+	}
+	.help-reduce-div {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.gallery-img {
+		padding-bottom:30px;
+	}
+	.events-col p {
+		padding-top:0;
+	}
+	
+		#cancel_btn, #success_btn{width:70%;}
+		
+		.popup-bg{
+	width:80%;
+	margin:0 auto;
+				}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 480px) { 
+	.donators-profile {
+		width:250px;
+	}	
+	.donator-top-space-1 {
+		padding-top:30px;
+	}	
+	.donators-profile .col-xs-6 {
+		margin:0 auto;
+		width:250px;
+	}	
+	.donators-details {
+		width:150px;
+	}	
+	.donators-details .col-xs-4  {
+		padding:0;
+		width:100%;
+	}	
+	.gallery-div {
+		margin:0 auto;
+		width:280px;
+	}	
+	.gallery-div .col-sm-4.col-xs-6 {		
+		margin:0 auto;
+		width:100%;
+	}	
+	.contact-row  .col-xs-6,
+	.help-reduce-row-1 .col-xs-10,
+	.help-reduce-row-1 .col-xs-2,
+	.help-reduce-row-1,
+	.news-row .col-xs-10,
+	.news-row .col-xs-1,
+	.news-row {
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}	
+	.help-reduce-space,
+	.news-space {
+		padding-bottom:40px;
+	}	
+	.help-reduce-row-1 .col-xs-2 img,
+	.news-row .col-xs-1 img {		
+		padding-bottom:20px;
+	}	
+	.sponsors-row .col-xs-6,
+	.sponsors-row {
+		margin:0 auto;
+		width:200px;
+	}
+	.sponsors-space-1 {
+		padding-bottom:30px;		
+	}
+	.contact-space {
+		padding-bottom:30px;
+	}
+	
+	.float-left{float:none;}
+	.float-left-pad{padding-left:0px;}
+	
+	.btn-cancel ,
+	#donate-btn { 
+		width:100%;
+	}
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) { 	
+	.donators-details,
+	.donators-profile {
+		width:460px;
+	}	
+	.donators-details .col-xs-4  {		
+		padding:0;		
+	}
+	.gallery-div {
+		margin:0 auto;
+		width:360px;
+	}	
+	.gallery-div .col-sm-4.col-xs-6 {		
+		margin:0 auto;
+		width:360px;
+	}
+	.news-second-col {
+		margin-top:40px;
+	}
+	.news-main-row {
+		padding-left:15px;
+		padding-right:15px;
+	}	
+	.sponsors-row {
+		margin:0 auto;
+		width:380px;
+	}
+	.sponsors-space {
+		padding-bottom:30px;
+		padding-top:30px;
+	}
+	.contact-space-1 {
+		padding-bottom:30px;
+	}
+	
+	#donate-btn {
+		margin-bottom:15px;
+		margin-right:20px;
+		width:180px;
+	}
+	.btn-cancel {
+		width:120px;
+	}
+	.popup-btn-div {
+		margin:0 auto;
+		width:330px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 359px) { 	
+	.footer-div li {
+		margin-left:1px;
+		margin-right:1px;
+	}	
+	.footer-div .col-sm-12  {
+		padding:0;
+	}	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 	
+	.sponsors-row {
+		margin:0 auto;
+		width:580px;
+	}
+	.sponsors-space-2 {
+		padding-top:30px;
+	}	
+	.who-care-col,
+	.who-care-img,
+	.contact-row {
+		width:100%;
+	}
+	.who-care-col {
+		padding:40px 30px 80px 30px;		
+	}	
+	.help-reduce-row-1 h3 {
+		margin-top:0;
+	}
+	.donator-top-space {
+		padding-top:30px;
+	}
+	.donators-details {
+		width:70%;
+	}
+	
+	.blog-img,
+	.blog-col,
+	.happiest-col,
+	.happiest-img,
+	.wonderful-col,
+	.wonderful-img,
+	.events-second-row .events-img,
+	.events-second-row .events-col, 
+	.events-row-1 .events-img,
+	.events-row-1 .events-col,
+	.volunteers-row-2 .col-sm-6,
+	.volunteers-row-1 .col-sm-6,
+	.relief-camp .col-sm-6 {
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}
+	
+	.blog-img img,
+	.happiest-img img,
+	.wonderful-img img,
+	.events-second-row .events-img img,
+	.events-row-1 .col-sm-6 img,
+	.volunteers-row-2 .col-sm-6 img,
+	.volunteers-row-1 .col-sm-6 img,
+	.relief-camp .col-sm-6 img {
+		margin:0 auto;	
+	}
+	
+	.col-sm-push-6.happiest-img,
+	.volunteers-row-2  .col-sm-push-6 {
+		left:0;
+	}
+	.col-sm-pull-6.happiest-col ,
+	.volunteers-row-2  .col-sm-pull-6 {
+		right:0;
+	}
+	.events-date-div {
+		float:none;
+		margin:0 auto;
+		width:45%;
+	}
+	.events-col p {
+		clear:both;
+	}
+	.testimonial-div {
+		width:100%;
+	}
+	
+	.moving-col-1.moving-4 {
+		background-color: rgba(254, 165, 1, 0.2);
+	}
+	.moving-col-2.moving-3 {
+		background-color:transparent;
+	}
+	.blog-date {   
+		margin:0 auto;	
+		text-align: center;
+		width: 22%;
+	}
+	
+	#cancel_btn, #success_btn{width:60%;}
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.sponsors-row {
+		margin:0 auto;
+		width:600px;
+	}
+	.col-xs-6.col-sm-4.col-md-2.sponsors-space-1, .col-xs-6.col-sm-4.col-md-2.sponsors-space-2 {
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 190px;
+	}
+	.sponsors-space-2 {
+		padding-top:30px;
+	}
+	h3 {
+		margin-top:0;
+	}
+	
+	.moving-col img,
+	.involvements-col img,
+	.camps-done-col img,
+	.various-col img {
+		padding-bottom:20px;
+	}
+	.donators-profile {
+		width:100%;
+	}
+	
+	#cancel_btn, #success_btn{width:50%;}
+	
+	.res-margin{margin: 0 0 10px 0;}
+}
+
+/*============================================= 17.SECTION : MEDIA QUERIES END ===============================================*/
