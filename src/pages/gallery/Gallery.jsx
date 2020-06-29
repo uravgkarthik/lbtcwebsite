@@ -3,6 +3,7 @@ import HeaderBar from '../../components/HeaderBar/HeaderBar';
 import MenuBar from '../../components/MenuBar/MenuBar';
 import ResponsiveHeader from '../../components/ResponsiveHeader/ResponsiveHeader';
 import StickyHeader from '../../components/StickyHeader/StickyHeader';
+import Footer from '../../components/Footer/Footer';
 
 function Gallery(){
     return(
@@ -111,12 +112,11 @@ function Gallery(){
                                 </div>
                             </div>
                         </div>
-                        <div class="ld-mr text-center">
-                            <a class="ld-mr-btn" href="#" title="" itemprop="url"><i class="flaticon-load"></i></a>
-                        </div>
+                      
                 </div>
                 </div>
             </section>
+            <Footer></Footer>
         </main>
         </div>
     
