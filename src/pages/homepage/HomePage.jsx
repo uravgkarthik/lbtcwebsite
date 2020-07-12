@@ -7,7 +7,7 @@ import MenuBar from '../../components/MenuBar/MenuBar';
 import ResponsiveHeader from '../../components/ResponsiveHeader/ResponsiveHeader';
 import StickyHeader from '../../components/StickyHeader/StickyHeader';
 import Footer from '../../components/Footer/Footer';
-
+import Testimonials from '../../components/Testimonials/Testimonials';
 
 function HomePage() {
   return (
@@ -44,6 +44,9 @@ function HomePage() {
                     </div>
                 </div>
             </section>
+
+            
+            
 
             <AboutUs></AboutUs>  {/* About Us Component */}
 
@@ -201,6 +204,7 @@ function HomePage() {
                     </div>
                 </div>
             </section>
+
 
             <Partners></Partners>  {/* Partners Component */}
 

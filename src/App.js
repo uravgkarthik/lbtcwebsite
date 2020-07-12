@@ -11,8 +11,9 @@ import ContactUS from './pages/contactus/ContactUS';
 function App() {
   return (
     <Switch>
-           <Route exact path = '/home' render = {() => <ContactUS></ContactUS>}></Route>
-           <Redirect from = '' to = '/home'></Redirect>
+           <Route exact path = '' render = {() => <HomePage></HomePage>}></Route>
+           
+           <Route exact path='/about' render={() => <AboutUS></AboutUS>}></Route>
     </Switch>
   );
 }

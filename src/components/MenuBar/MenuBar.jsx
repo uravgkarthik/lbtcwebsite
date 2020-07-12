@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function MenuBar(){
     return(
         <header class="style1 v2 stick flex">
                 <div class="container">
                     <div class="wb-lgmnu-wrp flex justify-content-between">
-                        <div class="logo"><a href="index.html" title="Home" itemprop="url"><img src={require('../../assets/images/logo.png')}alt="logo.png" itemprop="image" /></a></div>
+                        <Link to=''><div class="logo"><a href="index.html" title="Home" itemprop="url"><img src={require('../../assets/images/logo.png')}alt="logo.png" itemprop="image" /></a></div></Link>
+                        
                         <div className="tp-scl">
-                            <a href="#" title="Facebook" itemprop="url" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/" title="Facebook" itemprop="url" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" title="Twitter" itemprop="url" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="#" title="Linkedin" itemprop="url" target="_blank"><i className="fa fa-instagram"></i></a>
                         </div>
