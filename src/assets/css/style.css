@@ -1769,6 +1769,8 @@ header.style1
 }
 .abt-imgs-wrp > div > div:last-child {padding-top: 5rem;}
 /*===== Theme Button =====*/
+
+
 .thm-btn {
   position: relative;
   -webkit-border-radius: 2.5rem;
@@ -1796,7 +1798,7 @@ header.style1
   height: 0;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #000 ;
   opacity: .15;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -ms-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
@@ -1806,6 +1808,30 @@ header.style1
           transform: translate(-50%, -50%);
   z-index: -1;
 }
+
+.thm-btnx {
+
+  background-color: #000;
+
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+  opacity: .15;
+ 
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+
+
+}
+.thm-btnx:hover span,
+.thm-btnx:focus span,
+{
+  width: 35.15625rem;
+  height: 35.15625rem;
+}
+
 .thm-btn:hover span,
 .thm-btn:focus span,
 .nwsltr-frm > button:hover span,

@@ -46,6 +46,7 @@ function Partners(){
                     </div>
                 </div>
             </div>
+            <a className="thm-btn" href="donate-now.html" title="" itemprop="url">Become A Partner<span></span></a>
         </div>
     </div>
 </section>
