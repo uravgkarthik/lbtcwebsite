@@ -17,11 +17,7 @@ function App() {
 
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
 
-      <Route
-        exact
-        path="/contact"
-        render={() => <ContactUS></ContactUS>}
-      ></Route>
+      <Route exact path="/contact"render={() => <ContactUS></ContactUS>}></Route>
 
       <Route exact path="/gallery" render={() => <Gallery></Gallery>}></Route>
 

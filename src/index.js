@@ -40,7 +40,6 @@ import './assets/css/bootstrap.min.scss';
 import './assets/css/bootstrap-select.min.scss';
 import './assets/css/fancybox.min.scss';
 import './assets/css/icons.min.scss';
-
 import './assets/css/perfect-scrollbar.scss';
 
 import { BrowserRouter } from 'react-router-dom';
