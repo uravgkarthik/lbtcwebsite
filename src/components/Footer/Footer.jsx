@@ -1,4 +1,5 @@
 import React from "react";
+import '../Footer/footer.min.scss';
 import { Switch, Route, Link } from "react-router-dom";
 
 function Footer() {
@@ -30,14 +31,14 @@ function Footer() {
                   <ul class="abt-cnt-lst">
                     <li>
                       <i class="flaticon-telephone thm-clr"></i>
-                      <a href="tel:+91 93532 18818">+91 93532 18818</a>
+                      <a href="tel:+919353218818">+91 93532 18818</a>
                     </li>
 
                     <li>
                       <i class="fa fa-map-marker thm-clr"></i>
                       <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
-                        Let's Be The Change, 25th Main Road, 1062, 15th Cross
-                        Rd, Banashankari Stage II, Bengaluru, Karnataka 560070
+                        No. 1062, 15th Cross
+                        Rd, 25th Main Rd, BSK II Stage, Bengaluru - 560070
                       </a>
                     </li>
                   </ul>
@@ -73,19 +74,18 @@ function Footer() {
               </div>
               <div class="col-md-4 col-sm-6 col-lg-4">
                 <p class="cpyrgt-p" itemprop="description">
-                  &copy; Copyright 2019{" "}
-                  <a href="index.html" title="Povert" itemprop="url">
-                    Povert.
-                  </a>{" "}
-                  All rights reserved.
+                  Copyright 2020 &copy;{" "}
+                  <a href="index.html" title="Team LBTC" itemprop="url">
+                    Team LBTC <br />
+                  </a>{" "} Website By {" "}
+                  <a href="https://www.google.com" title="Team LBTC" itemprop="url">
+                    HexClan Labs <br />
+                  </a>
                 </p>
-                <div class="ftr-sbscrb thm-layer opc9">
-                  <div
-                    class="fixed-bg back-blend-multiply thm-bg patern-bg"
-                    style={{
-                      backgroundImage: "url(assets/images/pattern-bg1.jpg)",
-                    }}
-                  ></div>
+                <div class="ftr-sbscrb thm-layer opcAdi">
+                  {/* <div
+                    class="fixed-bg thm-bg patern-bg"
+                  ></div> */}
                   <p itemprop="description">
                     Subscribe to our mailing list to get the{" "}
                     <strong>update to you email.</strong>
