@@ -36,7 +36,7 @@ function OurActivities() {
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-12 col-lg-4">
-                                    <div className="fndrs-inf text-center thm-layer opc9" >
+                                    <div className="fndrs-inf text-center thm-layer opc9">
                                         <div
                                             className="fixed-bg thm-bg back-blend-multiply"
                                             
