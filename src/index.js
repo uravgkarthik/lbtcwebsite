@@ -4,44 +4,44 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import './assets/css/revolution/layers.css';
-import './assets/css/revolution/navigation.css';
+import './assets/css/revolution/layers.scss';
+import './assets/css/revolution/navigation.scss';
 
 
-import './assets/css/revolution/fonts/font-awesome/css/font-awesome.css';
-import './assets/css/revolution/fonts/font-awesome/css/font-awesome.min.css';
-import './assets/css/revolution/fonts/pe-icon-7-stroke/css/helper.css';
-import './assets/css/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css';
+import './assets/css/revolution/fonts/font-awesome/css/font-awesome.scss';
+import './assets/css/revolution/fonts/font-awesome/css/font-awesome.min.scss';
+import './assets/css/revolution/fonts/pe-icon-7-stroke/css/helper.scss';
+import './assets/css/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.scss';
 
-import './assets/css/revolution/navigation-skins/ares.css';
-import './assets/css/revolution/navigation-skins/custom.css';
-import './assets/css/revolution/navigation-skins/dione.css';
-import './assets/css/revolution/navigation-skins/erinyen.css';
-import './assets/css/revolution/navigation-skins/gyges.css';
-import './assets/css/revolution/navigation-skins/hades.css';
-import './assets/css/revolution/navigation-skins/hebe.css';
-import './assets/css/revolution/navigation-skins/hephaistos.css';
-import './assets/css/revolution/navigation-skins/hermes.css';
-import './assets/css/revolution/navigation-skins/hesperiden.css';
-import './assets/css/revolution/navigation-skins/metis.css';
-import './assets/css/revolution/navigation-skins/persephone.css';
-import './assets/css/revolution/navigation-skins/uranus.css';
-import './assets/css/revolution/navigation-skins/zeus.css';
+import './assets/css/revolution/navigation-skins/ares.scss';
+import './assets/css/revolution/navigation-skins/custom.scss';
+import './assets/css/revolution/navigation-skins/dione.scss';
+import './assets/css/revolution/navigation-skins/erinyen.scss';
+import './assets/css/revolution/navigation-skins/gyges.scss';
+import './assets/css/revolution/navigation-skins/hades.scss';
+import './assets/css/revolution/navigation-skins/hebe.scss';
+import './assets/css/revolution/navigation-skins/hephaistos.scss';
+import './assets/css/revolution/navigation-skins/hermes.scss';
+import './assets/css/revolution/navigation-skins/hesperiden.scss';
+import './assets/css/revolution/navigation-skins/metis.scss';
+import './assets/css/revolution/navigation-skins/persephone.scss';
+import './assets/css/revolution/navigation-skins/uranus.scss';
+import './assets/css/revolution/navigation-skins/zeus.scss';
 
 
 
-import './assets/css/style.css';
-import './assets/css/owl.carousel.min.css';
-import './assets/css/slick.css';
-import './assets/css/responsive.css';
-import './assets/css/color.css';
-import './assets/css/animate.min.css';
-import './assets/css/bootstrap.min.css';
-import './assets/css/bootstrap-select.min.css';
-import './assets/css/fancybox.min.css';
-import './assets/css/icons.min.css';
+import './assets/css/style.scss';
+import './assets/css/owl.carousel.min.scss';
+import './assets/css/slick.scss';
+import './assets/css/responsive.scss';
+import './assets/css/color.scss';
+import './assets/css/animate.min.scss';
+import './assets/css/bootstrap.min.scss';
+import './assets/css/bootstrap-select.min.scss';
+import './assets/css/fancybox.min.scss';
+import './assets/css/icons.min.scss';
 
-import './assets/css/perfect-scrollbar.css';
+import './assets/css/perfect-scrollbar.scss';
 
 import { BrowserRouter } from 'react-router-dom';
 
