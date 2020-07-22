@@ -1,4 +1,5 @@
 import React from "react";
+import '../AboutUs/aboutus.min.scss'
 import { Switch, Route, Link } from "react-router-dom";
 
 function AboutUs() {
@@ -15,7 +16,7 @@ function AboutUs() {
                     alt="abt-img2-1.jpg"
                     itemprop="image"
                   />
-                  <div className="abt-inf text-center">
+                  <div className="abt-inf text-center greenwhitebox">
                     <span className="thm-clr">
                       <i className="counter">100</i>+
                     </span>
@@ -39,7 +40,7 @@ function AboutUs() {
                   </p>
                   <br />
                   <Link to="/about">
-                    <a className="thm-btn" href="" itemprop="url">
+                    <a className="thm-btn" href="#top" itemprop="url">
                       Learn More<span></span>
                     </a>
                   </Link>
