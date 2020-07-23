@@ -40,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "expose-loader": "^1.0.0",
-    "jest": "^26.1.0"
+    "expose-loader": "^1.0.0"
   }
 }
