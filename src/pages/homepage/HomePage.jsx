@@ -12,6 +12,7 @@ import OurActivities from "../../components/OurActivities/OurActivities";
 import EventFunding from "../../components/EventFunding/EventFunding";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import { Switch, Route, Link } from "react-router-dom";
+import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 
 function HomePage() {
   return (
@@ -45,7 +46,7 @@ function HomePage() {
                   <div className="col-md-6 col-sm-12 col-lg-6">
                     <div className="abt-img">
                       <img
-                        src={require("../../assets/images/resources/orgn-mckp1.png")}
+                        src={require("../homepage/Come2OurEvents.jpg")}
                         alt="orgn-mckp1.png"
                         itemprop="image"
                       />
@@ -83,7 +84,7 @@ function HomePage() {
 
         <OurActivities></OurActivities> {/* Our Activities Component */}
         
-        <Partners></Partners> {/* Partners Component */}
+        <PartnersContainer></PartnersContainer>
         
         <BlogArticles></BlogArticles> {/* News Articles Component */}
         

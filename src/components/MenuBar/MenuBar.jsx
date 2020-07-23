@@ -9,8 +9,8 @@ function MenuBar() {
           <Link to="">
             <div class="logo">
               <img
-                src={require("../../assets/images/logo.png")}
-                alt="logo.png"
+                src={require("../MenuBar/LBTC-Header-Logo-C.png")}
+                alt="MenuBar-Logo.png"
                 itemprop="image"
               />
             </div>

@@ -12,7 +12,7 @@ function AboutUs() {
               <div className="col-md-7 col-sm-12 col-lg-7">
                 <div className="abt-img-wrp">
                   <img
-                    src={require("../../assets/images/resources/abt-img2-1.jpg")}
+                    src={require("../AboutUs/AboutUs.jpg")}
                     alt="abt-img2-1.jpg"
                     itemprop="image"
                   />

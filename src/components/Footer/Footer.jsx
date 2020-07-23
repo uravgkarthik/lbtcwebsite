@@ -18,8 +18,8 @@ function Footer() {
                   <div class="logo">
                     <Link to="/">
                       <img
-                        src={require("../../assets/images/logo2.png")}
-                        alt="logo2.png"
+                        src={require("../Footer/LBTC-Footer-Logo-C.png")}
+                        alt="Footer-Logo.png"
                         itemprop="image"
                       />
                     </Link>
@@ -37,8 +37,8 @@ function Footer() {
                     <li>
                       <i class="fa fa-map-marker thm-clr"></i>
                       <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
-                        No. 1062, 15th Cross
-                        Rd, 25th Main Rd, BSK II Stage, Bengaluru - 560070
+                        No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
+                        Bengaluru - 560070
                       </a>
                     </li>
                   </ul>
@@ -77,8 +77,13 @@ function Footer() {
                   Copyright 2020 &copy;{" "}
                   <a href="index.html" title="Team LBTC" itemprop="url">
                     Team LBTC <br />
-                  </a>{" "} Website By {" "}
-                  <a href="https://www.google.com" title="Team LBTC" itemprop="url">
+                  </a>{" "}
+                  Website By{" "}
+                  <a
+                    href="https://www.google.com"
+                    title="Team LBTC"
+                    itemprop="url"
+                  >
                     HexClan Labs <br />
                   </a>
                 </p>
