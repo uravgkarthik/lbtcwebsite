@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Switch, Route, Redirect } from "react-router-dom";
+import ReactDOM from "react-dom";
 import HomePage from "./pages/homepage/HomePage";
 import AboutUS from "./pages/aboutus/AboutUS";
 import Gallery from "./pages/gallery/Gallery";

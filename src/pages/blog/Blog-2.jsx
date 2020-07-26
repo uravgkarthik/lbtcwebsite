@@ -10,12 +10,14 @@ function Blog() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
+
         <MenuBar></MenuBar>
+
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
+              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
             </div>
           </div>
         </section>
@@ -679,7 +681,7 @@ function Blog() {
             </div>
           </div>
         </section>
-        <Footer></Footer> {/* Footer Component */}
+        <Footer></Footer>
       </main>
     </div>
   );

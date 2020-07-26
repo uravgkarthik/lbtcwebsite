@@ -61,7 +61,9 @@ function MenuBar() {
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/covid">Covid-19</Link>
+                  <a href="https://bengaluruveeraru.org/ourwork/index.html">
+                    Covid-19
+                  </a>
                 </li>
               </ul>
               <a

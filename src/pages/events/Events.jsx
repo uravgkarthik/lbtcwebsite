@@ -14,7 +14,7 @@ function Events() {
         <section>
           <div className="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
           </div>
         </section>
@@ -304,25 +304,26 @@ function Events() {
                       <i className="fa fa-angle-left"></i>
                     </a>
                   </li>
+                  <li className="page-item active">
+                    {" "}
+                    <span className="page-link">1</span>
+                  </li>
                   <li className="page-item">
                     <a className="page-link" href="#" title="" itemprop="url">
-                      1
+                      2
                     </a>
-                  </li>
-                  <li className="page-item active">
-                    <span className="page-link">2</span>
                   </li>
                   <li className="page-item">
                     <a className="page-link" href="#" title="" itemprop="url">
                       3
                     </a>
                   </li>
-                  <li className="page-item">......</li>
                   <li className="page-item">
                     <a className="page-link" href="#" title="" itemprop="url">
-                      12
+                      4
                     </a>
                   </li>
+
                   <li className="page-item">
                     <a
                       className="page-link next"
