@@ -78,7 +78,7 @@ function Footer() {
                   <a href="index.html" title="Team LBTC" itemprop="url">
                     Team LBTC <br />
                   </a>{" "}
-                  Website By{" "}
+                  Powered By{" "}
                   <a
                     href="https://www.google.com"
                     title="Team LBTC"
