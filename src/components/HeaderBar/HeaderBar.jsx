@@ -22,7 +22,7 @@ function HeaderBar() {
                   <strong>Crisis Watch:</strong> Covid-19 In India
                 </p>
               </div>
-              <div className="col-md-6 col-sm-12 col-lg-6 txtrgtx">
+              {/* <div className="col-md-6 col-sm-12 col-lg-6 txtrgtx">
                 <ul className="tp-lnks">
                   <li>
                     <a href="http://bengaluruveeraru.org/">
@@ -42,7 +42,7 @@ function HeaderBar() {
                     <a href="#top" title="" itemprop="url">
                       Careers
                     </a>
-                  </li> */}
+                  </li> Add Close
                   <li>
                     <a href="https://cdn.jotfor.ms/letsbethechange.india/bv-volunteers">
                       <i className="fa fa-hand-spock-o"></i>
@@ -56,7 +56,7 @@ function HeaderBar() {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
