@@ -12,6 +12,7 @@ import OurActivities from "../../components/OurActivities/OurActivities";
 import EventFunding from "../../components/EventFunding/EventFunding";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import { Switch, Route, Link } from "react-router-dom";
+import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 
 function HomePage() {
@@ -55,7 +56,7 @@ function HomePage() {
                       <br />
 
                       <a className="thm-btn" title="">
-                        <Link to="/events">
+                        <Link to="/events" className="viewallbutton">
                           View All The Events<span></span>
                         </Link>
                       </a>

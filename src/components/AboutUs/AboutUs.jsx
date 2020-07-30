@@ -1,4 +1,5 @@
 import React from "react";
+import '../AboutUs/aboutus.min.scss';
 import { Switch, Route, Link } from "react-router-dom";
 
 function AboutUs() {
@@ -11,7 +12,7 @@ function AboutUs() {
               <div className="col-md-7 col-sm-12 col-lg-7">
                 <div className="abt-img-wrp">
                   <img
-                    src={require("../../assets/images/resources/abt-img2-1.jpg")}
+                    src={require("../AboutUs/AboutUs.jpg")}
                     alt="abt-img2-1.jpg"
                     itemprop="image"
                   />
@@ -40,7 +41,7 @@ function AboutUs() {
                   <br />
 
                   <a className="thm-btn" itemprop="url">
-                    <Link to="/about">
+                    <Link to="/about" className="learnmorebutton">
                       Learn More<span></span>
                     </Link>
                   </a>

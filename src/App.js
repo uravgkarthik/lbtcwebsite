@@ -18,7 +18,7 @@ import EventDetails4 from "./pages/events/EventDetails4";
 import EventDetails5 from "./pages/events/EventDetails5";
 import EventDetails6 from "./pages/events/EventDetails6";
 import Events2 from "./pages/events/Events2";
-
+import ScrollToTop from "react-router-scroll-top";
 function App() {
   return (
     <Switch>
