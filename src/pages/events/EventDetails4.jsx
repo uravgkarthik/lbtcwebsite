@@ -5,7 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 
-function EventDetails() {
+function EventDetails4() {
   return (
     <div classNameName="App">
       <main>
@@ -512,4 +512,4 @@ function EventDetails() {
   );
 }
 
-export default EventDetails;
+export default EventDetails4;

@@ -19,19 +19,12 @@ function HomePage() {
     <div className="App">
       <main>
         <HeaderBar></HeaderBar> {/* Headers Component */}
-
         <MenuBar></MenuBar> {/* MenuBar Component */}
-        
         <StickyHeader></StickyHeader> {/* StickyHeader Component */}
-        
         <ResponsiveHeader></ResponsiveHeader> {/* Headers Component */}
-
         <LbtcCarousel></LbtcCarousel> {/* Home Page First Section Component */}
-
         <AboutUs></AboutUs> {/* About Us Component */}
-        
         <EventFunding></EventFunding> {/* Event Funds Section Component */}
-
         <section>
           <div className="block remove-gap">
             <div
@@ -60,16 +53,12 @@ function HomePage() {
                         highlights of our previous events
                       </p>
                       <br />
-                      <Link to="/events">
-                        <a
-                          className="thm-btn"
-                          href="donate-now.html"
-                          title=""
-                          itemprop="url"
-                        >
+
+                      <a className="thm-btn" title="">
+                        <Link to="/events">
                           View All The Events<span></span>
-                        </a>
-                      </Link>
+                        </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -77,17 +66,11 @@ function HomePage() {
             </div>
           </div>
         </section>
-
         {/*Owl Carousel Goes Here */}
-        
         {/*Donate Section */}
-
         <OurActivities></OurActivities> {/* Our Activities Component */}
-        
         <PartnersContainer></PartnersContainer>
-        
         <BlogArticles></BlogArticles> {/* News Articles Component */}
-        
         <Footer></Footer> {/* Footer Component */}
       </main>
     </div>

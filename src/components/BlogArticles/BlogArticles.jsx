@@ -91,12 +91,7 @@ function BlogArticles() {
             </div>
           </div>
           <div className="vw-mr text-center">
-            <a
-              className="thm-btn"
-              href="blog-style3.html"
-              title=""
-              itemprop="url"
-            >
+            <a className="thm-btn">
               View All Posts<span></span>
             </a>
           </div>

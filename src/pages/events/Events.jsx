@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
+import { Switch, Route, Link } from "react-router-dom";
 
 function Events() {
   return (
@@ -27,7 +28,7 @@ function Events() {
                     Home
                   </a>
                 </li>
-                <li className="breadcrumb-item active">Our Events Style 1</li>
+                <li className="breadcrumb-item active">Our Events</li>
               </ol>
             </div>
           </div>
@@ -38,13 +39,13 @@ function Events() {
               <div className="evnt-wrp remove-ext8">
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <a href="event-detail.html" title="" itemprop="url">
+                    <Link to="events/event-1">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-1.jpg")}
                         alt="evnt-img1-1.jpg"
                         itemprop="image"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
@@ -62,9 +63,9 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <a href="event-detail.html" title="" itemprop="url">
+                      <Link to="events/event-1">
                         Help others through the gift of your time, donations
-                      </a>
+                      </Link>
                     </h4>
                     <p itemprop="description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -72,14 +73,12 @@ function Events() {
                       Aliquam odio dese runtesseu
                     </p>
                     <div className="evnt-inf-btm">
-                      <a
-                        className="thm-btn2"
-                        href="event-detail.html"
-                        title=""
-                        itemprop="url"
-                      >
-                        Join The Movement
-                      </a>
+                      <Link to="events/event-1">
+                        <a className="thm-btn2" title="" itemprop="url">
+                          {" "}
+                          <Link to="events/event-1">Join The Movement</Link>
+                        </a>
+                      </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>4801 Rockhill Road Kansas City, 64110</span>
@@ -89,13 +88,13 @@ function Events() {
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <a href="event-detail.html" title="" itemprop="url">
+                    <Link to="/events/event-2">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-2.jpg")}
                         alt="evnt-img1-2.jpg"
                         itemprop="image"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
@@ -113,9 +112,9 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <a href="event-detail.html" title="" itemprop="url">
+                      <Link to="/events/event-2">
                         Charity Event ideas to Engage Donors, Support
-                      </a>
+                      </Link>
                     </h4>
                     <p itemprop="description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -123,14 +122,11 @@ function Events() {
                       Aliquam odio dese runtesseu
                     </p>
                     <div className="evnt-inf-btm">
-                      <a
-                        className="thm-btn2"
-                        href="event-detail.html"
-                        title=""
-                        itemprop="url"
-                      >
-                        Join The Movement
-                      </a>
+                      <Link to="/events/event-2">
+                        <a className="thm-btn2" title="" itemprop="url">
+                          <Link to="/events/event-2">Join The Movement</Link>
+                        </a>
+                      </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>4801 Rockhill Road Kansas City, 64110</span>
@@ -140,13 +136,13 @@ function Events() {
                 </div>
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <a href="event-detail.html" title="" itemprop="url">
+                    <Link to="/events/event-3">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-3.jpg")}
                         alt="evnt-img1-3.jpg"
                         itemprop="image"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
@@ -164,9 +160,9 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <a href="event-detail.html" title="" itemprop="url">
+                      <Link to="/events/event-3">
                         Know plenty of people who have skydiving.
-                      </a>
+                      </Link>
                     </h4>
                     <p itemprop="description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -174,14 +170,11 @@ function Events() {
                       Aliquam odio dese runtesseu
                     </p>
                     <div className="evnt-inf-btm">
-                      <a
-                        className="thm-btn2"
-                        href="event-detail.html"
-                        title=""
-                        itemprop="url"
-                      >
-                        Join The Movement
-                      </a>
+                      <Link to="/events/event-3">
+                        <a className="thm-btn2" title="" itemprop="url">
+                          <Link to="/events/event-3">Join The Movement</Link>
+                        </a>
+                      </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>4801 Rockhill Road Kansas City, 64110</span>
@@ -191,13 +184,13 @@ function Events() {
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <a href="event-detail.html" title="" itemprop="url">
+                    <Link to="/events/event-4">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-4.jpg")}
                         alt="evnt-img1-4.jpg"
                         itemprop="image"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
@@ -215,9 +208,9 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <a href="event-detail.html" title="" itemprop="url">
+                      <Link to="/events/event-4">
                         Raise awareness for a cause and raise money
-                      </a>
+                      </Link>
                     </h4>
                     <p itemprop="description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -225,14 +218,11 @@ function Events() {
                       Aliquam odio dese runtesseu
                     </p>
                     <div className="evnt-inf-btm">
-                      <a
-                        className="thm-btn2"
-                        href="event-detail.html"
-                        title=""
-                        itemprop="url"
-                      >
-                        Join The Movement
-                      </a>
+                      <Link to="/events/event-4">
+                        <a className="thm-btn2" title="" itemprop="url">
+                          <Link to="/events/event-4">Join The Movement</Link>
+                        </a>
+                      </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>4801 Rockhill Road Kansas City, 64110</span>
@@ -242,13 +232,13 @@ function Events() {
                 </div>
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <a href="event-detail.html" title="" itemprop="url">
+                    <Link to="/events/event-5">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-5.jpg")}
                         alt="evnt-img1-5.jpg"
                         itemprop="image"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
@@ -266,9 +256,9 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <a href="event-detail.html" title="" itemprop="url">
+                      <Link to="/events/event-5">
                         Events are a fantastic way to bring in new supporters
-                      </a>
+                      </Link>
                     </h4>
                     <p itemprop="description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -276,14 +266,11 @@ function Events() {
                       Aliquam odio dese runtesseu
                     </p>
                     <div className="evnt-inf-btm">
-                      <a
-                        className="thm-btn2"
-                        href="event-detail.html"
-                        title=""
-                        itemprop="url"
-                      >
-                        Join The Movement
-                      </a>
+                      <Link to="/events/event-5">
+                        <a className="thm-btn2" title="" itemprop="url">
+                          <Link to="/events/event-5">Join The Movement</Link>
+                        </a>
+                      </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>4801 Rockhill Road Kansas City, 64110</span>
@@ -295,13 +282,10 @@ function Events() {
               <div className="pgntin-wrp text-center">
                 <ul className="pagination">
                   <li className="page-item">
-                    <a
-                      className="page-link prev"
-                      href="#"
-                      title=""
-                      itemprop="url"
-                    >
-                      <i className="fa fa-angle-left"></i>
+                    <a className="page-link prev" title="" itemprop="url">
+                      <Link to="/events">
+                        <i className="fa fa-angle-left"></i>
+                      </Link>
                     </a>
                   </li>
                   <li className="page-item active">
@@ -309,30 +293,19 @@ function Events() {
                     <span className="page-link">1</span>
                   </li>
                   <li className="page-item">
-                    <a className="page-link" href="#" title="" itemprop="url">
-                      2
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#" title="" itemprop="url">
-                      3
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#" title="" itemprop="url">
-                      4
-                    </a>
+                    <Link to="/events2">
+                      <a className="page-link" title="" itemprop="url">
+                        2
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="page-item">
-                    <a
-                      className="page-link next"
-                      href="#"
-                      title=""
-                      itemprop="url"
-                    >
-                      <i className="fa fa-angle-right"></i>
-                    </a>
+                    <Link to="/events2">
+                      <a className="page-link next" title="" itemprop="url">
+                        <i className="fa fa-angle-right"></i>
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
