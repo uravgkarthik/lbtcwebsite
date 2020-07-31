@@ -19,17 +19,17 @@ function OurActivities() {
                                 <div className="col-md-4 col-sm-12 col-lg-4">
                                     <div className="fndrs-img-wrp">
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img1.jpg")}
+                                            src={require("../OurActivities/1.jpg")}
                                             alt="fndrs-img1.jpg"
                                             itemprop="image"
                                         />
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img2.jpg")}
+                                            src={require("../OurActivities/2.jpg")}
                                             alt="fndrs-img2.jpg"
                                             itemprop="image"
                                         />
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img3.jpg")}
+                                            src={require("../OurActivities/3.jpg")}
                                             alt="fndrs-img3.jpg"
                                             itemprop="image"
                                         />
@@ -42,7 +42,7 @@ function OurActivities() {
                                             
                                         ></div>
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-icn.png")}
+                                            src={require("../OurActivities/Logo.png")}
                                             alt="fndrs-icn.png"
                                             itemprop="image"
                                         />
@@ -62,17 +62,17 @@ function OurActivities() {
                                 <div className="col-md-4 col-sm-12 col-sm-4">
                                     <div className="fndrs-img-wrp">
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img4.jpg")}
+                                            src={require("../OurActivities/4.jpg")}
                                             alt="fndrs-img4.jpg"
                                             itemprop="image"
                                         />
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img5.jpg")}
+                                            src={require("../OurActivities/5.jpg")}
                                             alt="fndrs-img5.jpg"
                                             itemprop="image"
                                         />
                                         <img
-                                            src={require("../../assets/images/resources/fndrs-img6.jpg")}
+                                            src={require("../OurActivities/6.jpg")}
                                             alt="fndrs-img6.jpg"
                                             itemprop="image"
                                         />
