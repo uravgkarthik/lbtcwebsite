@@ -1,5 +1,5 @@
 import React from "react";
-import '../OurActivities/ouractivities.min.scss'
+import '../OurActivities/ouractivities.min.scss';
 import { Switch, Route, Link } from "react-router-dom";
 
 function OurActivities() {
