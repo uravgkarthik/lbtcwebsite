@@ -14,8 +14,8 @@ function EventFunding() {
                                         <div className="cus-thmb">
                                             <a href="cause-detail.html" title="" itemprop="url">
                                                 <img
-                                                    src={require("../../assets/images/resources/cus-img3-1.jpg")}
-                                                    alt="cus-img3-1.jpg"
+                                                    src={require("../EventFunding/Fundraising/4.jpg")}
+                                                    alt="Fund-1.jpg"
                                                     itemprop="image"
                                                 />
                                             </a>
@@ -23,11 +23,11 @@ function EventFunding() {
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
                                                 <a href="cause-detail.html" title="">
-                                                    Southern Poverty Law Center released
+                                                    Donating For Daily Wage/Migrant Workers
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">$120 Raised</i> of $1,000
+                                                <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000
                         </span>
                                             <div className="progress">
                                                 <div className="progress-bar thm-bg wdth20">
@@ -50,8 +50,8 @@ function EventFunding() {
                                         <div className="cus-thmb">
                                             <a href="cause-detail.html" title="" itemprop="url">
                                                 <img
-                                                    src={require("../../assets/images/resources/cus-img3-2.jpg")}
-                                                    alt="cus-img3-2.jpg"
+                                                    src={require("../EventFunding/Fundraising/1.jpg")}
+                                                    alt="Fund-2.jpg"
                                                     itemprop="image"
                                                 />
                                             </a>
@@ -59,11 +59,11 @@ function EventFunding() {
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
                                                 <a href="cause-detail.html" title="">
-                                                    Principles the Charity Stands for, the Aims
+                                                    Food For Daily Wage/Migrant Workers
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">$120 Raised</i> of $1,000
+                                                <i className="thm-clr">Rs.4500 Raised</i> of Rs.10,000
                         </span>
                                             <div className="progress">
                                                 <div className="progress-bar thm-bg wdth45">
@@ -86,8 +86,8 @@ function EventFunding() {
                                         <div className="cus-thmb">
                                             <a href="cause-detail.html" title="" itemprop="url">
                                                 <img
-                                                    src={require("../../assets/images/resources/cus-img3-3.jpg")}
-                                                    alt="cus-img3-3.jpg"
+                                                    src={require("../EventFunding/Fundraising/2.jpg")}
+                                                    alt="Fund-3.jpg"
                                                     itemprop="image"
                                                 />
                                             </a>
@@ -95,15 +95,15 @@ function EventFunding() {
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
                                                 <a href="cause-detail.html" title="">
-                                                    We've found it helpful to Break down
+                                                    Ration Donation For Daily Wage/Migrant Workers
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">$120 Raised</i> of $1,000
+                                                <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000
                         </span>
                                             <div className="progress">
-                                                <div className="progress-bar thm-bg wdth65">
-                                                    <span>65%</span>
+                                                <div className="progress-bar thm-bg wdth20">
+                                                    <span>20%</span>
                                                 </div>
                                             </div>
                                             <a
@@ -122,8 +122,8 @@ function EventFunding() {
                                         <div className="cus-thmb">
                                             <a href="cause-detail.html" title="" itemprop="url">
                                                 <img
-                                                    src={require("../../assets/images/resources/cus-img3-4.jpg")}
-                                                    alt="cus-img3-4.jpg"
+                                                    src={require("../EventFunding/Fundraising/3.jpg")}
+                                                    alt="Fund-4.jpg"
                                                     itemprop="image"
                                                 />
                                             </a>
@@ -131,15 +131,15 @@ function EventFunding() {
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
                                                 <a href="cause-detail.html" title="">
-                                                    Give to Charity on a Regular Basis
+                                                    Ration For Daily Wage/Migrant Workers
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">$120 Raised</i> of $1,000
+                                                <i className="thm-clr">Rs.4000 Raised</i> of Rs.10,000
                         </span>
                                             <div className="progress">
-                                                <div className="progress-bar thm-bg wdth80">
-                                                    <span>80%</span>
+                                                <div className="progress-bar thm-bg wdth40">
+                                                    <span>40%</span>
                                                 </div>
                                             </div>
                                             <a
