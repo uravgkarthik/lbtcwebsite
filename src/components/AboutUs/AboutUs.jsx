@@ -16,7 +16,7 @@ function AboutUs() {
                     alt="abt-img2-1.jpg"
                     itemprop="image"
                   />
-                  <div className="abt-inf text-center">
+                  <div className="abt-inf text-center greenwhitebox">
                     <span className="thm-clr">
                       <i className="counter">100</i>+
                     </span>

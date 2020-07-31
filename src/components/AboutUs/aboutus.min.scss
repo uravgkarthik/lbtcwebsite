@@ -5,13 +5,25 @@
     .greenwhitebox{
             width: 150px !important;
             height: 150px !important;
+
     }
     .abt-inf > span i {
     font-weight: 700;
     font-style: normal;
-    font-size: 35px;
+    font-size: 35px !important;
+    }
+
+    .abt-inf{
+        padding: 0 !important;
+    }
+    spam.thm-clr{
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .abt-inf > span + p {
+        margin-top: 0 !important;
 }
 }
 .learnmorebutton{
-    color: white;
+    color: white !important;
 }
