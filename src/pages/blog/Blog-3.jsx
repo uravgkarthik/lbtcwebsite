@@ -10,14 +10,12 @@ function Blog() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-
         <MenuBar></MenuBar>
-
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="MenuBarBkgnd" />
             </div>
           </div>
         </section>
@@ -49,33 +47,33 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../../assets/images/resources/blg-img3-1.jpg")}
-                            alt="blg-img3-1.jpg"
+                            src={require("../blog/Images/Blog1.jpg")}
+                            alt="Blog-1"
                             itemprop="image"
                           />
                         </a>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             May 15, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Charity
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             poor
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             people
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             ideas
                           </a>
                         </span>
@@ -91,7 +89,7 @@ function Blog() {
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               James Smith
                             </a>
                           </li>
@@ -116,33 +114,33 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../../assets/images/resources/blg-img3-2.jpg")}
-                            alt="blg-img3-2.jpg"
+                            src={require("../blog/Images/Blog2.jpg")}
+                            alt="Blog-2"
                             itemprop="image"
                           />
                         </a>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             May 15, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Charity
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             poor
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             people
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             ideas
                           </a>
                         </span>
@@ -158,7 +156,7 @@ function Blog() {
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               James Smith
                             </a>
                           </li>
@@ -183,33 +181,33 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../../assets/images/resources/blg-img3-3.jpg")}
-                            alt="blg-img3-3.jpg"
+                            src={require("../blog/Images/Blog3.jpg")}
+                            alt="Blog-3"
                             itemprop="image"
                           />
                         </a>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             May 15, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Charity
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             poor
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             people
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             ideas
                           </a>
                         </span>
@@ -225,7 +223,7 @@ function Blog() {
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               James Smith
                             </a>
                           </li>
@@ -250,33 +248,33 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../../assets/images/resources/blg-img3-4.jpg")}
-                            alt="blg-img3-4.jpg"
+                            src={require("../blog/Images/Blog4.jpg")}
+                            alt="Blog-4"
                             itemprop="image"
                           />
                         </a>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             May 15, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Charity
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             poor
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             people
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             ideas
                           </a>
                         </span>
@@ -292,7 +290,7 @@ function Blog() {
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               James Smith
                             </a>
                           </li>
@@ -317,33 +315,33 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../../assets/images/resources/blg-img3-5.jpg")}
-                            alt="blg-img3-5.jpg"
+                            src={require("../blog/Images/Blog5.jpg")}
+                            alt="Blog-4"
                             itemprop="image"
                           />
                         </a>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             May 15, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Charity
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             poor
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             people
                           </a>
                           ,
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             ideas
                           </a>
                         </span>
@@ -359,7 +357,7 @@ function Blog() {
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               James Smith
                             </a>
                           </li>
@@ -382,7 +380,7 @@ function Blog() {
                       <li class="page-item">
                         <a
                           class="page-link prev"
-                          href="#"
+                          href="#top"
                           title=""
                           itemprop="url"
                         >
@@ -390,7 +388,7 @@ function Blog() {
                         </a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#" title="" itemprop="url">
+                        <a class="page-link" href="#top" title="" itemprop="url">
                           1
                         </a>
                       </li>
@@ -398,14 +396,14 @@ function Blog() {
                         <span class="page-link">2</span>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#" title="" itemprop="url">
+                        <a class="page-link" href="#top" title="" itemprop="url">
                           3
                         </a>
                       </li>
                       <li class="page-item">
                         <a
                           class="page-link next"
-                          href="#"
+                          href="#top"
                           title=""
                           itemprop="url"
                         >
@@ -428,15 +426,15 @@ function Blog() {
                               itemprop="url"
                             >
                               <img
-                                src={require("../../assets/images/resources/mini-pst-img1-1.jpg")}
-                                alt="mini-pst-img1-1.jpg"
+                                src={require("../../assets/images/resources/mini-pst-img1-2.jpg")}
+                                alt="SideBar-1"
                                 itemprop="image"
                               />
                             </a>
                           </div>
                           <div class="mini-pst-inf">
                             <span>
-                              <a href="#" title="" itemprop="url">
+                              <a href="#top" title="" itemprop="url">
                                 Mar 20, 2018
                               </a>
                             </span>
@@ -460,14 +458,14 @@ function Blog() {
                             >
                               <img
                                 src={require("../../assets/images/resources/mini-pst-img1-2.jpg")}
-                                alt="mini-pst-img1-2.jpg"
+                                alt="Sidebar-2"
                                 itemprop="image"
                               />
                             </a>
                           </div>
                           <div class="mini-pst-inf">
                             <span>
-                              <a href="#" title="" itemprop="url">
+                              <a href="#top" title="" itemprop="url">
                                 Apr 25, 2018
                               </a>
                             </span>
@@ -484,10 +482,10 @@ function Blog() {
                         </div>
                         <div class="mini-pst">
                           <div class="mini-pst-thmb">
-                            <a href="#" title="" itemprop="url">
+                            <a href="#top" title="" itemprop="url">
                               <img
                                 src={require("../../assets/images/resources/mini-pst-img1-3.jpg")}
-                                alt="mini-pst-img1-3.jpg"
+                                alt="Sidebar-3"
                                 itemprop="image"
                               />
                             </a>
@@ -519,37 +517,37 @@ function Blog() {
                       <h4 itemprop="headline">Categories</h4>
                       <ul>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Lifestyle
                           </a>{" "}
                           ( 120 )
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Fashion
                           </a>{" "}
                           ( 14 )
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Photography
                           </a>{" "}
                           ( 43 )
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Creative
                           </a>{" "}
                           ( 20 )
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Travel
                           </a>{" "}
                           ( 10 )
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Electronics
                           </a>{" "}
                           ( 70 )
@@ -560,27 +558,27 @@ function Blog() {
                       <h4 itemprop="headline">Useful Links</h4>
                       <ul>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Our Founder
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Education
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Entrepreneurship
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Child Education
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             Grants
                           </a>
                         </li>
@@ -606,7 +604,7 @@ function Blog() {
                       <h4 itemprop="headline">Instagram</h4>
                       <ul class="insta-gal">
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-1.jpg"
@@ -615,7 +613,7 @@ function Blog() {
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-2.jpg"
@@ -624,7 +622,7 @@ function Blog() {
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-3.jpg"
@@ -633,7 +631,7 @@ function Blog() {
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-4.jpg"
@@ -642,7 +640,7 @@ function Blog() {
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-5.jpg"
@@ -651,7 +649,7 @@ function Blog() {
                           </a>
                         </li>
                         <li>
-                          <a href="#" title="" itemprop="url">
+                          <a href="#top" title="" itemprop="url">
                             <img
                               src={require("../../assets/images/resources/insta-img1-1.jpg")}
                               alt="insta-img1-6.jpg"
@@ -681,7 +679,7 @@ function Blog() {
             </div>
           </div>
         </section>
-        <Footer></Footer>
+        <Footer></Footer> {/* Footer Component */}
       </main>
     </div>
   );
