@@ -1,5 +1,6 @@
 import React from "react";
 import { Router, Route, Link } from "react-router-dom";
+import "../MenuBar/menubar.min.scss";
 
 function MenuBar() {
   return (
@@ -67,7 +68,7 @@ function MenuBar() {
                 </li>
               </ul>
               <a
-                class="thm-btn"
+                class="thm-btn yellowcolor"
                 href="https://milaap.org/fundraisers/cleanathon-by-lbtc"
                 title=""
                 itemprop="url"
