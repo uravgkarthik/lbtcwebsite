@@ -35,7 +35,7 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/1.jpg"
+                            href="../gallery/Images/gallery2page/1.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -51,9 +51,9 @@ function Gallery() {
                             alt="gal-img2-2.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plog Run</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/8.jpg"
+                            href="../gallery/Images/gallery2page/8.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -69,9 +69,9 @@ function Gallery() {
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Our Board</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/7.jpg"
+                            href="../gallery/Images/gallery2page/7.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -87,9 +87,9 @@ function Gallery() {
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Team LBTC</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/4.jpg"
+                            href="../gallery/Images/gallery2page/4.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -107,9 +107,9 @@ function Gallery() {
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
-                      <h4 itemprop="headline">Clay Ganesha Workshop</h4>
+                      <h4 itemprop="headline">Plog Run</h4>
                       <a
-                        href="../gallery/Images/gallery2page/1L.jpg"
+                        href="../gallery/Images/gallery2page/1L.jpg" target="_blank" rel="noopener noreferrer"
                         data-fancybox="gallery"
                         title=""
                         itemprop="url"
@@ -127,9 +127,9 @@ function Gallery() {
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Clay Ganesha Workshop</h4>
+                          <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/Images/gallery2page/3.jpg"
+                            href="../gallery/Images/gallery2page/3.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -146,10 +146,10 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Plog Run With West Block Blues
+                            Cleanathon
                           </h4>
                           <a
-                            href="../gallery/Images/gallery2page/9.jpg"
+                            href="../gallery/Images/gallery2page/9.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -161,13 +161,13 @@ function Gallery() {
                       <div class="col-md-12 col-sm-12 col-lg-12">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery2page/2L.jpg")}
+                            src={require("../gallery/Images/gallery2page/3L.jpg")}
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">5 Ways To Fight Poverty</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/2L.jpg"
+                            href="../gallery/Images/gallery2page/3L.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -187,9 +187,9 @@ function Gallery() {
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plantathon</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/4L.jpg"
+                            href="../gallery/Images/gallery2page/4L.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -206,10 +206,10 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Development of Local Schools
+                            Cleanathon
                           </h4>
                           <a
-                            href="../gallery/Images/gallery2page/10.jpg"
+                            href="../gallery/Images/gallery2page/10.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -225,9 +225,9 @@ function Gallery() {
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Muscial Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/Images/gallery2page/11.jpg"
+                            href="../gallery/Images/gallery2page/11.jpg" target="_blank" rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
