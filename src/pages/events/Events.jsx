@@ -41,7 +41,7 @@ function Events() {
                   <div className="evnt-thmb">
                     <Link to="events/event-1">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-1.jpg")}
+                        src={require("../events/Images/EventImages/3.jpg")}
                         alt="evnt-img1-1.jpg"
                         itemprop="image"
                       />
@@ -52,7 +52,7 @@ function Events() {
                       <span className="thm-clr">08.03.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
+                          src={require("../events/Images/EventImages/3.jpg")}
                           alt="evnt-orgn1-1.jpg"
                           itemprop="image"
                         />
@@ -88,7 +88,7 @@ function Events() {
                   <div className="evnt-thmb">
                     <Link to="/events/event-2">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-2.jpg")}
+                        src={require("../events/Images/EventImages/2.jpg")}
                         alt="evnt-img1-2.jpg"
                         itemprop="image"
                       />
@@ -99,7 +99,7 @@ function Events() {
                       <span className="thm-clr">01.03.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-2.jpg")}
+                          src={require("../events/Images/EventImages/2.jpg")}
                           alt="evnt-orgn1-2.jpg"
                           itemprop="image"
                         />
@@ -140,7 +140,7 @@ function Events() {
                   <div className="evnt-thmb">
                     <Link to="/events/event-3">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-3.jpg")}
+                        src={require("../events/Images/EventImages/5.jpg")}
                         alt="evnt-img1-3.jpg"
                         itemprop="image"
                       />
@@ -151,7 +151,7 @@ function Events() {
                       <span className="thm-clr">22.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-3.jpg")}
+                          src={require("../events/Images/EventImages/5.jpg")}
                           alt="evnt-orgn1-3.jpg"
                           itemprop="image"
                         />
@@ -191,7 +191,7 @@ function Events() {
                   <div className="evnt-thmb">
                     <Link to="/events/event-4">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-4.jpg")}
+                        src={require("../events/Images/EventImages/1.jpg")}
                         alt="evnt-img1-4.jpg"
                         itemprop="image"
                       />
@@ -202,7 +202,7 @@ function Events() {
                       <span className="thm-clr">16.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-4.jpg")}
+                          src={require("../events/Images/EventImages/1.jpg")}
                           alt="evnt-orgn1-4.jpg"
                           itemprop="image"
                         />
@@ -243,7 +243,7 @@ function Events() {
                   <div className="evnt-thmb">
                     <Link to="/events/event-5">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-5.jpg")}
+                        src={require("../events/Images/EventImages/13.jpg")}
                         alt="evnt-img1-5.jpg"
                         itemprop="image"
                       />
@@ -254,7 +254,7 @@ function Events() {
                       <span className="thm-clr">09.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-5.jpg")}
+                          src={require("../events/Images/EventImages/13.jpg")}
                           alt="evnt-orgn1-5.jpg"
                           itemprop="image"
                         />
