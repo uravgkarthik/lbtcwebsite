@@ -5,7 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 
-function EventDetails2() {
+function EventDetails14() {
   return (
     <div classNameName="App">
       <main>
@@ -52,7 +52,9 @@ function EventDetails2() {
               </div>
               <div class="evnt-dtl-wrp">
                 <div class="evnt-dtl-inf">
-                  <h1 itemprop="headline">Cleanathon at Satellite Town!</h1>
+                  <h1 itemprop="headline">
+                    Musical Cleanathon in association with Radio City
+                  </h1>
                   <div class="evnt-orgn">
                     <img
                       src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -70,36 +72,34 @@ function EventDetails2() {
                       <i class="fa fa-calendar"></i>
 
                       <span>
-                        Event Date<i class="thm-clr">01.03.2020</i>
+                        Event Date<i class="thm-clr">16.08.2018</i>
                       </span>
                       <span>
-                        Event Time<i class="thm-clr">09:00-13:30</i>
+                        Event Time<i class="thm-clr">08:30-11:30</i>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div class="evnt-dtl-desc">
                   <p itemprop="description">
-                    Hey, Change Warriors! It’s time to gather once more, to get
-                    a Black Spot on our lens scope and make sure we take care of
-                    it right away! This week, we look at a spot in Satellite
-                    Town. Let’s Assemble and make sure we get rid of this dump
-                    too!
+                    Musical Cleanathon! TeamLBTC in association with Radio City
+                    and Onthara Bannagalu movie team are beautifying a 50 meters
+                    garbage dump near Banashankari Sub Register Office. Join us
+                    and experience the joy of Music + Cleaning!
                   </p>
                   <p itemprop="description">#Warriors Assemble</p>
                   <p itemprop="description">
                     {" "}
-                    Date : 1/3/2020 Time : 9:00 A.M – 1:30 P.M
+                    Date : 8/3/2020 Time : 9:00 A.M – 1:30 A.M
                   </p>
                   <p itemprop="description">
-                    Location : #11, Mysore Rd, New Timberyard Layout,
-                    Byatarayanapura, Srinagar, Banashankari, Bengaluru,
-                    Karnataka 560026
+                    Location: 1st Cross, Umarbagh Layout, Banashankari Temple
+                    Ward, Bengaluru, Karnataka 560078
                   </p>
                   <p itemprop="description">
                     Location Link :{" "}
-                    <a href="https://goo.gl/maps/uX1xmDjKHGLzqCAJ7">
-                      https://goo.gl/maps/uX1xmDjKHGLzqCAJ7
+                    <a href="https://goo.gl/maps/HwaHN4AQ4mG2">
+                      https://goo.gl/maps/HwaHN4AQ4mG2
                     </a>
                   </p>
                   <p itemprop="description">#TeamLBTC</p>
@@ -114,4 +114,4 @@ function EventDetails2() {
   );
 }
 
-export default EventDetails2;
+export default EventDetails14;

@@ -5,7 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 
-function EventDetails2() {
+function EventDetails9() {
   return (
     <div classNameName="App">
       <main>
@@ -52,7 +52,7 @@ function EventDetails2() {
               </div>
               <div class="evnt-dtl-wrp">
                 <div class="evnt-dtl-inf">
-                  <h1 itemprop="headline">Cleanathon at Satellite Town!</h1>
+                  <h1 itemprop="headline">Bengaluru Veeraru</h1>
                   <div class="evnt-orgn">
                     <img
                       src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -70,38 +70,33 @@ function EventDetails2() {
                       <i class="fa fa-calendar"></i>
 
                       <span>
-                        Event Date<i class="thm-clr">01.03.2020</i>
+                        Event Date<i class="thm-clr">02.10.2019</i>
                       </span>
                       <span>
-                        Event Time<i class="thm-clr">09:00-13:30</i>
+                        Event Time<i class="thm-clr">07:30-12:00</i>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div class="evnt-dtl-desc">
                   <p itemprop="description">
-                    Hey, Change Warriors! It’s time to gather once more, to get
-                    a Black Spot on our lens scope and make sure we take care of
-                    it right away! This week, we look at a spot in Satellite
-                    Town. Let’s Assemble and make sure we get rid of this dump
-                    too!
+                    It’s an initiative by BBMP to provide a platform to all
+                    “Clean Bengaluru” visioned non-profit organisations to solve
+                    the community problems. It runs on the combined effort of
+                    organisations and residents of Bengaluru. It enables all
+                    stakeholders to come together to report and solve problems,
+                    by empowering and enlightening the average citizen. This
+                    hand-holding and step-by-step solution makes them realize
+                    that they are capable of bringing the CHANGE that they want
+                    to see. This is idealized and being implemented by Let’s Be
+                    The Change.
                   </p>
                   <p itemprop="description">#Warriors Assemble</p>
                   <p itemprop="description">
                     {" "}
-                    Date : 1/3/2020 Time : 9:00 A.M – 1:30 P.M
+                    Date : 02/10/2018 Time : 7:30 A.M – 12:00 P.M
                   </p>
-                  <p itemprop="description">
-                    Location : #11, Mysore Rd, New Timberyard Layout,
-                    Byatarayanapura, Srinagar, Banashankari, Bengaluru,
-                    Karnataka 560026
-                  </p>
-                  <p itemprop="description">
-                    Location Link :{" "}
-                    <a href="https://goo.gl/maps/uX1xmDjKHGLzqCAJ7">
-                      https://goo.gl/maps/uX1xmDjKHGLzqCAJ7
-                    </a>
-                  </p>
+
                   <p itemprop="description">#TeamLBTC</p>
                 </div>
               </div>
@@ -114,4 +109,4 @@ function EventDetails2() {
   );
 }
 
-export default EventDetails2;
+export default EventDetails9;

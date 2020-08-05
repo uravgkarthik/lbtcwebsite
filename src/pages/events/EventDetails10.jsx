@@ -5,7 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 
-function EventDetails2() {
+function EventDetails10() {
   return (
     <div classNameName="App">
       <main>
@@ -52,7 +52,10 @@ function EventDetails2() {
               </div>
               <div class="evnt-dtl-wrp">
                 <div class="evnt-dtl-inf">
-                  <h1 itemprop="headline">Cleanathon at Satellite Town!</h1>
+                  <h1 itemprop="headline">
+                    Clay Ganapathi Workshop 2019 | 31st August and 1st September
+                    |
+                  </h1>
                   <div class="evnt-orgn">
                     <img
                       src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -70,39 +73,36 @@ function EventDetails2() {
                       <i class="fa fa-calendar"></i>
 
                       <span>
-                        Event Date<i class="thm-clr">01.03.2020</i>
+                        Event Date<i class="thm-clr">31.08.2018</i>
                       </span>
                       <span>
-                        Event Time<i class="thm-clr">09:00-13:30</i>
+                        Event Time<i class="thm-clr">10:30-18:30</i>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div class="evnt-dtl-desc">
                   <p itemprop="description">
-                    Hey, Change Warriors! It’s time to gather once more, to get
-                    a Black Spot on our lens scope and make sure we take care of
-                    it right away! This week, we look at a spot in Satellite
-                    Town. Let’s Assemble and make sure we get rid of this dump
-                    too!
+                    As a tradition, idols of Lord Ganesha are hand made,
+                    worshiped and are immersed in rivers, lakes or wells. This
+                    event showcases the need for eco-friendly Ganesha idols.
+                    Materials will be provided and the event is open for all age
+                    groups. Have fun by creating your own Master Piece.
                   </p>
-                  <p itemprop="description">#Warriors Assemble</p>
+
                   <p itemprop="description">
                     {" "}
-                    Date : 1/3/2020 Time : 9:00 A.M – 1:30 P.M
+                    Date : 31/8/2018 Time : 10:30 A.M – 6:30 P.M
                   </p>
                   <p itemprop="description">
-                    Location : #11, Mysore Rd, New Timberyard Layout,
-                    Byatarayanapura, Srinagar, Banashankari, Bengaluru,
-                    Karnataka 560026
+                    Location Let’s Be The Change office
                   </p>
+
                   <p itemprop="description">
-                    Location Link :{" "}
-                    <a href="https://goo.gl/maps/uX1xmDjKHGLzqCAJ7">
-                      https://goo.gl/maps/uX1xmDjKHGLzqCAJ7
-                    </a>
+                    Timings: 2 sessions: 1) 10:30 AM – 1 PM 2) 04:00 PM – 6:30
+                    PM
                   </p>
-                  <p itemprop="description">#TeamLBTC</p>
+                  <p itemprop="description">#MyClayGanapathi #TeamLBTC</p>
                 </div>
               </div>
             </div>
@@ -114,4 +114,4 @@ function EventDetails2() {
   );
 }
 
-export default EventDetails2;
+export default EventDetails10;

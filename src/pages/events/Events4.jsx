@@ -6,7 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
 
-function Events() {
+function Events2() {
   return (
     <div classNameName="App">
       <main>
@@ -39,7 +39,7 @@ function Events() {
               <div className="evnt-wrp remove-ext8">
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <Link to="events/event-1">
+                    <Link to="events/event-16">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-1.jpg")}
                         alt="evnt-img1-1.jpg"
@@ -49,7 +49,7 @@ function Events() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">08.03.2020</span>
+                      <span className="thm-clr">29.09.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -63,30 +63,38 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="events/event-1">Cleanathon At Nagarbhavi!</Link>
+                      <Link to="events/event-16">
+                        Cleanathon partnering with Residents of Hara Vijaya
+                        Apartment
+                      </Link>
                     </h4>
                     <p itemprop="description">
-                      Let us gather once again, to show society that not all
-                      heroes wear capes. They wear Masks and Gloves.
+                      We are fixing the 50 meters garbage dump next to Hara
+                      Vijaya Apartment, Ittamadu, BSK 3rd Stage, teaming with
+                      the residents of the apartment.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="events/event-1">
+                      <Link to="events/event-16">
                         <a className="thm-btn2" title="" itemprop="url">
                           {" "}
-                          <Link to="events/event-1">Join The Movement</Link>
+                          <Link to="events/event-16">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
-
-                        <span>Nagarbhavi, Bengaluru.</span>
+                        <span>
+                          <a href="https://maps.google.com/?q=%2012.927312,%2077.543944">
+                            Next to Hara Vijaya Valley View Apartment, Ittamadu,
+                            Banashankari 3rd Stage, Bengaluru 560085
+                          </a>
+                        </span>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-2">
+                    <Link to="/events/event-17">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-2.jpg")}
                         alt="evnt-img1-2.jpg"
@@ -96,7 +104,7 @@ function Events() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">01.03.2020</span>
+                      <span className="thm-clr">05.08.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-2.jpg")}
@@ -110,26 +118,27 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-2">
-                        Cleanathon at Satellite Town!
+                      <Link to="/events/event-17">
+                        Cleanathon in association with Go Native
                       </Link>
                     </h4>
                     <p itemprop="description">
-                      Hey, Change Warriors! It’s time to gather once more, to
-                      get a Black Spot on our lens scope and make sure we take
-                      care of it right away!
+                      On the Friendship Day we are fixing the 50 meters garbage
+                      dump in association with Go Native behind Prestige
+                      Brooklyn Heights, Banashankari, Bengaluru.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-2">
+                      <Link to="/events/event-17">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-2">Join The Movement</Link>
+                          <Link to="/events/event-17">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href=" https://goo.gl/maps/uX1xmDjKHGLzqCAJ7">
-                            Satellite Town, Bengaluru
+                          <a href="https://maps.google.com/?q=%2012.915338,%2077.574715">
+                            Next to Prestige Brooklyn Heights Banashankari,
+                            Bangalore
                           </a>
                         </span>
                       </span>
@@ -138,7 +147,7 @@ function Events() {
                 </div>
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-3">
+                    <Link to="/events/event-18">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-3.jpg")}
                         alt="evnt-img1-3.jpg"
@@ -148,7 +157,7 @@ function Events() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">22.02.2020</span>
+                      <span className="thm-clr">05.07.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-3.jpg")}
@@ -162,25 +171,23 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-3">
-                        Tree Protection Drive at Hebbal Flyover!
-                      </Link>
+                      <Link to="/events/event-18">Team LBTC turns 5!</Link>
                     </h4>
                     <p itemprop="description">
-                      Once again, we gather in our mission to strive for a
-                      cleaner and greener Bengaluru!
+                      We invite you to join us as we celebrate the 5th Birthday
+                      of TeamLBTC on the 5th of July, 2018.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-3">
+                      <Link to="/events/event-18">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-3">Join The Movement</Link>
+                          <Link to="/events/event-18">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://goo.gl/maps/b3oNWp7hNeX4RPnP8">
-                            Hebbal Flyover Bengaluru
+                          <a href="https://goo.gl/maps/uJZC2KsJtzL2">
+                            Kappanna Angala
                           </a>
                         </span>
                       </span>
@@ -189,7 +196,7 @@ function Events() {
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-4">
+                    <Link to="/events/event-19">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-4.jpg")}
                         alt="evnt-img1-4.jpg"
@@ -199,7 +206,7 @@ function Events() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">16.02.2020</span>
+                      <span className="thm-clr">02.09.2019</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-4.jpg")}
@@ -213,77 +220,24 @@ function Events() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-4">
-                        Cleanathon in Electronic City!
-                      </Link>
+                      <Link to="/events/event-19">Cleanathon</Link>
                     </h4>
                     <p itemprop="description">
-                      All of you, the Change Warriors, it’s time to come
-                      together once more for another contribution towards a
-                      greener Bengaluru.
+                      Bengaluru’s first Biggest Cleanathon conducted during the
+                      celebration of Daan Utsav (Joy of Giving Week), at
+                      Kempegowda Bus Station (a.k.a. Majestic), involving over
+                      450 people, on the occasion of Gandhi Jayanthi.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-4">
+                      <Link to="/events/event-19">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-4">Join The Movement</Link>
+                          <Link to="/events/event-19">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://www.google.com/maps?q=+12.835393,+77.683463">
-                            Electronic City, Bengaluru
-                          </a>
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="evnt-bx">
-                  <div className="evnt-thmb">
-                    <Link to="/events/event-5">
-                      <img
-                        src={require("../../assets/images/resources/evnt-img1-5.jpg")}
-                        alt="evnt-img1-5.jpg"
-                        itemprop="image"
-                      />
-                    </Link>
-                  </div>
-                  <div className="evnt-inf">
-                    <div className="evnt-inf-tp">
-                      <span className="thm-clr">09.02.2020</span>
-                      <div className="evnt-orgn">
-                        <img
-                          src={require("../../assets/images/resources/evnt-orgn1-5.jpg")}
-                          alt="evnt-orgn1-5.jpg"
-                          itemprop="image"
-                        />
-                        <div className="evnt-orgn-inf">
-                          <h6 itemprop="headline">LBTC</h6>
-                          <span>Organizer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <h4 itemprop="headline">
-                      <Link to="/events/event-5">Cleanathon In Oklipuram!</Link>
-                    </h4>
-                    <p itemprop="description">
-                      Everyone who wants to contribute 3 hours for the
-                      betterment of society can join us this Sunday morning. A
-                      major #Cleanathon event happening in #Oklipuram
-                    </p>
-                    <div className="evnt-inf-btm">
-                      <Link to="/events/event-5">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-5">Join The Movement</Link>
-                        </a>
-                      </Link>
-                      <span className="evnt-loc">
-                        <i className="fa fa-map-marker"></i>
-                        <span>
-                          <a href="https://maps.google.com/?q=%2012.983819,%2077.562687">
-                            Oklipuram, Bengaluru.
-                          </a>
+                          <a href="">Kempegowda Bus Station</a>
                         </span>
                       </span>
                     </div>
@@ -293,22 +247,22 @@ function Events() {
               <div className="pgntin-wrp text-center">
                 <ul className="pagination">
                   <li className="page-item">
-                    <a className="page-link prev" title="" itemprop="url">
-                      <Link to="/events">
+                    <Link to="/events">
+                      <a className="page-link prev" title="" itemprop="url">
                         <i className="fa fa-angle-left"></i>
-                      </Link>
-                    </a>
-                  </li>
-                  <li className="page-item active">
-                    {" "}
-                    <span className="page-link">1</span>
-                  </li>
-                  <li className="page-item">
-                    <Link to="/events2">
-                      <a className="page-link" title="" itemprop="url">
-                        2
                       </a>
                     </Link>
+                  </li>
+                  <li className="page-item">
+                    {" "}
+                    <Link to="/events">
+                      <a className="page-link" title="" itemprop="url">
+                        1
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="page-item active">
+                    <span className="page-link">2</span>
                   </li>
 
                   <li className="page-item">
@@ -328,11 +282,9 @@ function Events() {
                   </li>
 
                   <li className="page-item">
-                    <Link to="/events2">
-                      <a className="page-link next" title="" itemprop="url">
-                        <i className="fa fa-angle-right"></i>
-                      </a>
-                    </Link>
+                    <a className="page-link next" title="" itemprop="url">
+                      <i className="fa fa-angle-right"></i>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -344,4 +296,4 @@ function Events() {
     </div>
   );
 }
-export default Events;
+export default Events2;
