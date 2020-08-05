@@ -26,6 +26,17 @@ import Events4 from "./pages/events/Events4";
 
 import Events2 from "./pages/events/Events2";
 import ScrollToTop from "react-router-scroll-top";
+import EventDetails11 from "./pages/events/EventDetails11";
+import EventDetails12 from "./pages/events/EventDetails12";
+import EventDetails13 from "./pages/events/EventDetails13";
+import EventDetails14 from "./pages/events/EventDetails14";
+import EventDetails15 from "./pages/events/EventDetails15";
+import EventDetails16 from "./pages/events/EventDetails16";
+
+import EventDetails17 from "./pages/events/EventDetails17";
+import EventDetails18 from "./pages/events/EventDetails18";
+import EventDetails19 from "./pages/events/EventDetails19";
+import EventDetails20 from "./pages/events/EventDetails20";
 function App() {
   return (
     <Switch>
@@ -107,6 +118,66 @@ function App() {
         exact
         path="/events/event-10"
         render={() => <EventDetails10></EventDetails10>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-11"
+        render={() => <EventDetails11></EventDetails11>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-12"
+        render={() => <EventDetails12></EventDetails12>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-13"
+        render={() => <EventDetails13></EventDetails13>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-14"
+        render={() => <EventDetails14></EventDetails14>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-15"
+        render={() => <EventDetails15></EventDetails15>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-16"
+        render={() => <EventDetails16></EventDetails16>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-17"
+        render={() => <EventDetails17></EventDetails17>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-18"
+        render={() => <EventDetails18></EventDetails18>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-19"
+        render={() => <EventDetails19></EventDetails19>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-20"
+        render={() => <EventDetails20></EventDetails20>}
       ></Route>
 
       <Route exact path="/blog/" render={() => <Blog></Blog>}></Route>

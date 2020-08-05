@@ -39,7 +39,7 @@ function Events2() {
               <div className="evnt-wrp remove-ext8">
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <Link to="events/event-6">
+                    <Link to="events/event-11">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-1.jpg")}
                         alt="evnt-img1-1.jpg"
@@ -49,7 +49,7 @@ function Events2() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">30.01.2020</span>
+                      <span className="thm-clr">24.08.2019</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -63,26 +63,24 @@ function Events2() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="events/event-6">
-                        PlogRun on National Cleanliness Day!
-                      </Link>
+                      <Link to="events/event-11">Clay Ganapathi Workshop</Link>
                     </h4>
                     <p itemprop="description">
-                      Join us on the National Cleanliness Day (30th Jan) to Plog
-                      in and around Cubbon Park.
+                      As a tradition, idols of Lord Ganesha are hand made,
+                      worshiped and are immersed in rivers, lakes or wells.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="events/event-6">
+                      <Link to="events/event-11">
                         <a className="thm-btn2" title="" itemprop="url">
                           {" "}
-                          <Link to="events/event-6">Join The Movement</Link>
+                          <Link to="events/event-11">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://maps.google.com/?q=%2012.9763%C2%B0%20N,%2077.5929%C2%B0%20E">
-                            Cubbon Park, Bengaluru
+                          <a href="https://maps.google.com/?q=%2012.928273,%2077.563438">
+                            Let's Be The Change
                           </a>
                         </span>
                       </span>
@@ -91,7 +89,7 @@ function Events2() {
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-7">
+                    <Link to="/events/event-12">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-2.jpg")}
                         alt="evnt-img1-2.jpg"
@@ -101,7 +99,7 @@ function Events2() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">26.01.2020</span>
+                      <span className="thm-clr">02.10.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-2.jpg")}
@@ -115,33 +113,29 @@ function Events2() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-7">Republic Day Cleanathon!</Link>
+                      <Link to="/events/event-12">Bengaluru Plog Run</Link>
                     </h4>
                     <p itemprop="description">
-                      This REPUBLIC DAY TeamLBTC is teaming up with Hebbagodi
-                      Nagarasabha to transform one of the most hazardous and
-                      persistent Blackspot in this vicinity.
+                      Bengaluru Plog Run combines jogging with picking up dry
+                      plastic waste, in an effort to make Bengaluru a cleaner
+                      city.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-7">
+                      <Link to="/events/event-12">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-7">Join The Movement</Link>
+                          <Link to="/events/event-12">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
-                        <span>
-                          <a href=" https://goo.gl/maps/nEDxM1Uq4g2ZE4Z87?fbclid=IwAR1pI4XWWHhmcZAITt-QU3L82JKWjcdTqleTgIWNLtX10DTMZ6OS9ZIcZqw">
-                            Bhavani Road, Hebbagodi, Bengaluru - 560099
-                          </a>
-                        </span>
+                        <span>Bengaluru</span>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-8">
+                    <Link to="/events/event-13">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-3.jpg")}
                         alt="evnt-img1-3.jpg"
@@ -151,7 +145,7 @@ function Events2() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">01.12.2019</span>
+                      <span className="thm-clr">09.09.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-3.jpg")}
@@ -165,27 +159,23 @@ function Events2() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-8">
-                        Cleanathon in Siddapura, Jayanagar, Bengaluru
-                      </Link>
+                      <Link to="/events/event-13">Clay Ganapathi Workshop</Link>
                     </h4>
                     <p itemprop="description">
-                      Everyone who wants to take a big step towards betterment
-                      of society and feel good about it.
+                      As a tradition, idols of Lord Ganesha are hand
+                      made,worshiped and are immersed in rivers, lakes or wells.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-8">
+                      <Link to="/events/event-13">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-8">Join The Movement</Link>
+                          <Link to="/events/event-13">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://maps.google.com/?q=%2012.942395,%2077.594202">
-                            #36/1, 1st Main Road, next to 8th Cross tank Garden
-                            Someshwara Nagar Jayanagar, 1st Block, Someshwara
-                            Nagar, Jayanagar, Bengaluru, Karnataka 560011
+                          <a href="https://maps.google.com/?q=%2012.928273,%2077.563438">
+                            Let's Be The Change
                           </a>
                         </span>
                       </span>
@@ -194,7 +184,7 @@ function Events2() {
                 </div>
                 <div className="evnt-bx rev">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-9">
+                    <Link to="/events/event-14">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-4.jpg")}
                         alt="evnt-img1-4.jpg"
@@ -204,7 +194,7 @@ function Events2() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">02.09.2019</span>
+                      <span className="thm-clr">16.08.2018</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-4.jpg")}
@@ -218,25 +208,26 @@ function Events2() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-9">Bengaluru Veeraru</Link>
+                      <Link to="/events/event-14">
+                        Musical Cleanathon in association with Radio City
+                      </Link>
                     </h4>
                     <p itemprop="description">
-                      It’s an initiative by BBMP to provide a platform to all
-                      “Clean Bengaluru” visioned non-profit organisations to
-                      solve the community problems. It runs on the combined
-                      effort of organisations and residents of Bengaluru.
+                      TeamLBTC in association with Radio City and Onthara
+                      Bannagalu movie team are beautifying a 50 meters garbage
+                      dump near Banashankari Sub Register Office.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-9">
+                      <Link to="/events/event-14">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-9">Join The Movement</Link>
+                          <Link to="/events/event-14">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://www.bengaluruveeraru.org">
-                            Bengaluru, India
+                          <a href="https://maps.google.com/?q=%2012.913560,%2077.572486">
+                            Near Banashankari Sub-Register Office
                           </a>
                         </span>
                       </span>
@@ -245,7 +236,7 @@ function Events2() {
                 </div>
                 <div className="evnt-bx">
                   <div className="evnt-thmb">
-                    <Link to="/events/event-10">
+                    <Link to="/events/event-15">
                       <img
                         src={require("../../assets/images/resources/evnt-img1-5.jpg")}
                         alt="evnt-img1-5.jpg"
@@ -269,25 +260,26 @@ function Events2() {
                       </div>
                     </div>
                     <h4 itemprop="headline">
-                      <Link to="/events/event-10">
-                        Clay Ganapathi Workshop 2019
+                      <Link to="/events/event-15">
+                        Cleanathon in association with AIMS
                       </Link>
                     </h4>
                     <p itemprop="description">
-                      As a tradition, idols of Lord Ganesha are hand made,
-                      worshiped and are immersed in rivers, lakes or wells.
+                      TeamLBTC teaming with AIMS institute are eradicating a 50
+                      metre garage dump in Laggere.
                     </p>
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-10">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-10">Join The Movement</Link>
+                          <Link to="/events/event-15">Join The Movement</Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="https://maps.google.com/?q=%2012.983819,%2077.562687">
-                            Oklipuram, Bengaluru.
+                          <a href="https://goo.gl/maps/Mya9nywjPqN2">
+                            Near Mount Senoria School, Muniswara Nagar,
+                            Hegganahalli, Bengaluru.
                           </a>
                         </span>
                       </span>
@@ -316,17 +308,21 @@ function Events2() {
                     <span className="page-link">2</span>
                   </li>
 
-                  <Link to="/events3">
-                    <a className="page-link" title="" itemprop="url">
-                      3
-                    </a>
-                  </Link>
+                  <li className="page-item">
+                    <Link to="/events3">
+                      <a className="page-link" title="" itemprop="url">
+                        3
+                      </a>
+                    </Link>
+                  </li>
 
-                  <Link to="/events4">
-                    <a className="page-link" title="" itemprop="url">
-                      4
-                    </a>
-                  </Link>
+                  <li className="page-item">
+                    <Link to="/events4">
+                      <a className="page-link" title="" itemprop="url">
+                        4
+                      </a>
+                    </Link>
+                  </li>
 
                   <li className="page-item">
                     <a className="page-link next" title="" itemprop="url">

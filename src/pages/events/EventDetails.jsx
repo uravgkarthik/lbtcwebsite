@@ -52,9 +52,7 @@ function EventDetails() {
               </div>
               <div class="evnt-dtl-wrp">
                 <div class="evnt-dtl-inf">
-                  <h1 itemprop="headline">
-                    Help others through the gift of your time, donations
-                  </h1>
+                  <h1 itemprop="headline">Cleanathon at Satellite Town!</h1>
                   <div class="evnt-orgn">
                     <img
                       src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -62,445 +60,49 @@ function EventDetails() {
                       itemprop="image"
                     />
                     <div class="evnt-orgn-inf">
-                      <h6 itemprop="headline">Nolim Smith</h6>
+                      <h6 itemprop="headline">LBTC</h6>
                       <span>Organizer</span>
                     </div>
                   </div>
-                  <div class="evnt-orgn">
-                    <img
-                      src={require("../../assets/images/resources/evnt-orgn1-2.jpg")}
-                      alt="evnt-orgn1-2.jpg"
-                      itemprop="image"
-                    />
-                    <div class="evnt-orgn-inf">
-                      <h6 itemprop="headline">Youth Child</h6>
-                      <span>Charityble Trust</span>
-                    </div>
-                  </div>
+
                   <div class="evnt-dtl-inf-inr">
                     <div class="evnt-dtl-dt">
                       <i class="fa fa-calendar"></i>
+
                       <span>
-                        Started: <i class="thm-clr">12.03.2019</i>
+                        Event Date<i class="thm-clr">01.03.2020</i>
                       </span>
                       <span>
-                        Ending: <i class="thm-clr">14.03.2019</i>
+                        Event Time<i class="thm-clr">09:00-13:30</i>
                       </span>
-                    </div>
-                    <div class="evnt-dtl-btns">
-                      <a href="#" title="" itemprop="url">
-                        Google Calendar
-                      </a>
-                      <a class="thm-btn" href="#" title="" itemprop="url">
-                        Get Ticket<span></span>
-                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="evnt-dtl-desc">
                   <p itemprop="description">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dumm when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has
-                    survived not only five cen electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets cont es, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
+                    Hey, Change Warriors! It’s time to gather once more, to get
+                    a Black Spot on our lens scope and make sure we take care of
+                    it right away! This week, we look at a spot in Satellite
+                    Town. Let’s Assemble and make sure we get rid of this dump
+                    too!
+                  </p>
+                  <p itemprop="description">#Warriors Assemble</p>
+                  <p itemprop="description">
+                    {" "}
+                    Date : 1/3/2020 Time : 9:00 A.M – 1:30 P.M
                   </p>
                   <p itemprop="description">
-                    scrambled it to make a type specimen book. It has survived
-                    not only five cenelectronic typesetting, remaining
-                    essentially unchang ed. It was popularised in the 1960s with
-                    the release of Letraset sheets cont es,
+                    Location : #11, Mysore Rd, New Timberyard Layout,
+                    Byatarayanapura, Srinagar, Banashankari, Bengaluru,
+                    Karnataka 560026
                   </p>
-                </div>
-                <div class="evnt-fclt-wrp">
-                  <h4 itemprop="headline">Event Facilities</h4>
-                  <ul class="evnt-fclt-lst">
-                    <li>
-                      <div class="evnt-fclt-bx">
-                        <i class="thm-clr flaticon-boy-broad-smile"></i>
-                        <h6 itemprop="headline">Child Motivation</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="evnt-fclt-bx">
-                        <i class="thm-clr flaticon-radio"></i>
-                        <h6 itemprop="headline">Speak & Music</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="evnt-fclt-bx">
-                        <i class="thm-clr flaticon-signpost"></i>
-                        <h6 itemprop="headline">Playground</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="evnt-fclt-bx">
-                        <i class="thm-clr flaticon-family"></i>
-                        <h6 itemprop="headline">Sponsorship</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="evnt-fclt-bx">
-                        <i class="thm-clr flaticon-save-money"></i>
-                        <h6 itemprop="headline">Provide Fund</h6>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="evnt-vdo-wrp">
-                  <h4 itemprop="headline">Event Video</h4>
-                  <div class="vdo-bx">
-                    <img
-                      src={require("../../assets/images/resources/vdo-img2.jpg")}
-                      alt="vdo-img2.jpg"
-                      itemprop="image"
-                    />
-                    <a
-                      href="https://www.youtube.com/embed/5Y0Qrtew4VE"
-                      data-fancybox
-                      title=""
-                      itemprop="url"
-                    >
-                      <i class="fa fa-play thm-bg"></i>
-                      <span>1:04</span>
+                  <p itemprop="description">
+                    Location Link :{" "}
+                    <a href=" https://goo.gl/maps/uX1xmDjKHGLzqCAJ7">
+                      https://goo.gl/maps/uX1xmDjKHGLzqCAJ7
                     </a>
-                  </div>
-                </div>
-                <div class="evnt-spkrs-wrp">
-                  <h4 itemprop="headline">Event Speaker</h4>
-                  <div class="evnt-spkr-inr remove-ext1">
-                    <div class="row mrg20">
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div class="evnt-spkr-bx">
-                          <img
-                            src={require("../../assets/images/resources/evnt-spkr-img1-1.jpg")}
-                            alt="evnt-spkr-img1-1.jpg"
-                            itemprop="image"
-                          />
-                          <div class="evnt-spkr-inf">
-                            <img
-                              src={require("../../assets/images/spkr-flg1.jpg")}
-                              alt="spkr-flg1.jpg"
-                              itemprop="image"
-                            />
-                            <div class="evnt-spkr-inf-inr">
-                              <h6 itemprop="headline">Mark Walkar</h6>
-                              <span>Motivation speaker - Uk</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div class="evnt-spkr-bx">
-                          <img
-                            src={require("../../assets/images/resources/evnt-spkr-img1-2.jpg")}
-                            alt="evnt-spkr-img1-2.jpg"
-                            itemprop="image"
-                          />
-                          <div class="evnt-spkr-inf">
-                            <img
-                              src={require("../../assets/images/spkr-flg2.jpg")}
-                              alt="spkr-flg2.jpg"
-                              itemprop="image"
-                            />
-                            <div class="evnt-spkr-inf-inr">
-                              <h6 itemprop="headline">Thomas James</h6>
-                              <span>Motivation speaker - Turkey</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div class="evnt-spkr-bx">
-                          <img
-                            src={require("../../assets/images/resources/evnt-spkr-img1-3.jpg")}
-                            alt="evnt-spkr-img1-3.jpg"
-                            itemprop="image"
-                          />
-                          <div class="evnt-spkr-inf">
-                            <img
-                              src={require("../../assets/images/spkr-flg3.jpg")}
-                              alt="spkr-flg3.jpg"
-                              itemprop="image"
-                            />
-                            <div class="evnt-spkr-inf-inr">
-                              <h6 itemprop="headline">Nomina Jacki</h6>
-                              <span>Motivation speaker - Uk</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="evnt-glry-wrp">
-                  <h4 itemprop="headline">Event Gallery</h4>
-                  <div class="evnt-glry-inr remove-ext1">
-                    <div class="row mrg20">
-                      <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class="gallery-item">
-                          <a
-                            href="../../assets/images/resources/evnt-dtl-gal-img1-1.jpg"
-                            title=""
-                            data-fancybox="gallery"
-                            itemprop="url"
-                          >
-                            <img
-                              src={require("../../assets/images/resources/evnt-dtl-gal-img1-1.jpg")}
-                              alt="evnt-dtl-gal-img1-1.jpg"
-                              itemprop="image"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-sm-12 col-lg-6">
-                        <div class="row mrg20">
-                          <div class="col-md-6 col-sm-6 col-lg-6">
-                            <div class="gallery-item">
-                              <a
-                                href="../../assets/images/resources/evnt-dtl-gal-img1-2.jpg"
-                                title=""
-                                data-fancybox="gallery"
-                                itemprop="url"
-                              >
-                                <img
-                                  src={require("../../assets/images/resources/evnt-dtl-gal-img1-2.jpg")}
-                                  alt="evnt-dtl-gal-img1-2.jpg"
-                                  itemprop="image"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-sm-6 col-lg-6">
-                            <div class="gallery-item">
-                              <a
-                                href="../../assets/images/resources/evnt-dtl-gal-img1-3.jpg"
-                                title=""
-                                data-fancybox="gallery"
-                                itemprop="url"
-                              >
-                                <img
-                                  src={require("../../assets/images/resources/evnt-dtl-gal-img1-3.jpg")}
-                                  alt="evnt-dtl-gal-img1-3.jpg"
-                                  itemprop="image"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-sm-6 col-lg-6">
-                            <div class="gallery-item">
-                              <a
-                                href="../../assets/images/resources/evnt-dtl-gal-img1-4.jpg"
-                                title=""
-                                data-fancybox="gallery"
-                                itemprop="url"
-                              >
-                                <img
-                                  src={require("../../assets/images/resources/evnt-dtl-gal-img1-4.jpg")}
-                                  alt="evnt-dtl-gal-img1-4.jpg"
-                                  itemprop="image"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-sm-6 col-lg-6">
-                            <div class="gallery-item">
-                              <a
-                                href="../../assets/images/resources/evnt-dtl-gal-img1-5.jpg"
-                                title=""
-                                data-fancybox="gallery"
-                                itemprop="url"
-                              >
-                                <img
-                                  src={require("../../assets/images/resources/evnt-dtl-gal-img1-5.jpg")}
-                                  alt="evnt-dtl-gal-img1-5.jpg"
-                                  itemprop="image"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="evnt-loc-wrp">
-                  <h4 itemprop="headline">Event Location</h4>
-                  <div class="evnt-loc2" id="evnt-loc"></div>
-                </div>
-                <div class="evnt-plt-spnsr-wrp">
-                  <h4 itemprop="headline">Platinum Sponsors</h4>
-                  <ul class="spnsr-lst">
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-1.png")}
-                          alt="org-img2-1.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-2.png")}
-                          alt="org-img2-2.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-3.png")}
-                          alt="org-img2-3.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="evnt-gld-spnsr-wrp">
-                  <h4 itemprop="headline">Gold Sponsors</h4>
-                  <ul class="spnsr-lst">
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-1.png")}
-                          alt="org-img2-1.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-2.png")}
-                          alt="org-img2-2.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-3.png")}
-                          alt="org-img2-3.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div class="orgn-bx2">
-                        <img
-                          src={require("../../assets/images/resources/org-img2-4.png")}
-                          alt="org-img2-4.png"
-                          itemprop="image"
-                        />
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="evnt-prc-wrp">
-                  <h4 itemprop="headline">Choose A Ticket</h4>
-                  <div class="evnt-prc-inr remove-ext1">
-                    <div class="row mrg20">
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div
-                          class="prc-bx prc-blu-bg"
-                          style={{
-                            backgroundImage:
-                              "url(../../assets/images/pattern-bg3.png)",
-                          }}
-                        >
-                          <div class="prc-hed">
-                            <h6 itemprop="headline">Basic Pass</h6>
-                            <span>
-                              <sup>$</sup>35.99
-                            </span>
-                          </div>
-                          <ul class="prc-pkg-lst">
-                            <li>
-                              <i class="fa fa-check"></i>10 SEO Keywords
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>2 Video Camplaigns
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>5 PPC Campaigns
-                            </li>
-                          </ul>
-                          <a href="#" title="" itemprop="url">
-                            Get Ticket
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div
-                          class="prc-bx prc-rd-bg"
-                          style={{
-                            backgroundImage:
-                              "url(../../assets/images/pattern-bg3.png)",
-                          }}
-                        >
-                          <div class="prc-hed">
-                            <h6 itemprop="headline">Standard Pass</h6>
-                            <span>
-                              <sup>$</sup>68.99
-                            </span>
-                          </div>
-                          <ul class="prc-pkg-lst">
-                            <li>
-                              <i class="fa fa-check"></i>10 SEO Keywords
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>2 Video Camplaigns
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>5 PPC Campaigns
-                            </li>
-                          </ul>
-                          <a href="#" title="" itemprop="url">
-                            Get Ticket
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 col-lg-4">
-                        <div
-                          class="prc-bx prc-grn-bg"
-                          style={{
-                            backgroundImage:
-                              "url(../../assets/images/pattern-bg3.png)",
-                          }}
-                        >
-                          <div class="prc-hed">
-                            <h6 itemprop="headline">Advanced Pass</h6>
-                            <span>
-                              <sup>$</sup>90.99
-                            </span>
-                          </div>
-                          <ul class="prc-pkg-lst">
-                            <li>
-                              <i class="fa fa-check"></i>10 SEO Keywords
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>2 Video Camplaigns
-                            </li>
-                            <li>
-                              <i class="fa fa-check"></i>5 PPC Campaigns
-                            </li>
-                          </ul>
-                          <a href="#" title="" itemprop="url">
-                            Get Ticket
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </p>
+                  <p itemprop="description">#TeamLBTC</p>
                 </div>
               </div>
             </div>
