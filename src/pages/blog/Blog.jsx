@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
+import { Switch, Route, Link } from "react-router-dom";
 
 function Blog() {
   return (
@@ -15,7 +16,10 @@ function Blog() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="MenuBarBkgnd" />
+              <img
+                src={require("../aboutus/AboutUs-Main-3.jpg")}
+                alt="MenuBarBkgnd"
+              />
             </div>
           </div>
         </section>
@@ -56,25 +60,17 @@ function Blog() {
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
                           <a href="#top" title="" itemprop="url">
-                            May 15, 2019
+                            May 13, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
                           <i class="fa fa-tag"></i>
                           <a href="#top" title="" itemprop="url">
-                            Charity
+                            blog
                           </a>
                           ,
                           <a href="#top" title="" itemprop="url">
-                            poor
-                          </a>
-                          ,
-                          <a href="#top" title="" itemprop="url">
-                            people
-                          </a>
-                          ,
-                          <a href="#top" title="" itemprop="url">
-                            ideas
+                            interns
                           </a>
                         </span>
                         <h4 itemprop="headline">
@@ -83,14 +79,14 @@ function Blog() {
                             title=""
                             itemprop="url"
                           >
-                            Highlight some of the fundraising
+                            Jauntful Internship!
                           </a>
                         </h4>
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
                             <a href="#top" title="" itemprop="url">
-                              James Smith
+                              Sahiti
                             </a>
                           </li>
                           <li>
@@ -98,11 +94,10 @@ function Blog() {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          Lorem ipsum dosectetur adipisicing elit, sed do.Lorem
-                          ipsum dolor sit amet, con lorim ectetur Nulla
-                          fringilla purus at leo dignisntum accumsan leo vel
-                          tempor. Sit amet ukmi consectetur Nulla fringillat
-                          etur adipisicing elit at leo dignissim congue.
+                          Our journey as interns began on twenty fifth of June
+                          to ‘Let’s Be The Change’ through the Social Immersion
+                          Programme of our college, so as to analyse and
+                          abbreviate the environmental problems.
                         </p>
                       </div>
                     </div>
@@ -123,7 +118,7 @@ function Blog() {
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
                           <a href="#top" title="" itemprop="url">
-                            May 15, 2019
+                            February 25, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
@@ -150,14 +145,14 @@ function Blog() {
                             title=""
                             itemprop="url"
                           >
-                            Number of people trapped in B&B's soars by over
+                            Cleanathon: What, Why & How
                           </a>
                         </h4>
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
                             <a href="#top" title="" itemprop="url">
-                              James Smith
+                              LBTC
                             </a>
                           </li>
                           <li>
@@ -165,11 +160,10 @@ function Blog() {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          Lorem ipsum dosectetur adipisicing elit, sed do.Lorem
-                          ipsum dolor sit amet, con lorim ectetur Nulla
-                          fringilla purus at leo dignisntum accumsan leo vel
-                          tempor. Sit amet ukmi consectetur Nulla fringillat
-                          etur adipisicing elit at leo dignissim congue.
+                          The concept of Cleanathon was started by the Team of
+                          Lets Be the Change in 2014. Cleanathons are mainly
+                          devoted to cleaning, beautifying and transforming a
+                          previously garbage filled dump.
                         </p>
                       </div>
                     </div>
@@ -190,7 +184,7 @@ function Blog() {
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
                           <a href="#top" title="" itemprop="url">
-                            May 15, 2019
+                            February 25, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
@@ -217,14 +211,14 @@ function Blog() {
                             title=""
                             itemprop="url"
                           >
-                            Including commentary and Archival
+                            Restorative Practices for Schools
                           </a>
                         </h4>
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
                             <a href="#top" title="" itemprop="url">
-                              James Smith
+                              LBTC
                             </a>
                           </li>
                           <li>
@@ -232,11 +226,12 @@ function Blog() {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          Lorem ipsum dosectetur adipisicing elit, sed do.Lorem
-                          ipsum dolor sit amet, con lorim ectetur Nulla
-                          fringilla purus at leo dignisntum accumsan leo vel
-                          tempor. Sit amet ukmi consectetur Nulla fringillat
-                          etur adipisicing elit at leo dignissim congue.
+                          Schools are where hundreds of children attain literacy
+                          and are getting prepared for life. This is why a
+                          school’s environment and atmosphere should be one
+                          which is inspiring. Keeping this in mind, LBTC has
+                          started a chain of events pertaining to school
+                          restoration.
                         </p>
                       </div>
                     </div>
@@ -257,7 +252,7 @@ function Blog() {
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
                           <a href="#top" title="" itemprop="url">
-                            May 15, 2019
+                            February 22, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
@@ -284,14 +279,14 @@ function Blog() {
                             title=""
                             itemprop="url"
                           >
-                            Ukraine Government to Do More for Human Rights
+                            Plogging – Fitness can save the Environment
                           </a>
                         </h4>
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
                             <a href="#top" title="" itemprop="url">
-                              James Smith
+                              LBTC
                             </a>
                           </li>
                           <li>
@@ -299,11 +294,12 @@ function Blog() {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          Lorem ipsum dosectetur adipisicing elit, sed do.Lorem
-                          ipsum dolor sit amet, con lorim ectetur Nulla
-                          fringilla purus at leo dignisntum accumsan leo vel
-                          tempor. Sit amet ukmi consectetur Nulla fringillat
-                          etur adipisicing elit at leo dignissim congue.
+                          From the words “Plastic” and “Jogging”, you get the
+                          word ‘Plogging’ – an idea that originated from Sweden
+                          in 2016. This is a new innovative idea that pairs
+                          exercise with doing social good – while you jog, pick
+                          the trash on the way and help get rid of plastic
+                          pollution.
                         </p>
                       </div>
                     </div>
@@ -324,7 +320,7 @@ function Blog() {
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
                           <a href="#top" title="" itemprop="url">
-                            May 15, 2019
+                            February 8, 2019
                           </a>
                         </span>
                         <span class="blg-tgs">
@@ -351,14 +347,14 @@ function Blog() {
                             title=""
                             itemprop="url"
                           >
-                            Advocating on behalf of abused and Neglected
+                            Have you volunteered yet?
                           </a>
                         </h4>
                         <ul class="pst-mta">
                           <li>
                             <i class="fa fa-user thm-clr"></i>
                             <a href="#top" title="" itemprop="url">
-                              James Smith
+                              LBTC
                             </a>
                           </li>
                           <li>
@@ -366,11 +362,147 @@ function Blog() {
                           </li>
                         </ul>
                         <p itemprop="description">
-                          Lorem ipsum dosectetur adipisicing elit, sed do.Lorem
-                          ipsum dolor sit amet, con lorim ectetur Nulla
-                          fringilla purus at leo dignisntum accumsan leo vel
-                          tempor. Sit amet ukmi consectetur Nulla fringillat
-                          etur adipisicing elit at leo dignissim congue.
+                          Volunteers work together willingly for the benefit of
+                          their communities, environment and themselves. By
+                          giving back to the community, a volunteer does not
+                          only help the community grow stronger, but are also
+                          helping themselves become stronger.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="blg-bx lst">
+                      <div class="blg-thmb">
+                        <a
+                          href="blog-detail-no-sidebar.html"
+                          title=""
+                          itemprop="url"
+                        >
+                          <img
+                            src={require("../blog/Images/Blog5.jpg")}
+                            alt="Blog-4"
+                            itemprop="image"
+                          />
+                        </a>
+                      </div>
+                      <div class="blg-inf">
+                        <span class="blg-dat thm-bg">
+                          <a href="#top" title="" itemprop="url">
+                            February 5, 2019
+                          </a>
+                        </span>
+                        <span class="blg-tgs">
+                          <i class="fa fa-tag"></i>
+                          <a href="#top" title="" itemprop="url">
+                            lake
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            plastic
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            camapign
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            ideas
+                          </a>
+                        </span>
+                        <h4 itemprop="headline">
+                          <a
+                            href="blog-detail-no-sidebar.html"
+                            title=""
+                            itemprop="url"
+                          >
+                            Plastic Banega Fantastic Campaign @ B Narayanapura
+                            Lake
+                          </a>
+                        </h4>
+                        <ul class="pst-mta">
+                          <li>
+                            <i class="fa fa-user thm-clr"></i>
+                            <a href="#top" title="" itemprop="url">
+                              LBTC
+                            </a>
+                          </li>
+                          <li>
+                            <i class="fa fa-comments thm-clr"></i>78
+                          </li>
+                        </ul>
+                        <p itemprop="description">
+                          Hindustan Unilever have propelled many initiatives to
+                          improve hygiene and sanitation across India. Along
+                          with their partners, they are working towards
+                          innovative solutions to help address the problem of
+                          plastic waste.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="blg-bx lst">
+                      <div class="blg-thmb">
+                        <a
+                          href="blog-detail-no-sidebar.html"
+                          title=""
+                          itemprop="url"
+                        >
+                          <img
+                            src={require("../blog/Images/Blog5.jpg")}
+                            alt="Blog-4"
+                            itemprop="image"
+                          />
+                        </a>
+                      </div>
+                      <div class="blg-inf">
+                        <span class="blg-dat thm-bg">
+                          <a href="#top" title="" itemprop="url">
+                            July 28, 2018
+                          </a>
+                        </span>
+                        <span class="blg-tgs">
+                          <i class="fa fa-tag"></i>
+                          <a href="#top" title="" itemprop="url">
+                            lake
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            plastic
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            camapign
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            ideas
+                          </a>
+                        </span>
+                        <h4 itemprop="headline">
+                          <a
+                            href="blog-detail-no-sidebar.html"
+                            title=""
+                            itemprop="url"
+                          >
+                            About Us
+                          </a>
+                        </h4>
+                        <ul class="pst-mta">
+                          <li>
+                            <i class="fa fa-user thm-clr"></i>
+                            <a href="#top" title="" itemprop="url">
+                              LBTC
+                            </a>
+                          </li>
+                          <li>
+                            <i class="fa fa-comments thm-clr"></i>78
+                          </li>
+                        </ul>
+                        <p itemprop="description">
+                          Let’s Be The Change (LBTC) is a non-profit
+                          organization which aims to build a cleaner and
+                          healthier society by working with the people and the
+                          Government. LBTC was started by Anirudh S Dutt on 5th
+                          July 2013.
                         </p>
                       </div>
                     </div>
@@ -388,7 +520,12 @@ function Blog() {
                         </a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#top" title="" itemprop="url">
+                        <a
+                          class="page-link"
+                          href="#top"
+                          title=""
+                          itemprop="url"
+                        >
                           1
                         </a>
                       </li>
@@ -396,7 +533,12 @@ function Blog() {
                         <span class="page-link">2</span>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#top" title="" itemprop="url">
+                        <a
+                          class="page-link"
+                          href="#top"
+                          title=""
+                          itemprop="url"
+                        >
                           3
                         </a>
                       </li>
@@ -435,7 +577,7 @@ function Blog() {
                           <div class="mini-pst-inf">
                             <span>
                               <a href="#top" title="" itemprop="url">
-                                Mar 20, 2018
+                                May 13, 2019
                               </a>
                             </span>
                             <h6 itemprop="headline">
@@ -444,7 +586,7 @@ function Blog() {
                                 title=""
                                 itemprop="url"
                               >
-                                This is How I Relax on Lazy Sundays
+                                Jauntful Intership!
                               </a>
                             </h6>
                           </div>
@@ -466,7 +608,7 @@ function Blog() {
                           <div class="mini-pst-inf">
                             <span>
                               <a href="#top" title="" itemprop="url">
-                                Apr 25, 2018
+                                February 25, 2019
                               </a>
                             </span>
                             <h6 itemprop="headline">
@@ -475,7 +617,7 @@ function Blog() {
                                 title=""
                                 itemprop="url"
                               >
-                                Going Shopping in New Dress & a Hat
+                                Cleanathon: What, Why & How
                               </a>
                             </h6>
                           </div>
@@ -497,7 +639,7 @@ function Blog() {
                                 title=""
                                 itemprop="url"
                               >
-                                Jan 18, 2019
+                                February 25, 2019
                               </a>
                             </span>
                             <h6 itemprop="headline">
@@ -506,81 +648,39 @@ function Blog() {
                                 title=""
                                 itemprop="url"
                               >
-                                How an Island Forms in River And Stones
+                                Restorative Practices for Schools
                               </a>
                             </h6>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="wdgt-bx v2">
-                      <h4 itemprop="headline">Categories</h4>
-                      <ul>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Lifestyle
-                          </a>{" "}
-                          ( 120 )
-                        </li>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Fashion
-                          </a>{" "}
-                          ( 14 )
-                        </li>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Photography
-                          </a>{" "}
-                          ( 43 )
-                        </li>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Creative
-                          </a>{" "}
-                          ( 20 )
-                        </li>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Travel
-                          </a>{" "}
-                          ( 10 )
-                        </li>
-                        <li>
-                          <a href="#top" title="" itemprop="url">
-                            Electronics
-                          </a>{" "}
-                          ( 70 )
-                        </li>
-                      </ul>
-                    </div>
+
                     <div class="wdgt-bx v2">
                       <h4 itemprop="headline">Useful Links</h4>
                       <ul>
                         <li>
-                          <a href="#top" title="" itemprop="url">
-                            Our Founder
-                          </a>
+                          <Link to="">Home</Link>
                         </li>
+
                         <li>
-                          <a href="#top" title="" itemprop="url">
-                            Education
-                          </a>
+                          <Link to="/about">About</Link>
                         </li>
+
                         <li>
-                          <a href="#top" title="" itemprop="url">
-                            Entrepreneurship
-                          </a>
+                          <Link to="/gallery">Gallery</Link>
                         </li>
+
                         <li>
-                          <a href="#top" title="" itemprop="url">
-                            Child Education
-                          </a>
+                          <Link to="/events">Events</Link>
                         </li>
+
                         <li>
-                          <a href="#top" title="" itemprop="url">
-                            Grants
-                          </a>
+                          <Link to="/contact">Contact Us</Link>
+                        </li>
+
+                        <li>
+                          <Link to="/blog">Blog</Link>
                         </li>
                       </ul>
                     </div>
