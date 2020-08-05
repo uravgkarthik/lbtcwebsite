@@ -49,7 +49,7 @@ function Events2() {
                   </div>
                   <div className="evnt-inf">
                     <div className="evnt-inf-tp">
-                      <span className="thm-clr">12.03.2019</span>
+                      <span className="thm-clr">30.01.2020</span>
                       <div className="evnt-orgn">
                         <img
                           src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
@@ -57,20 +57,19 @@ function Events2() {
                           itemprop="image"
                         />
                         <div className="evnt-orgn-inf">
-                          <h6 itemprop="headline">Nolim Smith</h6>
+                          <h6 itemprop="headline">LBTC</h6>
                           <span>Organizer</span>
                         </div>
                       </div>
                     </div>
                     <h4 itemprop="headline">
                       <Link to="events/event-6">
-                        Help others through the gift of your time, donations
+                        PlogRun on National Cleanliness Day!
                       </Link>
                     </h4>
                     <p itemprop="description">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                      uam, odioserunt provident maiores consectetur adipisic
-                      Aliquam odio dese runtesseu
+                      Join us on the National Cleanliness Day (30th Jan) to Plog
+                      in and around Cubbon Park.
                     </p>
                     <div className="evnt-inf-btm">
                       <Link to="events/event-6">
@@ -81,7 +80,11 @@ function Events2() {
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
-                        <span>4801 Rockhill Road Kansas City, 64110</span>
+                        <span>
+                          <a href="https://maps.google.com/?q=%2012.9763%C2%B0%20N,%2077.5929%C2%B0%20E">
+                            Cubbon Park, Bengaluru
+                          </a>
+                        </span>
                       </span>
                     </div>
                   </div>
