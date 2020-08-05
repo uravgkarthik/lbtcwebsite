@@ -378,7 +378,7 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../blog/Images/Blog5.jpg")}
+                            src={require("../blog/Images/Blog6.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
@@ -447,7 +447,7 @@ function Blog() {
                           itemprop="url"
                         >
                           <img
-                            src={require("../blog/Images/Blog5.jpg")}
+                            src={require("../blog/Images/Blog7.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
@@ -507,7 +507,7 @@ function Blog() {
                       </div>
                     </div>
                   </div>
-                  <div class="pgntin-wrp">
+                  {/* <div class="pgntin-wrp">
                     <ul class="pagination">
                       <li class="page-item">
                         <a
@@ -553,7 +553,7 @@ function Blog() {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div class="col-md-4 col-sm-6 col-lg-4">
                   <aside class="sdbr-wrp">
@@ -568,7 +568,7 @@ function Blog() {
                               itemprop="url"
                             >
                               <img
-                                src={require("../../assets/images/resources/mini-pst-img1-2.jpg")}
+                                src={require("../blog/Images/SidebarImages/S1.jpg")}
                                 alt="SideBar-1"
                                 itemprop="image"
                               />
@@ -599,7 +599,7 @@ function Blog() {
                               itemprop="url"
                             >
                               <img
-                                src={require("../../assets/images/resources/mini-pst-img1-2.jpg")}
+                                src={require("../blog/Images/SidebarImages/S2.jpg")}
                                 alt="Sidebar-2"
                                 itemprop="image"
                               />
@@ -626,7 +626,7 @@ function Blog() {
                           <div class="mini-pst-thmb">
                             <a href="#top" title="" itemprop="url">
                               <img
-                                src={require("../../assets/images/resources/mini-pst-img1-3.jpg")}
+                                src={require("../blog/Images/SidebarImages/S3.jpg")}
                                 alt="Sidebar-3"
                                 itemprop="image"
                               />
@@ -706,7 +706,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P1.jpg")}
                               alt="insta-img1-1.jpg"
                               itemprop="image"
                             />
@@ -715,7 +715,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P2.jpg")}
                               alt="insta-img1-2.jpg"
                               itemprop="image"
                             />
@@ -724,7 +724,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P3.jpg")}
                               alt="insta-img1-3.jpg"
                               itemprop="image"
                             />
@@ -733,7 +733,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P4.jpg")}
                               alt="insta-img1-4.jpg"
                               itemprop="image"
                             />
@@ -742,7 +742,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P5.jpg")}
                               alt="insta-img1-5.jpg"
                               itemprop="image"
                             />
@@ -751,7 +751,7 @@ function Blog() {
                         <li>
                           <a href="#top" title="" itemprop="url">
                             <img
-                              src={require("../../assets/images/resources/insta-img1-1.jpg")}
+                              src={require("../blog/Images/InstagramImages/P6.jpg")}
                               alt="insta-img1-6.jpg"
                               itemprop="image"
                             />
