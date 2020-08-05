@@ -29,13 +29,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/1.jpg")}
+                            src={require("../gallery/Images/gallery2page/1.jpg")}
                             alt="gal-img2-1.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/1.jpg"
+                            href="../gallery/Images/gallery2page/1.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -47,13 +47,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/8.jpg")}
+                            src={require("../gallery/Images/gallery2page/8.jpg")}
                             alt="gal-img2-2.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/8.jpg"
+                            href="../gallery/Images/gallery2page/8.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -65,13 +65,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/7.jpg")}
+                            src={require("../gallery/Images/gallery2page/7.jpg")}
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Our Board</h4>
                           <a
-                            href="../gallery/7.jpg"
+                            href="../gallery/Images/gallery2page/7.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -83,13 +83,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/4.jpg")}
+                            src={require("../gallery/Images/gallery2page/4.jpg")}
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Team LBTC</h4>
                           <a
-                            href="../gallery/4.jpg"
+                            href="../gallery/Images/gallery2page/4.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -103,13 +103,13 @@ function Gallery() {
                   <div class="col-md-6 col-sm-12 col-lg-6">
                     <div class="gal-itm">
                       <img
-                        src={require("../gallery/1L.jpg")}
+                        src={require("../gallery/Images/gallery2page/1L.jpg")}
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
                       <h4 itemprop="headline">Clay Ganesha Workshop</h4>
                       <a
-                        href="../gallery/1L.jpg"
+                        href="../gallery/Images/gallery2page/1L.jpg"
                         data-fancybox="gallery"
                         title=""
                         itemprop="url"
@@ -123,13 +123,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/3.jpg")}
+                            src={require("../gallery/Images/gallery2page/3.jpg")}
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Clay Ganesha Workshop</h4>
                           <a
-                            href="../gallery/3.jpg"
+                            href="../gallery/Images/gallery2page/3.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -141,7 +141,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/9.jpg")}
+                            src={require("../gallery/Images/gallery2page/9.jpg")}
                             alt="gal-img2-7.jpg"
                             itemprop="image"
                           />
@@ -149,7 +149,7 @@ function Gallery() {
                             Plog Run With West Block Blues
                           </h4>
                           <a
-                            href="../gallery/9.jpg"
+                            href="../gallery/Images/gallery2page/9.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -161,13 +161,13 @@ function Gallery() {
                       <div class="col-md-12 col-sm-12 col-lg-12">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/2L.jpg")}
+                            src={require("../gallery/Images/gallery2page/2L.jpg")}
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">5 Ways To Fight Poverty</h4>
                           <a
-                            href="../gallery/2L.jpg"
+                            href="../gallery/Images/gallery2page/2L.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -183,13 +183,13 @@ function Gallery() {
                       <div class="col-md-12 col-sm-12 col-lg-12">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/4L.jpg")}
+                            src={require("../gallery/Images/gallery2page/4L.jpg")}
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Plantathon</h4>
                           <a
-                            href="../gallery/4L.jpg"
+                            href="../gallery/Images/gallery2page/4L.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -201,7 +201,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/10.jpg")}
+                            src={require("../gallery/Images/gallery2page/10.jpg")}
                             alt="gal-img2-10.jpg"
                             itemprop="image"
                           />
@@ -209,7 +209,7 @@ function Gallery() {
                             Development of Local Schools
                           </h4>
                           <a
-                            href="../gallery/10.jpg"
+                            href="../gallery/Images/gallery2page/10.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -221,13 +221,13 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/11.jpg")}
+                            src={require("../gallery/Images/gallery2page/11.jpg")}
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Muscial Cleanathon</h4>
                           <a
-                            href="../gallery/11.jpg"
+                            href="../gallery/Images/gallery2page/11.jpg"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -251,19 +251,19 @@ function Gallery() {
                     <Link
                       to="/gallery"
                       class="page-link"
-                      style={{ color: "#00c674" }}
+                      style={{ color: "#1b6dae" }}
                     >1</Link>
                   </li>
                   <li class="page-item active">
-                    
-                    
+
+
                     <span class="page-link">2</span>
                   </li>
                   <li class="page-item">
                     <Link
                       to="/gallery-3"
                       class="page-link"
-                      style={{ color: "#00c674" }}
+                      style={{ color: "#1b6dae" }}
                     >
                       3
                     </Link>
