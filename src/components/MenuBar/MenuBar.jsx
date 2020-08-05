@@ -71,7 +71,7 @@ function MenuBar() {
                 class="thm-btn yellowcolor"
                 href="https://milaap.org/fundraisers/cleanathon-by-lbtc"
                 title=""
-                itemprop="url"
+                itemprop="url" target="_blank" rel="noopener noreferrer"
               >
                 Donate Now<span></span>
               </a>
