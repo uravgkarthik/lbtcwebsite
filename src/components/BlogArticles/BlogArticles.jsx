@@ -1,4 +1,6 @@
 import React from "react";
+import "../BlogArticles/blogarticles.min.scss";
+import { Link } from "react-router-dom";
 
 function BlogArticles() {
   return (
@@ -91,13 +93,8 @@ function BlogArticles() {
             </div>
           </div>
           <div className="vw-mr text-center">
-            <a
-              className="thm-btn"
-              href="blog-style3.html"
-              title=""
-              itemprop="url"
-            >
-              View All Posts<span></span>
+            <a className="thm-btn">
+              <Link to="/blog" className="viewallpostsbutton">View All Posts</Link>
             </a>
           </div>
         </div>

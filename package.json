@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.0.2",
+    "@material-ui/core": "^4.11.0",
+    "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "graphql": "^15.3.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-owl-carousel": "^2.3.1",
+    "react-relay": "^10.0.0",
+    "react-router-config": "^5.1.1",
     "react-router-dom": "^5.2.0",
+    "react-router-scroll-top": "^0.2.1",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {

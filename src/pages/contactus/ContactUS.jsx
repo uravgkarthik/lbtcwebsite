@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
+import "../../components/HeaderBar/headerbar.min.scss";
 
 function ContactUS() {
   return (
@@ -14,7 +15,10 @@ function ContactUS() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img
+                src={require("../aboutus/AboutUs-Main-3.jpg")}
+                alt="About Pic"
+              />
             </div>
           </div>
         </section>
@@ -51,11 +55,8 @@ function ContactUS() {
                         <span class="thm-clr">Just Say Hello!</span>
                       </h2>
                       <p itemprop="description">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typeseing in Loremy Ipsum has been the industry's
-                        standard dummy text ever si 1500s, when a an unknown
-                        printer took a galley of type and scrambl make a type
-                        specime industry's standard dummy tn book.
+                        Want to bring in change? Join hands with us to make a
+                        difference.
                       </p>
                       <form class="cnt-frm">
                         <div class="row mrg10">
@@ -93,34 +94,43 @@ function ContactUS() {
                         }}
                       ></div>
                       <p itemprop="description">
-                        Issued In Minnesota (MN) On 12/02/2016, Expires
-                        03/15/2020
+                        <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
+                          No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
+                          Bengaluru-70
+                        </a>
                       </p>
                       <ul class="cnt-inf-lst">
                         <li>
                           <span>E:</span>
-                          <a href="#" title="" itemprop="url">
-                            user@domain.com
+                          <a
+                            href="mailto:contact@letsbethechange.in"
+                            title=""
+                            itemprop="url"
+                          >
+                            contact@letsbethechange.in
                           </a>
                         </li>
                         <li>
-                          <span>T:</span>(55) 1234-56789
+                          <span>T:</span>
+                          <a href="tel:+919353218818">+91 93532 18818</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <span>F:</span>(55) 1234-56789
-                        </li>
+                        </li> */}
                       </ul>
                       <div class="cnt-scl">
                         <a
                           class="facebook"
-                          href="#"
+                          href="https://www.facebook.com/TeamLBTC/"
                           title="Facebook"
                           itemprop="url"
                           target="_blank"
+                          without
+                          rel="noopener noreferrer"
                         >
                           <i class="fa fa-facebook"></i>
                         </a>
-                        <a
+                        {/* <a
                           class="pinterest"
                           href="#"
                           title="Pinterest"
@@ -128,24 +138,28 @@ function ContactUS() {
                           target="_blank"
                         >
                           <i class="fa fa-pinterest-p"></i>
-                        </a>
+                        </a> */}
                         <a
                           class="twitter"
-                          href="#"
+                          href="https://twitter.com/TeamLBTC"
                           title="Twitter"
                           itemprop="url"
                           target="_blank"
+                          without
+                          rel="noopener noreferrer"
                         >
                           <i class="fa fa-twitter"></i>
                         </a>
                         <a
-                          class="linkedin"
-                          href="#"
-                          title="Linkedin"
+                          class="instagram"
+                          href="https://www.instagram.com/team_lbtc/"
+                          title="Instagram"
                           itemprop="url"
                           target="_blank"
+                          without
+                          rel="noopener noreferrer"
                         >
-                          <i class="fa fa-linkedin"></i>
+                          <i class="fa fa-instagram"></i>
                         </a>
                       </div>
                     </div>
@@ -156,7 +170,7 @@ function ContactUS() {
               <div class="cnt-fq text-center">
                 <h2 itemprop="headline">
                   <i class="fa fa-cog"></i>Find Your Answer Here
-                  <a class="thm-btn" href="#" title="" itemprop="url">
+                  <a class="thm-btn" href="#top" title="" itemprop="url">
                     Faq's<span></span>
                   </a>
                 </h2>

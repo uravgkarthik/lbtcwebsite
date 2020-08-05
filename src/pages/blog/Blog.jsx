@@ -12,7 +12,6 @@ function Blog() {
 
         <MenuBar></MenuBar>
 
-        <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
