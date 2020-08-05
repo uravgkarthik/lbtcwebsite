@@ -17,6 +17,13 @@ import EventDetails3 from "./pages/events/EventDetails3";
 import EventDetails4 from "./pages/events/EventDetails4";
 import EventDetails5 from "./pages/events/EventDetails5";
 import EventDetails6 from "./pages/events/EventDetails6";
+import EventDetails7 from "./pages/events/EventDetails7";
+import EventDetails8 from "./pages/events/EventDetails8";
+import EventDetails9 from "./pages/events/EventDetails9";
+import EventDetails10 from "./pages/events/EventDetails10";
+import Events3 from "./pages/events/Events3";
+import Events4 from "./pages/events/Events4";
+
 import Events2 from "./pages/events/Events2";
 import ScrollToTop from "react-router-scroll-top";
 function App() {
@@ -37,6 +44,10 @@ function App() {
       <Route exact path="/events" render={() => <Events></Events>}></Route>
 
       <Route exact path="/events2" render={() => <Events2></Events2>}></Route>
+
+      <Route exact path="/events3" render={() => <Events3></Events3>}></Route>
+
+      <Route exact path="/events4" render={() => <Events4></Events4>}></Route>
 
       <Route
         exact
@@ -72,6 +83,30 @@ function App() {
         exact
         path="/events/event-6"
         render={() => <EventDetails6></EventDetails6>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-7"
+        render={() => <EventDetails7></EventDetails7>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-8"
+        render={() => <EventDetails8></EventDetails8>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-9"
+        render={() => <EventDetails9></EventDetails9>}
+      ></Route>
+
+      <Route
+        exact
+        path="/events/event-10"
+        render={() => <EventDetails10></EventDetails10>}
       ></Route>
 
       <Route exact path="/blog/" render={() => <Blog></Blog>}></Route>
