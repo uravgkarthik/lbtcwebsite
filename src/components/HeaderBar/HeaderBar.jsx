@@ -15,7 +15,7 @@ function HeaderBar() {
       >
         <div className="container">
           <div className="tpbr-inr">
-            <div className="row justify-content-between">
+            <div className="row justify-content-center">
               <div className="col-md-6 col-sm-12 col-lg-6">
                 <p itemprop="description">
                   <i className="flaticon-error thm-clr"></i>

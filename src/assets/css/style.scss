@@ -1370,6 +1370,9 @@ header.style2 {background-color: #000;}
   -o-transform: scale(1);
   transform: scale(1);
 }
+.tp-scl > a:hover:after{
+  display: none;
+}
 .tp-lnks > li + li {margin-left: 1.875rem;}
 .tp-lnks + .tp-scl {margin-left: 2.5rem;}
 .wb-lgmnu-wrp .lgmnu-inr {
