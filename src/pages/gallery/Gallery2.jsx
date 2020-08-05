@@ -247,17 +247,17 @@ function Gallery() {
                       <i class="fa fa-angle-left"></i>
                     </a>
                   </li>
-                  <li class="page-item active">
-                    <span class="page-link">1</span>
-                  </li>
                   <li class="page-item">
                     <Link
-                      to="/gallery-2"
+                      to="/gallery"
                       class="page-link"
                       style={{ color: "#00c674" }}
-                    >
-                      2
-                    </Link>
+                    >1</Link>
+                  </li>
+                  <li class="page-item active">
+                    
+                    
+                    <span class="page-link">2</span>
                   </li>
                   <li class="page-item">
                     <Link
@@ -269,7 +269,7 @@ function Gallery() {
                     </Link>
                   </li>
                   <li class="page-item">
-                    <a class="page-link next" href="#" title="" itemprop="url">
+                    <a class="page-link next" href="#top" title="" itemprop="url">
                       <i class="fa fa-angle-right"></i>
                     </a>
                   </li>
