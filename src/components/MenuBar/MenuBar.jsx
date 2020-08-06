@@ -10,14 +10,14 @@ function MenuBar() {
           <Link to="">
             <div class="logo">
               <img
-                src={require("../MenuBar/LBTC-Header-Logo-C.png")}
+                src={require("../MenuBar/LBTC-Header-Logo-CS.png")}
                 alt="MenuBar-Logo.png"
                 itemprop="image"
               />
             </div>
           </Link>
 
-          <div className="tp-scl">
+          {/* <div className="tp-scl">
             <a
               href="https://www.facebook.com/TeamLBTC/"
               title="Facebook"
@@ -42,7 +42,7 @@ function MenuBar() {
             >
               <i className="fa fa-twitter"></i>
             </a>
-          </div>
+          </div> */}
           <nav>
             <div>
               <ul>
@@ -71,9 +71,11 @@ function MenuBar() {
                 class="thm-btn yellowcolor"
                 href="https://milaap.org/fundraisers/cleanathon-by-lbtc"
                 title=""
-                itemprop="url" target="_blank" rel="noopener noreferrer"
+                itemprop="url"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Donate Now<span></span>
+                Donate<span></span>
               </a>
             </div>
           </nav>
