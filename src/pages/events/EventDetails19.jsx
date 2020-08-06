@@ -45,7 +45,7 @@ function EventDetails19() {
             <div class="container">
               <div class="evnt-dtl-thmb">
                 <img
-                  src={require("../../assets/images/resources/evnt-dtl-img1-1.jpg")}
+                  src={require("../events/Images/EventImages/19.jpg")}
                   alt="evnt-dtl-img1-1.jpg"
                   itemprop="image"
                 />

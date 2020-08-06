@@ -198,7 +198,7 @@ function Events2() {
                   <div className="evnt-thmb">
                     <Link to="/events/event-19">
                       <img
-                        src={require("../../assets/images/resources/evnt-img1-4.jpg")}
+                        src={require("../events/Images/EventImages/19.jpg")}
                         alt="evnt-img1-4.jpg"
                         itemprop="image"
                       />
