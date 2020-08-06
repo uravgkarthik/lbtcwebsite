@@ -6,6 +6,9 @@ import Footer from "../../components/Footer/Footer";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import OurTeam from "../../components/OurTeam/OurTeam";
+import "../aboutus/aboutus.min.scss";
+import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
+// import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 
 function AboutUS() {
@@ -142,12 +145,10 @@ function AboutUS() {
         </div>
       </section>
       <section>
-        <div className="block black-layer opc3">
+        <div className="block black-layer opc3 paddingbeda">
           <div
-            className="fixed-bg"
-            style={{ backgroundImage: "url(../aboutus/VideoBkgnd.jpg)" }}
-          >
-            <img
+            className="fixed-bg fullcontainerimg">
+            <img className="fullcontainerimg"
               src={require("../aboutus/../aboutus/VideoBkgnd.jpg")}
               alt="abt-pg-img1-2.jpg"
               itemprop="image"
@@ -156,23 +157,22 @@ function AboutUS() {
           <div className="container">
             <div className="vdo-wrp text-center">
               <div className="vdo-inr">
-                <a
+                {/* <a
                   href="https://www.youtube.com/watch?v=P4M4WRtlKPQ&feature=emb_logo"
                   data-fancybox
                   title=""
                   itemprop="url"
-                >
-                  <i className="fa fa-play thm-bg"></i>
-                  <span>02:29</span>
-                </a>
+                > */}
+                  
+                  <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
+
+                {/* </a> */}
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <OurTeam></OurTeam> {/* Our Team Component */}
-
       <section>
         <div className="block remove-gap">
           <div className="container">
@@ -181,8 +181,7 @@ function AboutUS() {
                 <div className="col-md-6 col-sm-12 col-lg-6">
                   <div className="fndrs-desc">
                     <h2 itemprop="headline">
-                      Why Should <strong className="thm-clr">You</strong> Join
-                      Us?
+                      Our<strong className="thm-clr"> Belief</strong>
                     </h2>
                     <p itemprop="description">
                       We believe cleanliness can be established and issues can
@@ -190,7 +189,9 @@ function AboutUS() {
                       synergy with the government.
                     </p>
                     <br></br>
-                    <p itemprop="description">Join Us #TeamLBTC</p>
+                    <p itemprop="description">
+                      Join Us <span className="bluecolorhashtag">#TeamLBTC</span>
+                    </p>
                     <a
                       className="thm-btn"
                       href="https://cdn.jotfor.ms/letsbethechange.india/bv-volunteers"
