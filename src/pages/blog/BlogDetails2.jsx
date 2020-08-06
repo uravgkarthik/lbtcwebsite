@@ -16,7 +16,7 @@ function BlogDetails2() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
           </div>
         </section>
@@ -46,7 +46,7 @@ function BlogDetails2() {
             <div class="container">
               <div class="blg-dtl-thmb">
                 <img
-                  src={require("../../assets/images/resources/blg-dtl-img2-1.jpg")}
+                  src={require("../blog/Images/Blog2.jpg")}
                   alt="blg-dtl-img2-1.jpg"
                   itemprop="image"
                 />
@@ -204,7 +204,7 @@ function BlogDetails2() {
                 </div>
                 <div class="athr-bx">
                   <img
-                    src={require("../../assets/images/resources/athr-img1-1.jpg")}
+                    src={require("../blog/Images/Authors/Author-LBTC-L.png")}
                     alt="athr-img1-1.jpg"
                     itemprop="image"
                   />
