@@ -3,6 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
+import DisqusComments from "../../components/Disqus/DisqusComments";
 import "../blog/blog.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
 
@@ -209,6 +210,7 @@ function Blog() {
                         </p>
                       </div>
                     </div>
+                    <DisqusComments></DisqusComments>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
                         <Link to="/blog/blog-4">
