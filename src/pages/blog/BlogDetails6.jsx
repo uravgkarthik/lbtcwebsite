@@ -34,7 +34,9 @@ function BlogDetails6() {
                     Blog
                   </a>
                 </li>
-                <li class="breadcrumb-item active">Jauntful Internship</li>
+                <li class="breadcrumb-item active">
+                  Plastic Banega Fantastic Campaign @ B Narayanapura Lake
+                </li>
               </ol>
             </div>
           </div>
@@ -53,80 +55,73 @@ function BlogDetails6() {
                 <div class="blg-inf">
                   <span class="blg-dat thm-bg">
                     <a href="#" title="" itemprop="url">
-                      July 13, 2019
+                      February 5, 2019
                     </a>
                   </span>
                   <span class="blg-tgs">
                     <i class="fa fa-tag"></i>
                     <a href="#" title="" itemprop="url">
-                      blog
+                      plastic
                     </a>
                     ,
                     <a href="#" title="" itemprop="url">
-                      interns
+                      environment
                     </a>
                   </span>
-                  <h1 itemprop="headline">Jauntful Internship</h1>
+                  <h1 itemprop="headline">
+                    Plastic Banega Fantastic Campaign @ B Narayanapura Lake
+                  </h1>
                   <ul class="pst-mta">
                     <li>
                       <i class="fa fa-user thm-clr"></i>
                       <a href="#" title="" itemprop="url">
-                        Sahiti
+                        LBTC
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="blg-dtl-desc">
                   <p itemprop="description">
-                    Our journey as interns began on twenty fifth of June to
-                    ‘Let’s Be The Change’ through the Social Immersion Programme
-                    of our college, so as to analyse and abbreviate the
-                    environmental problems. The fresh experience as an associate
-                    degree intern to a non-government organisation stirred up
-                    several queries and expectations within me. The benign
-                    atmosphere encouraged me to actively play my assigned role.
-                    The first day experience was the foremost pleasant one, from
-                    ice breaking session to the assignment of roles, I enjoyed
-                    it. The friendly composture of the members made us all feel
-                    very inclusive. Somewhere on the journey, my mere
-                    acknowledgement of problems became actions for higher cause.
+                    Hindustan Unilever have propelled many initiatives to
+                    improve hygiene and sanitation across India. Along with
+                    their partners, they are working towards innovative
+                    solutions to help address the problem of plastic waste.
                   </p>
                   <p itemprop="description">
-                    I enjoyed taking the surveys as it gave an insight on the
-                    neighbourhood environmental problems and improved my
-                    personal skills. I look forward to working with the NGO for
-                    ‘The Change’. One of my friends, Maaz, expressed his
-                    fascination towards the NGO’s work environment. He claims
-                    that the work introduced him to content writing, which
-                    broadened his knowledge on expression.
+                    <strong>
+                      Start a Little Good – Plastic Banega Fantastic Campaign
+                    </strong>{" "}
+                    has been held in Bengaluru, Mumbai and Delhi. We at Let’s Be
+                    the Change are the leading partner for the event at
+                    Bengaluru. I, as an intern of LBTC, got a chance to be a
+                    part of this event and start a little good in my city,
+                    Bengaluru.
                   </p>
                   <p itemprop="description">
-                    The initiatives taken by the NGO inspired the intern to take
-                    this cause further in his own direction. The internship also
-                    played a role in personality development where the student’s
-                    communication skills and other aspects were improved.
-                    Another of my friend and active student, Neha, briefed that
-                    through the work, she realised the intensity of the problem
-                    and claimed that not many people are aware of its effects.
-                    She said ‘If we don’t think about the consequences of our
-                    actions, the continuum of the damage will not be subsided.’
-                    Hemanth, member of our team expressed that his values were
-                    enriched and he gained better insight on the procedure. He
-                    pointed out that survey work which included interview with
-                    the officials and residents improved his already gained
-                    information on environmental issues. Another beloved friend
-                    and intern, Surya, noticed that his feeling of
-                    responsibility towards the society relatively increased
-                    after working with the NGO. The value that he saw in the
-                    team work can be used to transform the society for the
-                    better. Mallu, part of our team, pointed out that working
-                    for clean Bengaluru induced a very positive feeling around
-                    him. I believe, we, who are associated with the complex
-                    nature of environmental issues which stem from the
-                    historical events and current restraints, need to take the
-                    initiatives. In conclusion, we all had different outlooks on
-                    the time we spent at ‘Lets Be The Change’ but we all can say
-                    its an internship with learning and fun.
+                    On the morning of February 2nd, volunteers from Karnataka
+                    State Reserve Police, United Way (Mumbai), students of New
+                    Brilliant Group of Institutions, and members of LBTC, UNDP,
+                    BBMP, Smitam and others gathered at B Narayanapura Lake near
+                    K.R. Puram, Bengaluru. After registration, we volunteers
+                    were given disposable gloves, fluorescent vests, and masks
+                    and were allotted zones to clean up. Zone 1 was allotted to
+                    me, where we found a lot of Plastic waste, Polystyrene
+                    (Thermocol) and aluminium foils. All the waste was collected
+                    and sorted into either dry waste or wet waste. Hindustan
+                    Unilever Limited, the sponsors of this event, will recycle
+                    all of the plastics that were collected into innovative
+                    products such as spectacle frames, benches and so on.
+                  </p>
+                  <p itemprop="description">
+                    After cleaning up our zones, we the volunteers of LBTC
+                    distributed food to the students who had participated in the
+                    cleanliness drive.
+                  </p>
+                  <p itemprop="description">
+                    More than 600 people participated in an enormous group
+                    effort to restore this lake to its former glory in just 5
+                    hours! The turnout for the event was fantastic, and a lot of
+                    progress has been made in cleaning up B Narayanapura Lake.
                   </p>
                   <br />
                   <div class="gallery">
@@ -176,7 +171,11 @@ function BlogDetails6() {
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Sahiti is an Intern with Let's Be The Change
+                      Let's Be The Change is an NGO run by a group of
+                      passionate, energetic and like minded people towards
+                      achieving a common objective of eradicating garbage dumps
+                      and directing the residents towards achieving a cleaner
+                      and greener environment.
                     </p>
                     <div class="athr-scl">
                       <a

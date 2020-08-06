@@ -34,7 +34,9 @@ function BlogDetails5() {
                     Blog
                   </a>
                 </li>
-                <li class="breadcrumb-item active">Jauntful Internship</li>
+                <li class="breadcrumb-item active">
+                  Have you volunteered yet?
+                </li>
               </ol>
             </div>
           </div>
@@ -53,81 +55,75 @@ function BlogDetails5() {
                 <div class="blg-inf">
                   <span class="blg-dat thm-bg">
                     <a href="#" title="" itemprop="url">
-                      July 13, 2019
+                      February 8, 2019
                     </a>
                   </span>
                   <span class="blg-tgs">
                     <i class="fa fa-tag"></i>
                     <a href="#" title="" itemprop="url">
-                      blog
+                      environment
                     </a>
                     ,
                     <a href="#" title="" itemprop="url">
-                      interns
+                      volunteering
                     </a>
                   </span>
-                  <h1 itemprop="headline">Jauntful Internship</h1>
+                  <h1 itemprop="headline">Have you volunteered yet?</h1>
                   <ul class="pst-mta">
                     <li>
                       <i class="fa fa-user thm-clr"></i>
                       <a href="#" title="" itemprop="url">
-                        Sahiti
+                        LBTC
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="blg-dtl-desc">
                   <p itemprop="description">
-                    Our journey as interns began on twenty fifth of June to
-                    ‘Let’s Be The Change’ through the Social Immersion Programme
-                    of our college, so as to analyse and abbreviate the
-                    environmental problems. The fresh experience as an associate
-                    degree intern to a non-government organisation stirred up
-                    several queries and expectations within me. The benign
-                    atmosphere encouraged me to actively play my assigned role.
-                    The first day experience was the foremost pleasant one, from
-                    ice breaking session to the assignment of roles, I enjoyed
-                    it. The friendly composture of the members made us all feel
-                    very inclusive. Somewhere on the journey, my mere
-                    acknowledgement of problems became actions for higher cause.
+                    Volunteers work together willingly for the benefit of their
+                    communities, environment and themselves. By giving back to
+                    the community, a volunteer does not only help the community
+                    grow stronger, but are also helping themselves become
+                    stronger. They play a dynamic role in improving our society.
+                    Knowing that they have made a positive impact on someone is
+                    an emotionally uplifting experience that cannot be matched
+                    by fame or money. As Paulo Coelho said –
                   </p>
                   <p itemprop="description">
-                    I enjoyed taking the surveys as it gave an insight on the
-                    neighbourhood environmental problems and improved my
-                    personal skills. I look forward to working with the NGO for
-                    ‘The Change’. One of my friends, Maaz, expressed his
-                    fascination towards the NGO’s work environment. He claims
-                    that the work introduced him to content writing, which
-                    broadened his knowledge on expression.
+                    “The Reward of our work is not what we get, but what we
+                    become”.
                   </p>
                   <p itemprop="description">
-                    The initiatives taken by the NGO inspired the intern to take
-                    this cause further in his own direction. The internship also
-                    played a role in personality development where the student’s
-                    communication skills and other aspects were improved.
-                    Another of my friend and active student, Neha, briefed that
-                    through the work, she realised the intensity of the problem
-                    and claimed that not many people are aware of its effects.
-                    She said ‘If we don’t think about the consequences of our
-                    actions, the continuum of the damage will not be subsided.’
-                    Hemanth, member of our team expressed that his values were
-                    enriched and he gained better insight on the procedure. He
-                    pointed out that survey work which included interview with
-                    the officials and residents improved his already gained
-                    information on environmental issues. Another beloved friend
-                    and intern, Surya, noticed that his feeling of
-                    responsibility towards the society relatively increased
-                    after working with the NGO. The value that he saw in the
-                    team work can be used to transform the society for the
-                    better. Mallu, part of our team, pointed out that working
-                    for clean Bengaluru induced a very positive feeling around
-                    him. I believe, we, who are associated with the complex
-                    nature of environmental issues which stem from the
-                    historical events and current restraints, need to take the
-                    initiatives. In conclusion, we all had different outlooks on
-                    the time we spent at ‘Lets Be The Change’ but we all can say
-                    its an internship with learning and fun.
+                    And most importantly, volunteering has been seen as a great
+                    stress relief activity as well!
                   </p>
+
+                  <p itemprop="description">
+                    So it’s not for money or fame, it’s just to lend a helping
+                    hand to make the world a better place. That is something you
+                    can’t buy with wealth. Here is a call to do your part, join
+                    the excitement, meet new people, be a positive influence,
+                    develop new talents and skills, grow from the experience,
+                    learn and serve, get personal satisfaction to work for a
+                    cause, be a part of a team, face new challenges, raise
+                    awareness and preserve the environment.
+                  </p>
+
+                  <p itemprop="description">
+                    LBTC gives you a chance to volunteer in Bengaluru, for a
+                    variety of exciting events that will help you contribute to
+                    the society as well as have a great time doing it! Once a
+                    part of our volunteer team, regular updates will be given on
+                    the events. If you are free, have time to spare or if an
+                    event is happening around your locality, just pop in with
+                    your friends.
+                  </p>
+
+                  <p itemprop="description">
+                    We have great volunteer opportunities in store for you and
+                    it is up to you to lend a hand and make a difference!
+                  </p>
+
                   <br />
                   <div class="gallery">
                     <div class="row">
@@ -176,7 +172,11 @@ function BlogDetails5() {
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Sahiti is an Intern with Let's Be The Change
+                      Let's Be The Change is an NGO run by a group of
+                      passionate, energetic and like minded people towards
+                      achieving a common objective of eradicating garbage dumps
+                      and directing the residents towards achieving a cleaner
+                      and greener environment.
                     </p>
                     <div class="athr-scl">
                       <a

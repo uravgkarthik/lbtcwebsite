@@ -22,18 +22,16 @@ function BlogArticles() {
                 <div className="blg-bx3">
                   <span className="thm-clr">News</span>
                   <h4 itemprop="headline">
-                    <a href="blog-detail.html" title="" itemprop="url">
-                      Number of People for Trapped in B&B's
-                    </a>
+                    <Link to="/blog/blog-1">Jauntful Internship!</Link>
                   </h4>
                   <p itemprop="description">
-                    Lorem ipsum dolor sit amet, ilmes loribus officia aspernatur
-                    quomum error incidunt exceptur.
+                    Our journey as interns began on twenty fifth of June to
+                    ‘Let’s Be The Change’ through the Social Immersion Programme
                   </p>
                   <ul className="pst-mta">
                     <li>
                       <a href="#top" title="" itemprop="url">
-                        February 15, 2018
+                        May 13, 2019
                       </a>
                     </li>
                     <li>
@@ -46,18 +44,16 @@ function BlogArticles() {
                 <div className="blg-bx3">
                   <span className="thm-clr">News</span>
                   <h4 itemprop="headline">
-                    <a href="blog-detail.html" title="" itemprop="url">
-                      32000 Senior Charity Digital Professionals
-                    </a>
+                    <Link to="/blog/blog-2">Cleanathon: What, Why & How</Link>
                   </h4>
                   <p itemprop="description">
-                    Lorem ipsum dolor sit amet, ilmes loribus officia aspernatur
-                    quomum error incidunt exceptur.
+                    The concept of Cleanathon was started by the Team of Lets Be
+                    the Change in 2014.
                   </p>
                   <ul className="pst-mta">
                     <li>
                       <a href="#top" title="" itemprop="url">
-                        August 18, 2019
+                        February 25, 2019
                       </a>
                     </li>
                     <li>
@@ -70,18 +66,18 @@ function BlogArticles() {
                 <div className="blg-bx3">
                   <span className="thm-clr">News</span>
                   <h4 itemprop="headline">
-                    <a href="blog-detail.html" title="" itemprop="url">
-                      Membership options and Prices.
-                    </a>
+                    <Link to="/blog/blog-3">
+                      Restorative Practices for Schools
+                    </Link>
                   </h4>
                   <p itemprop="description">
-                    Lorem ipsum dolor sit amet, ilmes loribus officia aspernatur
-                    quomum error incidunt exceptur.
+                    Schools are where hundreds of children attain literacy and
+                    are getting prepared for life.
                   </p>
                   <ul className="pst-mta">
                     <li>
                       <a href="#top" title="" itemprop="url">
-                        July 25, 2018
+                        February 25, 2019
                       </a>
                     </li>
                     <li>
@@ -94,7 +90,9 @@ function BlogArticles() {
           </div>
           <div className="vw-mr text-center">
             <a className="thm-btn">
-              <Link to="/blog" className="viewallpostsbutton">View All Posts</Link>
+              <Link to="/blog" className="viewallpostsbutton">
+                View All Posts
+              </Link>
             </a>
           </div>
         </div>
