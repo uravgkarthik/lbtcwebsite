@@ -8,7 +8,15 @@ import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 
-function Gallery() {
+const Gallery = () => {
+  
+  
+    React.useEffect(() => {
+       
+        window.scrollTo(0, 0)
+      
+    }, [])
+
   return (
     <div className="App">
       <main>
