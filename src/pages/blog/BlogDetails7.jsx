@@ -34,7 +34,7 @@ function BlogDetails7() {
                     Blog
                   </a>
                 </li>
-                <li class="breadcrumb-item active">Jauntful Internship</li>
+                <li class="breadcrumb-item active">About Us</li>
               </ol>
             </div>
           </div>
@@ -66,67 +66,142 @@ function BlogDetails7() {
                       interns
                     </a>
                   </span>
-                  <h1 itemprop="headline">Jauntful Internship</h1>
+                  <h1 itemprop="headline">About Us</h1>
                   <ul class="pst-mta">
                     <li>
                       <i class="fa fa-user thm-clr"></i>
                       <a href="#" title="" itemprop="url">
-                        Sahiti
+                        LBTC
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="blg-dtl-desc">
                   <p itemprop="description">
-                    Our journey as interns began on twenty fifth of June to
-                    ‘Let’s Be The Change’ through the Social Immersion Programme
-                    of our college, so as to analyse and abbreviate the
-                    environmental problems. The fresh experience as an associate
-                    degree intern to a non-government organisation stirred up
-                    several queries and expectations within me. The benign
-                    atmosphere encouraged me to actively play my assigned role.
-                    The first day experience was the foremost pleasant one, from
-                    ice breaking session to the assignment of roles, I enjoyed
-                    it. The friendly composture of the members made us all feel
-                    very inclusive. Somewhere on the journey, my mere
-                    acknowledgement of problems became actions for higher cause.
+                    <strong>Let’s Be The Change</strong> (LBTC) is a non-profit
+                    organization which aims to build a cleaner and healthier
+                    society by working with the people and the Government. LBTC
+                    was started by <strong>Anirudh S Dutt</strong> on 5th July
+                    2013. We have been growing ever since with over 250
+                    successful events, including cleanliness drives, awareness
+                    programmes, spot fixes, pet adoption drives and so on. We
+                    are mainly comprised of energetic youngsters whose only aim
+                    is to make Bengaluru a better place for the society by
+                    initiating cleanothon drives. We are a bridge connection
+                    between the Municipal Corporation (BBMP) and the Citizens.
+                    LBTC believes in involving citizens to actively participate
+                    in eradicating black spots and has helped in creating
+                    awareness and social responsibility among the residents.
                   </p>
                   <p itemprop="description">
-                    I enjoyed taking the surveys as it gave an insight on the
-                    neighbourhood environmental problems and improved my
-                    personal skills. I look forward to working with the NGO for
-                    ‘The Change’. One of my friends, Maaz, expressed his
-                    fascination towards the NGO’s work environment. He claims
-                    that the work introduced him to content writing, which
-                    broadened his knowledge on expression.
+                    <ul>
+                      <li>
+                        We host “Cleanathon Drives” – The act of eliminating
+                        garbage dumps and beautifying the location with the
+                        beautiful warli art.
+                      </li>
+                      <li>We have fixed more than 250 garbage dumps fixed.</li>
+                      <li>Average 4 hours spent per garbage spot.</li>
+                      <li>
+                        Fixed combined stretch of 20,000 meters of Garbage Dump.
+                      </li>
+                      <li>
+                        Involving 2,000+ people including residents and
+                        volunteers.
+                      </li>
+                      <li>We have conducted two Mega Cleanathon drives –</li>
+                      <ol>
+                        <li>
+                          Biggest Cleanathon in Kempegowda Bus Stand (Majestic),
+                          Bengaluru on 2nd October 2016. It was a massive
+                          cleanliness and beautification drive in Majestic Bus
+                          Stand with over 500 volunteers. It was inaugurated by
+                          Mr. P C Mohan, Member of Parliament.
+                        </li>
+                        <li>
+                          Mega Cleanathon on 2nd October 2017 – It was conducted
+                          across 72 wards involving more than 1500 people, where
+                          each ward had a team of 20/30 volunteers, cleaning and
+                          beautifying a garbage dumb with the BBMP (Municipal
+                          Corporation). This event was inaugurated by Mr. Rajiv
+                          Chandrashekar, Member of Parliament.
+                        </li>
+                      </ol>
+                      <li>
+                        We have also conducted Clay Ganapathi making workshops
+                        during the festival time. Last year (2016) more than
+                        1000 people made their own Ganapathi Idols and
+                        worshipped them. This year, almost 2500 people
+                        enthusiastically made their own clay Ganapas!
+                      </li>
+                      <li>
+                        Apart from this, as the quote goes “Prevention is better
+                        than cure”, we have always strived to look for the root
+                        cause for the creation of garbage dumps, increasing
+                        plastic usage and environmental pollution and are
+                        working towards enlightening people with alternatives to
+                        overcome the existing uncertainties and problems.
+                      </li>
+                    </ul>
                   </p>
                   <p itemprop="description">
-                    The initiatives taken by the NGO inspired the intern to take
-                    this cause further in his own direction. The internship also
-                    played a role in personality development where the student’s
-                    communication skills and other aspects were improved.
-                    Another of my friend and active student, Neha, briefed that
-                    through the work, she realised the intensity of the problem
-                    and claimed that not many people are aware of its effects.
-                    She said ‘If we don’t think about the consequences of our
-                    actions, the continuum of the damage will not be subsided.’
-                    Hemanth, member of our team expressed that his values were
-                    enriched and he gained better insight on the procedure. He
-                    pointed out that survey work which included interview with
-                    the officials and residents improved his already gained
-                    information on environmental issues. Another beloved friend
-                    and intern, Surya, noticed that his feeling of
-                    responsibility towards the society relatively increased
-                    after working with the NGO. The value that he saw in the
-                    team work can be used to transform the society for the
-                    better. Mallu, part of our team, pointed out that working
-                    for clean Bengaluru induced a very positive feeling around
-                    him. I believe, we, who are associated with the complex
-                    nature of environmental issues which stem from the
-                    historical events and current restraints, need to take the
-                    initiatives. In conclusion, we all had different outlooks on
-                    the time we spent at ‘Lets Be The Change’ but we all can say
-                    its an internship with learning and fun.
+                    We believe Bangalore can be free from garbage dumps when the
+                    locals take initiatives and work in synergy with the BBMP.
+                    Let’s Be The Change main emphasis is on building this
+                    synergy and empowering the locals.
+                  </p>
+                  <p itemprop="description">
+                    It’s a proud moment for us to list a few of our achievements
+                    over the years.
+                  </p>
+                  <p itemprop="description">
+                    Our Achievements
+                    <ol>
+                      <li>
+                        We Won of the “Yuva Chetana Award”, awarded by Youth For
+                        Seva (YFS) in 2014.
+                      </li>
+
+                      <li>
+                        Our Founder, President Mr. Anirudh S Dutt won the “Namma
+                        Bengaluru Rising Star of the Year” Award in 2015,
+                        awarded by “Namma Bengaluru Foundation”.
+                      </li>
+
+                      <li>
+                        Our initiative was appreciated and recognized by BBMP
+                        officials, “Sneha Sangha Sports Club”, Karunadu Kannada
+                        Kala Sangha, Hoysala Karnataka Sangha, Radio City, and
+                        many more.
+                      </li>
+
+                      <li>
+                        Our founder has been invited as a guest for many
+                        primetime weekend Radio shows. The RJs also attend our
+                        events with active participation
+                      </li>
+
+                      <li>
+                        Our “Cleanathon” events are regularly published in
+                        Bangalore Mirror, Deccan Herald, Vijaya Karnataka,
+                        Indian Express and many other leading newspapers.
+                      </li>
+
+                      <li>
+                        Our founder, Anirudh, has also given talks in various
+                        media channels like TV9, DD Chandana, Raj News, Suvarna
+                        News etc., speaking about various environmental issues.
+                      </li>
+
+                      <li>
+                        Our President’s story was recently featured in
+                        YourStory.com{" "}
+                        <a href="https://yourstory.com/2017/11/lets￾be-the-changeanirudh-dutt/">
+                          {" "}
+                          Click Here
+                        </a>
+                      </li>
+                    </ol>
                   </p>
                   <br />
                   <div class="gallery">
@@ -176,7 +251,11 @@ function BlogDetails7() {
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Sahiti is an Intern with Let's Be The Change
+                      Let's Be The Change is an NGO run by a group of
+                      passionate, energetic and like minded people towards
+                      achieving a common objective of eradicating garbage dumps
+                      and directing the residents towards achieving a cleaner
+                      and greener environment.
                     </p>
                     <div class="athr-scl">
                       <a

@@ -34,7 +34,9 @@ function BlogDetails3() {
                     Blog
                   </a>
                 </li>
-                <li class="breadcrumb-item active">Jauntful Internship</li>
+                <li class="breadcrumb-item active">
+                  Restorative Practices for Schools
+                </li>
               </ol>
             </div>
           </div>
@@ -53,80 +55,54 @@ function BlogDetails3() {
                 <div class="blg-inf">
                   <span class="blg-dat thm-bg">
                     <a href="#" title="" itemprop="url">
-                      July 13, 2019
+                      February 25, 2019
                     </a>
                   </span>
                   <span class="blg-tgs">
                     <i class="fa fa-tag"></i>
                     <a href="#" title="" itemprop="url">
-                      blog
+                      schools
                     </a>
                     ,
                     <a href="#" title="" itemprop="url">
-                      interns
+                      education
                     </a>
                   </span>
-                  <h1 itemprop="headline">Jauntful Internship</h1>
+                  <h1 itemprop="headline">Restorative Practices for Schools</h1>
                   <ul class="pst-mta">
                     <li>
                       <i class="fa fa-user thm-clr"></i>
                       <a href="#" title="" itemprop="url">
-                        Sahiti
+                        LBTC
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="blg-dtl-desc">
                   <p itemprop="description">
-                    Our journey as interns began on twenty fifth of June to
-                    ‘Let’s Be The Change’ through the Social Immersion Programme
-                    of our college, so as to analyse and abbreviate the
-                    environmental problems. The fresh experience as an associate
-                    degree intern to a non-government organisation stirred up
-                    several queries and expectations within me. The benign
-                    atmosphere encouraged me to actively play my assigned role.
-                    The first day experience was the foremost pleasant one, from
-                    ice breaking session to the assignment of roles, I enjoyed
-                    it. The friendly composture of the members made us all feel
-                    very inclusive. Somewhere on the journey, my mere
-                    acknowledgement of problems became actions for higher cause.
+                    Schools are where hundreds of children attain literacy and
+                    are getting prepared for life. This is why a school’s
+                    environment and atmosphere should be one which is inspiring.
+                    Keeping this in mind, LBTC has started a chain of events
+                    pertaining to school restoration. This transformation can be
+                    anything from paint work to flooring, patchwork, etc. This
+                    programme has been a major hit with corporate volunteers
+                    coming in to help out in collaboration with organisations
+                    like Goodera and Sattva.
                   </p>
                   <p itemprop="description">
-                    I enjoyed taking the surveys as it gave an insight on the
-                    neighbourhood environmental problems and improved my
-                    personal skills. I look forward to working with the NGO for
-                    ‘The Change’. One of my friends, Maaz, expressed his
-                    fascination towards the NGO’s work environment. He claims
-                    that the work introduced him to content writing, which
-                    broadened his knowledge on expression.
+                    This process starts with identifying schools who are in need
+                    of such transformations with the help of the Block Education
+                    Officers. A survey is then conducted for a problem and need
+                    analysis of the particular school. Once the problem area is
+                    identified, a plan is made. The execution of which is tried
+                    to be made as efficient as possible so that the event is a
+                    successful one.
                   </p>
                   <p itemprop="description">
-                    The initiatives taken by the NGO inspired the intern to take
-                    this cause further in his own direction. The internship also
-                    played a role in personality development where the student’s
-                    communication skills and other aspects were improved.
-                    Another of my friend and active student, Neha, briefed that
-                    through the work, she realised the intensity of the problem
-                    and claimed that not many people are aware of its effects.
-                    She said ‘If we don’t think about the consequences of our
-                    actions, the continuum of the damage will not be subsided.’
-                    Hemanth, member of our team expressed that his values were
-                    enriched and he gained better insight on the procedure. He
-                    pointed out that survey work which included interview with
-                    the officials and residents improved his already gained
-                    information on environmental issues. Another beloved friend
-                    and intern, Surya, noticed that his feeling of
-                    responsibility towards the society relatively increased
-                    after working with the NGO. The value that he saw in the
-                    team work can be used to transform the society for the
-                    better. Mallu, part of our team, pointed out that working
-                    for clean Bengaluru induced a very positive feeling around
-                    him. I believe, we, who are associated with the complex
-                    nature of environmental issues which stem from the
-                    historical events and current restraints, need to take the
-                    initiatives. In conclusion, we all had different outlooks on
-                    the time we spent at ‘Lets Be The Change’ but we all can say
-                    its an internship with learning and fun.
+                    After each of these projects, it gives us great satisfaction
+                    to see the children’s happy faces and their excitement to
+                    come to school each day.
                   </p>
                   <br />
                   <div class="gallery">
@@ -176,7 +152,11 @@ function BlogDetails3() {
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Sahiti is an Intern with Let's Be The Change
+                      Let's Be The Change is an NGO run by a group of
+                      passionate, energetic and like minded people towards
+                      achieving a common objective of eradicating garbage dumps
+                      and directing the residents towards achieving a cleaner
+                      and greener environment.
                     </p>
                     <div class="athr-scl">
                       <a

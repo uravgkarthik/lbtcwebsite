@@ -34,7 +34,9 @@ function BlogDetails4() {
                     Blog
                   </a>
                 </li>
-                <li class="breadcrumb-item active">Jauntful Internship</li>
+                <li class="breadcrumb-item active">
+                  Plogging – Fitness can save the Environment
+                </li>
               </ol>
             </div>
           </div>
@@ -53,80 +55,62 @@ function BlogDetails4() {
                 <div class="blg-inf">
                   <span class="blg-dat thm-bg">
                     <a href="#" title="" itemprop="url">
-                      July 13, 2019
+                      February 22, 2019
                     </a>
                   </span>
                   <span class="blg-tgs">
                     <i class="fa fa-tag"></i>
                     <a href="#" title="" itemprop="url">
-                      blog
+                      plog
                     </a>
                     ,
                     <a href="#" title="" itemprop="url">
-                      interns
+                      fitness
                     </a>
                   </span>
-                  <h1 itemprop="headline">Jauntful Internship</h1>
+                  <h1 itemprop="headline">
+                    Plogging – Fitness can save the Environment
+                  </h1>
                   <ul class="pst-mta">
                     <li>
                       <i class="fa fa-user thm-clr"></i>
                       <a href="#" title="" itemprop="url">
-                        Sahiti
+                        LBTC
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="blg-dtl-desc">
                   <p itemprop="description">
-                    Our journey as interns began on twenty fifth of June to
-                    ‘Let’s Be The Change’ through the Social Immersion Programme
-                    of our college, so as to analyse and abbreviate the
-                    environmental problems. The fresh experience as an associate
-                    degree intern to a non-government organisation stirred up
-                    several queries and expectations within me. The benign
-                    atmosphere encouraged me to actively play my assigned role.
-                    The first day experience was the foremost pleasant one, from
-                    ice breaking session to the assignment of roles, I enjoyed
-                    it. The friendly composture of the members made us all feel
-                    very inclusive. Somewhere on the journey, my mere
-                    acknowledgement of problems became actions for higher cause.
+                    From the words “Plastic” and “Jogging”, you get the word
+                    ‘Plogging’ – an idea that originated from Sweden in 2016.
+                    This is a new innovative idea that pairs exercise with doing
+                    social good – while you jog, pick the trash on the way and
+                    help get rid of plastic pollution.
                   </p>
                   <p itemprop="description">
-                    I enjoyed taking the surveys as it gave an insight on the
-                    neighbourhood environmental problems and improved my
-                    personal skills. I look forward to working with the NGO for
-                    ‘The Change’. One of my friends, Maaz, expressed his
-                    fascination towards the NGO’s work environment. He claims
-                    that the work introduced him to content writing, which
-                    broadened his knowledge on expression.
+                    It involves jogging with a bag and picking up scattered
+                    plastic waste on the streets. While jogging, people need to
+                    keep collecting litter in the bag and finally drop it off at
+                    a designated place. It includes way more body movement for
+                    exercise like squatting, bending and stretching. It is an
+                    incredible way to exercise as well as playing a game of
+                    treasure hunt!
                   </p>
                   <p itemprop="description">
-                    The initiatives taken by the NGO inspired the intern to take
-                    this cause further in his own direction. The internship also
-                    played a role in personality development where the student’s
-                    communication skills and other aspects were improved.
-                    Another of my friend and active student, Neha, briefed that
-                    through the work, she realised the intensity of the problem
-                    and claimed that not many people are aware of its effects.
-                    She said ‘If we don’t think about the consequences of our
-                    actions, the continuum of the damage will not be subsided.’
-                    Hemanth, member of our team expressed that his values were
-                    enriched and he gained better insight on the procedure. He
-                    pointed out that survey work which included interview with
-                    the officials and residents improved his already gained
-                    information on environmental issues. Another beloved friend
-                    and intern, Surya, noticed that his feeling of
-                    responsibility towards the society relatively increased
-                    after working with the NGO. The value that he saw in the
-                    team work can be used to transform the society for the
-                    better. Mallu, part of our team, pointed out that working
-                    for clean Bengaluru induced a very positive feeling around
-                    him. I believe, we, who are associated with the complex
-                    nature of environmental issues which stem from the
-                    historical events and current restraints, need to take the
-                    initiatives. In conclusion, we all had different outlooks on
-                    the time we spent at ‘Lets Be The Change’ but we all can say
-                    its an internship with learning and fun.
+                    This idea has led to many successful events, where numerous
+                    people have come together and carried this out to get
+                    amazing results. LBTC hosted a Plog Run across 54 different
+                    localities in Bengaluru, on October 2nd, 2018. It was a
+                    conscious effort to pick up plastic in our own
+                    neighbourhood. Various institutions came in to help as well,
+                    including waste management partners who made sure the
+                    collected waste was recycled.
+                  </p>
+
+                  <p itemprop="description">
+                    So if you are feeling fatigued and want to do something for
+                    your health and hygiene, go plogging!
                   </p>
                   <br />
                   <div class="gallery">
@@ -176,7 +160,11 @@ function BlogDetails4() {
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Sahiti is an Intern with Let's Be The Change
+                      Let's Be The Change is an NGO run by a group of
+                      passionate, energetic and like minded people towards
+                      achieving a common objective of eradicating garbage dumps
+                      and directing the residents towards achieving a cleaner
+                      and greener environment.
                     </p>
                     <div class="athr-scl">
                       <a
