@@ -8,7 +8,7 @@ function OurTeam(){
           <div className="container">
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
-                <h2 itemprop="headline">Our Team</h2>
+                <h2 className="smolfontsize" itemprop="headline">Our Team</h2>
                 <span>Board Members</span>
                 <i className="flaticon-sweat thm-clr"></i>
               </div>
