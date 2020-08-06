@@ -52,7 +52,7 @@ function Events2() {
                       <span className="thm-clr">29.09.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/17.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-1.jpg"
                           itemprop="image"
                         />
@@ -107,7 +107,7 @@ function Events2() {
                       <span className="thm-clr">05.08.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/8.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-2.jpg"
                           itemprop="image"
                         />
@@ -160,7 +160,7 @@ function Events2() {
                       <span className="thm-clr">05.07.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/9.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-3.jpg"
                           itemprop="image"
                         />
@@ -209,7 +209,7 @@ function Events2() {
                       <span className="thm-clr">02.09.2019</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../../assets/images/resources/evnt-orgn1-4.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-4.jpg"
                           itemprop="image"
                         />

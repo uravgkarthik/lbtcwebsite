@@ -16,7 +16,7 @@ function EventDetails18() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
           </div>
         </section>
@@ -45,7 +45,7 @@ function EventDetails18() {
             <div class="container">
               <div class="evnt-dtl-thmb">
                 <img
-                  src={require("../../assets/images/resources/evnt-dtl-img1-1.jpg")}
+                  src={require("../events/Images/EventImages/9.jpg")}
                   alt="evnt-dtl-img1-1.jpg"
                   itemprop="image"
                 />
@@ -55,7 +55,7 @@ function EventDetails18() {
                   <h1 itemprop="headline">Team LBTC turns 5!</h1>
                   <div class="evnt-orgn">
                     <img
-                      src={require("../../assets/images/resources/evnt-orgn1-1.jpg")}
+                      src={require("../events/Images/Authors/Author-LBTC.png")}
                       alt="evnt-orgn1-1.jpg"
                       itemprop="image"
                     />

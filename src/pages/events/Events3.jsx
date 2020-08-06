@@ -52,7 +52,7 @@ function Events2() {
                       <span className="thm-clr">24.08.2019</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/6.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-1.jpg"
                           itemprop="image"
                         />
@@ -102,7 +102,7 @@ function Events2() {
                       <span className="thm-clr">02.10.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/10.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-2.jpg"
                           itemprop="image"
                         />
@@ -148,7 +148,7 @@ function Events2() {
                       <span className="thm-clr">09.09.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/7.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-3.jpg"
                           itemprop="image"
                         />
@@ -197,7 +197,7 @@ function Events2() {
                       <span className="thm-clr">16.08.2018</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/12.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-4.jpg"
                           itemprop="image"
                         />
@@ -249,7 +249,7 @@ function Events2() {
                       <span className="thm-clr">31.08.2019</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/11.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-5.jpg"
                           itemprop="image"
                         />

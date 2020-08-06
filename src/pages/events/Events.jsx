@@ -52,7 +52,7 @@ function Events() {
                       <span className="thm-clr">08.03.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/3.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-1.jpg"
                           itemprop="image"
                         />
@@ -99,7 +99,7 @@ function Events() {
                       <span className="thm-clr">01.03.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/2.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-2.jpg"
                           itemprop="image"
                         />
@@ -151,7 +151,7 @@ function Events() {
                       <span className="thm-clr">22.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/5.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-3.jpg"
                           itemprop="image"
                         />
@@ -202,7 +202,7 @@ function Events() {
                       <span className="thm-clr">16.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/1.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-4.jpg"
                           itemprop="image"
                         />
@@ -254,7 +254,7 @@ function Events() {
                       <span className="thm-clr">09.02.2020</span>
                       <div className="evnt-orgn">
                         <img
-                          src={require("../events/Images/EventImages/13.jpg")}
+                          src={require("../events/Images/Authors/Author-LBTC.png")}
                           alt="evnt-orgn1-5.jpg"
                           itemprop="image"
                         />

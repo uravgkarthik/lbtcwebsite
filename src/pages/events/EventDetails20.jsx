@@ -16,7 +16,7 @@ function EventDetails20() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../../assets/images/pg-tp-bg1.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
           </div>
         </section>
@@ -68,7 +68,7 @@ function EventDetails20() {
                   </div>
                   <div class="evnt-orgn">
                     <img
-                      src={require("../../assets/images/resources/evnt-orgn1-2.jpg")}
+                      src={require("../events/Images/Authors/Author-LBTC.png")}
                       alt="evnt-orgn1-2.jpg"
                       itemprop="image"
                     />
