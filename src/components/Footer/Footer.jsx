@@ -37,7 +37,7 @@ function Footer() {
                     <li>
                       <i class="fa fa-map-marker thm-clr"></i>
                       <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
-                        No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
+                        No. 1062, 15th Cross,<br/> 25th Main, Banashankari II Stage,
                         Bengaluru - 560070
                       </a>
                     </li>
@@ -78,14 +78,14 @@ function Footer() {
                   <a href="index.html" title="Team LBTC" itemprop="url">
                     Team LBTC <br />
                   </a>{" "}
-                  Powered By{" "}
+                  {/* Powered By{" "}
                   <a
                     href="https://www.google.com"
                     title="Team LBTC"
                     itemprop="url"
                   >
                     HexClan Labs <br />
-                  </a>
+                  </a> */}
                 </p>
                 <div class="ftr-sbscrb thm-layer opcAdi">
                   {/* <div
