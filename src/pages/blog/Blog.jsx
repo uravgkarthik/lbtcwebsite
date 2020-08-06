@@ -45,17 +45,13 @@ function Blog() {
                   <div class="blg-wrp style4 remove-ext6">
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-1">
                           <img
                             src={require("../blog/Images/Blog1.jpg")}
                             alt="Blog-1"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -74,13 +70,7 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
-                            Jauntful Internship!
-                          </a>
+                          <Link to="/blog/blog-1">Jauntful Internship!</Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -103,17 +93,13 @@ function Blog() {
                     </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-2">
                           <img
                             src={require("../blog/Images/Blog2.jpg")}
                             alt="Blog-2"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -140,13 +126,9 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
+                          <Link to="/blog/blog-2">
                             Cleanathon: What, Why & How
-                          </a>
+                          </Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -169,17 +151,13 @@ function Blog() {
                     </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-3">
                           <img
                             src={require("../blog/Images/Blog3.jpg")}
                             alt="Blog-3"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -206,13 +184,9 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
+                          <Link to="/blog/blog-3">
                             Restorative Practices for Schools
-                          </a>
+                          </Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -237,17 +211,13 @@ function Blog() {
                     </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-4">
                           <img
                             src={require("../blog/Images/Blog4.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -274,13 +244,9 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
+                          <Link to="/blog/blog-4">
                             Plogging – Fitness can save the Environment
-                          </a>
+                          </Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -305,17 +271,13 @@ function Blog() {
                     </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-5">
                           <img
                             src={require("../blog/Images/Blog5.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -342,13 +304,9 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
+                          <Link to="/blog/blog-5">
                             Have you volunteered yet?
-                          </a>
+                          </Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -372,17 +330,13 @@ function Blog() {
                     </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-6">
                           <img
                             src={require("../blog/Images/Blog6.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -409,14 +363,10 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
+                          <Link to="/blog/blog-6">
                             Plastic Banega Fantastic Campaign @ B Narayanapura
                             Lake
-                          </a>
+                          </Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
@@ -441,17 +391,13 @@ function Blog() {
 
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
-                        <a
-                          href="blog-detail-no-sidebar.html"
-                          title=""
-                          itemprop="url"
-                        >
+                        <Link to="/blog/blog-7">
                           <img
                             src={require("../blog/Images/Blog7.jpg")}
                             alt="Blog-4"
                             itemprop="image"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="blg-inf">
                         <span class="blg-dat thm-bg">
@@ -478,13 +424,7 @@ function Blog() {
                           </a>
                         </span>
                         <h4 itemprop="headline">
-                          <a
-                            href="blog-detail-no-sidebar.html"
-                            title=""
-                            itemprop="url"
-                          >
-                            About Us
-                          </a>
+                          <Link to="/blog/blog-7">About Us</Link>
                         </h4>
                         <ul class="pst-mta">
                           <li>
