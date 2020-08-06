@@ -502,17 +502,13 @@ function Blog() {
                       <div class="mini-pst-wrp">
                         <div class="mini-pst">
                           <div class="mini-pst-thmb">
-                            <a
-                              href="blog-detail-no-sidebar.html"
-                              title=""
-                              itemprop="url"
-                            >
+                            <Link to="/blog/blog-1">
                               <img
                                 src={require("../blog/Images/SidebarImages/S1.jpg")}
                                 alt="SideBar-1"
                                 itemprop="image"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div class="mini-pst-inf">
                             <span>
@@ -521,29 +517,19 @@ function Blog() {
                               </a>
                             </span>
                             <h6 itemprop="headline">
-                              <a
-                                href="blog-detail-no-sidebar.html"
-                                title=""
-                                itemprop="url"
-                              >
-                                Jauntful Intership!
-                              </a>
+                              <Link to="/blog/blog-1">Jauntful Intership!</Link>
                             </h6>
                           </div>
                         </div>
                         <div class="mini-pst">
                           <div class="mini-pst-thmb">
-                            <a
-                              href="blog-detail-no-sidebar.html"
-                              title=""
-                              itemprop="url"
-                            >
+                            <Link to="/blog/blog-2">
                               <img
                                 src={require("../blog/Images/SidebarImages/S2.jpg")}
                                 alt="Sidebar-2"
                                 itemprop="image"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div class="mini-pst-inf">
                             <span>
@@ -552,35 +538,25 @@ function Blog() {
                               </a>
                             </span>
                             <h6 itemprop="headline">
-                              <a
-                                href="blog-detail-no-sidebar.html"
-                                title=""
-                                itemprop="url"
-                              >
+                              <Link to="/blog/blog-2">
                                 Cleanathon: What, Why & How
-                              </a>
+                              </Link>
                             </h6>
                           </div>
                         </div>
                         <div class="mini-pst">
                           <div class="mini-pst-thmb">
-                            <a href="#top" title="" itemprop="url">
+                            <Link to="/blog/blog-3">
                               <img
                                 src={require("../blog/Images/SidebarImages/S3.jpg")}
                                 alt="Sidebar-3"
                                 itemprop="image"
                               />
-                            </a>
+                            </Link>
                           </div>
                           <div class="mini-pst-inf">
                             <span>
-                              <a
-                                href="blog-detail-no-sidebar.html"
-                                title=""
-                                itemprop="url"
-                              >
-                                February 25, 2019
-                              </a>
+                              <Link to="/blog/blog-3">February 25, 2019</Link>
                             </span>
                             <h6 itemprop="headline">
                               <a
