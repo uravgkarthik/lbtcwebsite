@@ -21,9 +21,9 @@ const PartnersContainer = () =>{
       {
         imgSrc: Third,
       },
-      {
-        imgSrc: Fourth,
-      },
+      // {
+      //   imgSrc: Fourth,
+      // },
       {
         imgSrc: Fifth,
       },
@@ -46,7 +46,7 @@ const PartnersContainer = () =>{
         <div className="container">
             <div className="sec-ttl v2 text-center">
                 <div className="sec-ttl-inr">
-                    <h2 itemprop="headline">Our Partners</h2>
+                    <h2 itemprop="headline">Our Supporters</h2>
                     <span>Here we present to you all our partners whose contribution has helped us achieve our objectives and mission of enhancing
                     cleanliness.</span>
                 </div>
