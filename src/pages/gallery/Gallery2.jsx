@@ -9,6 +9,11 @@ import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 
 function Gallery() {
+  React.useEffect(() => {
+
+    window.scrollTo(0, 0)
+
+  }, [])
   return (
     <div className="App">
       <main>
@@ -255,8 +260,6 @@ function Gallery() {
                     >1</Link>
                   </li>
                   <li class="page-item active">
-
-
                     <span class="page-link">2</span>
                   </li>
                   <li class="page-item">
