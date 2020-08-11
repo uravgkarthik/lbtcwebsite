@@ -1,14 +1,7 @@
-import React,{useEffect,useState} from 'react';
+import React from 'react';
 import '../HeaderBar/headerbar.min.scss';
 
-const HeaderBar=() => {
-  
-  const [changeHeader, setChangeHeader] = useState(true);
-  useEffect(() => {
-    console.log("Change Header");
-    setInterval(() => setChangeHeader(!changeHeader), 5000);
-    
-  }, []);
+function HeaderBar() {
     return (
       <div
         className="tpbr flex"
@@ -24,17 +17,10 @@ const HeaderBar=() => {
           <div className="tpbr-inr">
             <div className="row justify-content-center">
               <div className="col-md-6 col-sm-12 col-lg-6">
-                {changeHeader ? (
-                  <p itemprop="description">
-                    <i className="flaticon-error thm-clr"></i>
-                    <strong>Crisis Watch:</strong> Covid-19 In India
-                  </p>
-                ) : (
-                  <p itemprop="description">
-                    <i className="flaticon-error thm-clr"></i>
-                    <strong>Crisis Watch:</strong> Covid-19 In India
-                  </p>
-                )}
+                <p itemprop="description">
+                  <i className="flaticon-error thm-clr"></i>
+                  <strong>Crisis Watch:</strong> Covid-19 In India
+                </p>
               </div>
             </div>
           </div>
