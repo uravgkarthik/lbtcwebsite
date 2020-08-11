@@ -4,7 +4,7 @@ import "../MenuBar/menubar.min.scss";
 
 function MenuBar() {
   return (
-    <header class="style1 v2 stick flex">
+    <header class="style1 v2 stick flex makethebarfix">
       <div class="container">
         <div class="wb-lgmnu-wrp flex justify-content-between">
           <Link to="">
