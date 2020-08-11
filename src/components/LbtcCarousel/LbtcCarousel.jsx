@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
+import "../LbtcCarousel/lbtccarousel.min.scss";
 
 function EventFunding() {
     return (
@@ -34,6 +35,14 @@ function EventFunding() {
                         itemprop="url"
                       >
                         Sign Me Up As a Volunteer<span></span>
+                      </a>
+                      <a
+                        className="thm-btn reportaspot"
+                        href="donate-now.html"
+                        title=""
+                        itemprop="url" 
+                      >
+                        Report A Spot<span></span>
                       </a>
                     </div>
                   </div>
