@@ -4,7 +4,11 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
 
-function ContactUS() {
+const ContactUS = () => {
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   return (
     <div classNameName="App">
       <main>
