@@ -41,7 +41,11 @@ function AboutUs() {
                   <br />
 
                   <a className="thm-btn" itemprop="url">
-                    <Link to="/about" className="learnmorebutton">
+                    <Link
+                      to="/about"
+                      className="learnmorebutton"
+                      style={{ textDecoration: "none" }}
+                    >
                       Learn More<span></span>
                     </Link>
                   </a>
