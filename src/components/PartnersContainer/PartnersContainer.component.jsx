@@ -62,7 +62,11 @@ const PartnersContainer = () => {
               })}
             </div>
           </div>
-          <Link to="/form" className="thm-btn" href="#top">
+          <Link
+            to="/form"
+            className="thm-btn"
+            style={{ textDecoration: "none" }}
+          >
             Become A Partner<span></span>
           </Link>
         </div>
