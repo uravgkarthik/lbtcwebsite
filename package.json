@@ -14,12 +14,13 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-jotform-embed": "^1.0.4",
     "react-owl-carousel": "^2.3.1",
     "react-relay": "^10.0.0",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-top": "^0.2.1",
     "react-script-tag": "^1.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.2",
     "react-youtube": "^7.11.3"
   },
   "scripts": {
