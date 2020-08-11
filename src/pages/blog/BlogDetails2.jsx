@@ -167,38 +167,7 @@ function BlogDetails2() {
                   <br />
                   <div class="gallery">
                     <div class="row">
-                      <div class="col-md-6 col-sm-6 col-lg-6">
-                        <div class="gallery-item">
-                          <a
-                            href="../../assets/images/resources/blg-dtl-gal-img2-1.jpg"
-                            title=""
-                            data-fancybox="gallery"
-                            itemprop="url"
-                          >
-                            <img
-                              src={require("../../assets/images/resources/blg-dtl-gal-img2-1.jpg")}
-                              alt="blg-dtl-gal-img2-1.jpg"
-                              itemprop="image"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 col-lg-6">
-                        <div class="gallery-item">
-                          <a
-                            href="../../assets/images/resources/blg-dtl-gal-img2-2.jpg"
-                            title=""
-                            data-fancybox="gallery"
-                            itemprop="url"
-                          >
-                            <img
-                              src={require("../../assets/images/resources/blg-dtl-gal-img2-2.jpg")}
-                              alt="blg-dtl-gal-img2-2.jpg"
-                              itemprop="image"
-                            />
-                          </a>
-                        </div>
-                      </div>
+
                       <div class="col-md-12 col-sm-12 col-lg-12"></div>
                     </div>
                   </div>

@@ -62,7 +62,11 @@ function MenuBar() {
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                  <a href="https://bengaluruveeraru.org/ourwork/index.html">
+                  <a
+                    href="https://bengaluruveeraru.org/ourwork/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Covid-19
                   </a>
                 </li>
@@ -74,6 +78,7 @@ function MenuBar() {
                 itemprop="url"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ textDecoration: "none"}}
               >
                 Donate<span></span>
               </a>

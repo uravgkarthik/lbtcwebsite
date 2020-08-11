@@ -7,7 +7,10 @@ import DisqusComments from "../../components/Disqus/DisqusComments";
 import "../blog/blog.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
 
-function Blog() {
+const Blog = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div classNameName="App">
       <main>
@@ -701,5 +704,5 @@ function Blog() {
       </main>
     </div>
   );
-}
+};
 export default Blog;
