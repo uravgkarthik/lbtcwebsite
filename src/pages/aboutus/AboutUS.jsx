@@ -196,10 +196,6 @@ function AboutUS() {
                           </ul>
                         </ul>
                       </p>
-                      <br />
-                      <h2 itemprop="headline">Incubation</h2>
-
-                      <p itemprop="description">NSRCEL, IIMB – 2019 to 2020</p>
 
                       <img
                         src={require("../aboutus/TeamLBTC.png")}
