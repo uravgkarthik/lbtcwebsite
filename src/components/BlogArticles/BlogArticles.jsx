@@ -90,7 +90,11 @@ function BlogArticles() {
           </div>
           <div className="vw-mr text-center">
             <a className="thm-btn">
-              <Link to="/blog" className="viewallpostsbutton">
+              <Link
+                to="/blog"
+                className="viewallpostsbutton"
+                style={{ textDecoration: "none" }}
+              >
                 View All Posts
               </Link>
             </a>
