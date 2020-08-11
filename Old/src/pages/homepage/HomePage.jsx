@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from "react";
+import React from "react";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Partners from "../../components/Partners/Partners";
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
@@ -10,18 +10,16 @@ import Footer from "../../components/Footer/Footer";
 import LbtcCarousel from "../../components/LbtcCarousel/LbtcCarousel";
 import OurActivities from "../../components/OurActivities/OurActivities";
 import EventFunding from "../../components/EventFunding/EventFunding";
-//import Testimonials from "../../components/Testimonials/Testimonials";
-import { Link } from "react-router-dom";
+import Testimonials from "../../components/Testimonials/Testimonials";
+import { Switch, Route, Link } from "react-router-dom";
 import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 
 function HomePage() {
-  
   return (
     <div className="App">
       <main>
         <HeaderBar></HeaderBar> {/* Headers Component */}
-
         <MenuBar></MenuBar> {/* MenuBar Component */}
         <StickyHeader></StickyHeader> {/* StickyHeader Component */}
         <ResponsiveHeader></ResponsiveHeader> {/* Headers Component */}

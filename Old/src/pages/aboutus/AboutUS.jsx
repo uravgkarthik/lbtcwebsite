@@ -126,11 +126,6 @@ function AboutUS() {
                   </div>
                   <div className="col-md-5 col-sm-12 col-lg-5">
                     <div className="abt-pg-imgs">
-                    <img
-                        src={require("../../components/AboutUs/AboutUs.jpg")}
-                        alt="WhatDoWeDo.jpg"
-                        itemprop="image"
-                      />
                       <img
                         src={require("../aboutus/Who-AreWe.jpg")}
                         alt="WhatDoWeDo.jpg"
