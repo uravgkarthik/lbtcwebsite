@@ -4,13 +4,13 @@ import '../HeaderBar/headerbar.min.scss';
 function HeaderBar() {
     return (
       <div
-        className="tpbr flex"
+        className="tpbr flex headerbarfix"
         style={{
           margin: "0",
           padding: "0",
           width: "100%",
           backgroundColor: "black",
-          textAlign: "center",
+          textAlign: "center"
         }}
       >
         <div className="container">
