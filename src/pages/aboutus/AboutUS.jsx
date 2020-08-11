@@ -10,7 +10,10 @@ import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
-function AboutUS() {
+const AboutUS = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <main>
       <HeaderBar></HeaderBar>
@@ -212,6 +215,27 @@ function AboutUS() {
                         itemprop="image"
                       />
                       <img
+                        src={require("../aboutus/WWR.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../gallery/Images/gallery1page/1L.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../events/Images/EventImages/19.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+
+                      <img
+                        src={require("../../pages/homepage/Come2OurEvents.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
                         src={require("../aboutus/What-Do-WeDo.jpg")}
                         alt="abt-pg-img1-2.jpg"
                         itemprop="image"
@@ -276,6 +300,7 @@ function AboutUS() {
                       href="https://cdn.jotfor.ms/letsbethechange.india/bv-volunteers"
                       title=""
                       itemprop="url"
+                      style={{ textDecoration: "none" }}
                     >
                       Become A Volunteer<span></span>
                     </a>
@@ -298,6 +323,6 @@ function AboutUS() {
       <Footer></Footer> {/* Footer Component */}
     </main>
   );
-}
+};
 
 export default AboutUS;
