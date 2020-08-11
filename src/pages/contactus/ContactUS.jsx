@@ -167,14 +167,14 @@ function ContactUS() {
                   </div>
                 </div>
               </div>
-              <div class="cnt-fq text-center">
+              {/* <div class="cnt-fq text-center">
                 <h2 itemprop="headline">
                   <i class="fa fa-cog"></i>Find Your Answer Here
                   <a class="thm-btn" href="#top" title="" itemprop="url">
                     Faq's<span></span>
                   </a>
                 </h2>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
