@@ -10,7 +10,6 @@ import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
-
 function AboutUS() {
   return (
     <main>
@@ -82,41 +81,122 @@ function AboutUS() {
                         synergy with the government”
                       </p>
                       <br />
-                      <h2 itemprop="headline">What We Do? </h2>
+                      <h2 itemprop="headline">Our Achievements </h2>
                       <p itemprop="description">
                         <ul>
                           <li>
-                            We host ​“Cleanathon”​ drives (eradication and
-                            beautification of garbage dumps) in Bengaluru. We
-                            work towards making Bengaluru free from garbage
-                            dumps, one stretch at a time.
+                            Namma Bengaluru Rising Star of the Year Award (2015)
                           </li>{" "}
+                          <li>National Yuva Chethana Award (2017)</li>
                           <li>
-                            We conduct free ​Clay Ganapathi Workshops. In the
-                            past 2 years, over 3500 people have made their own
-                            Ganapathi Idols, for worship during the festival
-                            season.
+                            Guinness World Record for collecting 33.5 Tonnes of
+                            plastic bottles in 12 hours (2018)
                           </li>
                           <li>
-                            We have tied-up with Precious Paws Foundation to
-                            organize fundraising events for injured stray dogs,
-                            pet adoption (stray, homeless pups).{" "}
-                          </li>
-                          <li>
-                            On Television, Radio, and Social Media, we spread
-                            awareness about the importance of waste segregation
-                            and things that the average citizen can do to keep
-                            their localities clean.
+                            Featured as one of the “Young Achiever” in{" "}
+                            <strong>Weekend with Ramesh</strong> (2019) (Prime
+                            Show in Karnataka)
                           </li>{" "}
-                          <li>
-                            In our YouTube channel, we demonstrate simple steps
-                            to keep your surroundings clean, various segregation
-                            techniques, and also have videos about traffic
-                            rules, common traffic conventions that people should
-                            follow, chain-snatching etc.
-                          </li>
                         </ul>
                       </p>
+
+                      <br />
+                      <h2 itemprop="headline">
+                        Our Community Volunteering Activities{" "}
+                      </h2>
+                      <p itemprop="description">
+                        Musical Cleanathon:
+                        <ul>
+                          <li>
+                            Beautification of Garbage Dump while a local band
+                            performs
+                          </li>{" "}
+                          <li>Encourages communities coming together</li>
+                        </ul>
+                        Plog Run
+                        <ul>
+                          <li>
+                            Jogging while collecting Dry waste for recycling
+                          </li>{" "}
+                        </ul>
+                        Clay Ganapathi Workshop:
+                        <ul>
+                          <li>
+                            Flagship activity where we train citizens to build
+                            idol from scratch
+                          </li>{" "}
+                        </ul>
+                        School Beautification, SWM Awareness Drives, Street
+                        Plays, and many more
+                      </p>
+                      <br />
+                      <h2 itemprop="headline">Incubation</h2>
+
+                      <p itemprop="description">NSRCEL, IIMB – 2019 to 2020</p>
+
+                      <br />
+                      <h2 itemprop="headline">Our Current Work </h2>
+                      <p itemprop="description">
+                        <ul>
+                          <li>
+                            Building a platform called “Bengaluru Veeraru” where
+                            like-minded organisations, individuals come together
+                            under one roof to help solve community problems by
+                            providing step-by-step solutions and by coordinating
+                            with the government
+                          </li>{" "}
+                          <li>
+                            About{" "}
+                            <a href="https://bengaluruveeraru.org">
+                              Bengaluru Veeraru (BV):
+                            </a>{" "}
+                            BV is a platform to recognize and bring together all
+                            the like-minded NGOs, RWAs, and Active Citizens for
+                            a collective effort towards the betterment of Namma
+                            Bengaluru
+                          </li>
+                          <li>3 key Activities of Bengaluru Veeraru:</li>
+                          <ul>
+                            <li>BV Certification Course:</li>
+                            <ul>
+                              <li>
+                                Any individual can take up a volunteering course
+                                for 3 months to become a Bengaluru Veera of
+                                their own community
+                              </li>
+                              <li>
+                                This will help an ordinary individual who wants
+                                to initiate change become a warrior who
+                                implements and sustains necessary changes in
+                                their communities{" "}
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul>
+                            <li>BV Awards:</li>
+                            <ul>
+                              <li>
+                                Platform recognizes and honours active citizens,
+                                community groups, RWAs & NGOs who are
+                                contributing for the Better Bengaluru as
+                                “Bengaluru Veeraru”
+                              </li>
+                            </ul>
+                          </ul>
+                          <ul>
+                            <li>BV Connect:</li>
+                            <ul>
+                              <li>
+                                Platform helps citizens to connect with similar
+                                vision NGOs, RWAs and individuals to support
+                                them in building their organisation and vice
+                                versa
+                              </li>
+                            </ul>
+                          </ul>
+                        </ul>
+                      </p>
+
                       <img
                         src={require("../aboutus/TeamLBTC.png")}
                         alt="WhoAreWe.jpg"
@@ -146,9 +226,9 @@ function AboutUS() {
       </section>
       <section>
         <div className="block black-layer opc3 paddingbeda">
-          <div
-            className="fixed-bg fullcontainerimg">
-            <img className="fullcontainerimg"
+          <div className="fixed-bg fullcontainerimg">
+            <img
+              className="fullcontainerimg"
               src={require("../aboutus/../aboutus/VideoBkgnd.jpg")}
               alt="abt-pg-img1-2.jpg"
               itemprop="image"
@@ -163,9 +243,7 @@ function AboutUS() {
                   title=""
                   itemprop="url"
                 > */}
-                  
-                  <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
-
+                <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
                 {/* </a> */}
               </div>
             </div>
@@ -190,7 +268,8 @@ function AboutUS() {
                     </p>
                     <br></br>
                     <p itemprop="description">
-                      Join Us <span className="bluecolorhashtag">#TeamLBTC</span>
+                      Join Us{" "}
+                      <span className="bluecolorhashtag">#TeamLBTC</span>
                     </p>
                     <a
                       className="thm-btn"

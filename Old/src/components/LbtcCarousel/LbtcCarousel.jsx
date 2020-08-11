@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
+import "../LbtcCarousel/lbtccarousel.min.scss";
 
 function EventFunding() {
   return (
@@ -31,9 +32,17 @@ function EventFunding() {
                       to="/form"
                       className="thm-btn"
                       title=""
-                      itemprop="url"
+                      itemprop="url" style={{textDecoration: "none"}}
                     >
-                      Sign Me Up As a Volunteer<span></span>
+                      Sign Me Up As a Volunteer
+                    </Link>
+                    <Link
+                      to="/form"
+                      className="thm-btn reportaspot"
+                      title=""
+                      itemprop="url" style={{marginTop: "0.625rem",textDecoration: "none"}}
+                    >
+                      Report a Spot
                     </Link>
                   </div>
                 </div>
