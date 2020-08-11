@@ -5,7 +5,10 @@ import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
 
-function Blog() {
+const Blog = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div classNameName="App">
       <main>
@@ -15,7 +18,10 @@ function Blog() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="MenuBarBkgnd" />
+              <img
+                src={require("../aboutus/AboutUs-Main-3.jpg")}
+                alt="MenuBarBkgnd"
+              />
             </div>
           </div>
         </section>
@@ -388,7 +394,12 @@ function Blog() {
                         </a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#top" title="" itemprop="url">
+                        <a
+                          class="page-link"
+                          href="#top"
+                          title=""
+                          itemprop="url"
+                        >
                           1
                         </a>
                       </li>
@@ -396,7 +407,12 @@ function Blog() {
                         <span class="page-link">2</span>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#top" title="" itemprop="url">
+                        <a
+                          class="page-link"
+                          href="#top"
+                          title=""
+                          itemprop="url"
+                        >
                           3
                         </a>
                       </li>
@@ -683,5 +699,5 @@ function Blog() {
       </main>
     </div>
   );
-}
+};
 export default Blog;
