@@ -8,23 +8,27 @@ import Footer from "../../components/Footer/Footer";
 import "../forms/mainform.min.scss";
 
 function EventDetails8() {
-  const iframeStyle = {
-    width: "100%",
-    height: "950px",
-  };
+  
   return (
     
-      <main>
+    <main>
         <HeaderBar></HeaderBar>
 
         <MenuBar></MenuBar>
+      <div className="container">
+        <div className="row">
 
-        <div className="Jotformsize">
-        
-
-        <JotformEmbed src="https://form.jotform.com/letsbethechange.india/signup" style={iframeStyle}/>
         </div>
+      </div>
+        {/* <div className="containerx">
+            <div className="container">
+                <div className="row">
+                    
+                </div>
+            </div>
+        </div> */}
         
+        <JotformEmbed src="https://form.jotform.com/letsbethechange.india/signup" />
 
         <Footer></Footer>
       </main>
