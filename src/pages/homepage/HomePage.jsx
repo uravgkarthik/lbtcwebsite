@@ -15,7 +15,10 @@ import { Switch, Route, Link } from "react-router-dom";
 import "../homepage/homepage.min.scss";
 import PartnersContainer from "../../components/PartnersContainer/PartnersContainer.component";
 
-function HomePage() {
+const HomePage = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="App">
       <main>
@@ -56,7 +59,11 @@ function HomePage() {
                       <br />
 
                       <a className="thm-btn" title="">
-                        <Link to="/events" className="viewallbutton">
+                        <Link
+                          to="/events"
+                          className="viewallbutton"
+                          style={{ textDecoration: "none" }}
+                        >
                           View All The Events<span></span>
                         </Link>
                       </a>
@@ -76,6 +83,6 @@ function HomePage() {
       </main>
     </div>
   );
-}
+};
 
 export default HomePage;
