@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
+import DisqusComments from "../../components/Disqus/DisqusComments";
 import { Switch, Route, Link } from "react-router-dom";
 
 function BlogDetails5() {
@@ -210,86 +211,8 @@ function BlogDetails5() {
                 </div>
                 <div class="cmt-wrp">
                   <h4 itemprop="headline">Comments</h4>
-                  <ul class="cmt-lst">
-                    <li>
-                      <div class="cmt-bx">
-                        <img
-                          src={require("../../assets/images/resources/cmt-img1-1.jpg")}
-                          alt="cmt-img1-1.jpg"
-                          itemprop="image"
-                        />
-                        <div class="cmt-inf">
-                          <h6 itemprop="headline">Jockon Don</h6>
-                          <span class="thm-clr">10 months ago</span>
-                          <p itemprop="description">
-                            Cupcake ipsum dolor sit amet. Dragée sweet roll
-                            tiramisu sweet cupcake croissant lollipop candy
-                            Cupcake ip sum dolor sit amet. Dragée sweet roll
-                            tiramisu sweet cupcake croissant lollipop candy.
-                          </p>
-                          <a
-                            class="comment-reply-link"
-                            href="#"
-                            title=""
-                            itemprop="url"
-                          >
-                            Reply
-                          </a>
-                        </div>
-                      </div>
-                      <ul>
-                        <li>
-                          <div class="cmt-bx">
-                            <img
-                              src={require("../../assets/images/resources/cmt-img1-2.jpg")}
-                              alt="cmt-img1-2.jpg"
-                              itemprop="image"
-                            />
-                            <div class="cmt-inf">
-                              <h6 itemprop="headline">Thomas Tom</h6>
-                              <span class="thm-clr">10 months ago</span>
-                              <p itemprop="description">
-                                Cupcake ipsum dolor gée sweet roll tiramisu
-                                sweet cupcake croissant lollipop candy Cupcake
-                                ip Dragée sweet roll tiramisu sweet cupcake
-                                croissant lollipop candy.
-                              </p>
-                              <a
-                                class="comment-reply-link"
-                                href="#"
-                                title=""
-                                itemprop="url"
-                              >
-                                Reply
-                              </a>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="rply-cmt">
-                  <h4 itemprop="headline">Leave A Comment</h4>
-                  <form>
-                    <div class="row mrg10">
-                      <div class="col-md-6 col-sm-12 col-lg-6">
-                        <input type="text" placeholder="Your Name" />
-                      </div>
-                      <div class="col-md-6 col-sm-12 col-lg-6">
-                        <input type="email" placeholder="Your Email" />
-                      </div>
-                      <div class="col-md-12 col-sm-12 col-lg-12">
-                        <input type="text" placeholder="Subject" />
-                      </div>
-                      <div class="col-md-12 col-sm-12 col-lg-12">
-                        <textarea placeholder="Message"></textarea>
-                        <button class="thm-btn" type="submit">
-                          Send Message<span></span>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
+                  <br />
+                  <DisqusComments></DisqusComments>
                 </div>
               </div>
             </div>

@@ -12,10 +12,6 @@ export default class extends Component {
 
     return (
       <div className="article-container">
-        <h1>Page Title</h1>
-
-        <p>Page content.</p>
-
         <Disqus.DiscussionEmbed
           shortname={disqusShortname}
           config={disqusConfig}

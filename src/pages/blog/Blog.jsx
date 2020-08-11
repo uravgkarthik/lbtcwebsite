@@ -210,7 +210,7 @@ function Blog() {
                         </p>
                       </div>
                     </div>
-                    <DisqusComments></DisqusComments>
+
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
                         <Link to="/blog/blog-4">
