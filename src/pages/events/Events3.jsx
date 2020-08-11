@@ -6,7 +6,10 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
 
-function Events2() {
+const Events2 = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div classNameName="App">
       <main>
@@ -73,7 +76,12 @@ function Events2() {
                       <Link to="events/event-11">
                         <a className="thm-btn2" title="" itemprop="url">
                           {" "}
-                          <Link to="events/event-11">Join The Movement</Link>
+                          <Link
+                            to="events/event-11"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -123,7 +131,12 @@ function Events2() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-12">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-12">Join The Movement</Link>
+                          <Link
+                            to="/events/event-12"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -168,7 +181,12 @@ function Events2() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-13">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-13">Join The Movement</Link>
+                          <Link
+                            to="/events/event-13"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -220,7 +238,12 @@ function Events2() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-14">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-14">Join The Movement</Link>
+                          <Link
+                            to="/events/event-14"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -271,7 +294,12 @@ function Events2() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-10">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-15">Join The Movement</Link>
+                          <Link
+                            to="/events/event-15"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -308,7 +336,8 @@ function Events2() {
                     <Link to="/events4">
                       <a className="page-link" title="" itemprop="url">
                         2
-                      </a></Link>
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="page-item active">
@@ -337,5 +366,5 @@ function Events2() {
       </main>
     </div>
   );
-}
+};
 export default Events2;

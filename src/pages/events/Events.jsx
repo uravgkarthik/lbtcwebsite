@@ -6,7 +6,11 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
 
-function Events() {
+const Events = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div classNameName="App">
       <main>
@@ -73,7 +77,12 @@ function Events() {
                       <Link to="events/event-1">
                         <a className="thm-btn2" title="" itemprop="url">
                           {" "}
-                          <Link to="events/event-1">Join The Movement</Link>
+                          <Link
+                            to="events/event-1"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -122,7 +131,12 @@ function Events() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-2">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-2">Join The Movement</Link>
+                          <Link
+                            to="/events/event-2"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -173,7 +187,12 @@ function Events() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-3">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-3">Join The Movement</Link>
+                          <Link
+                            to="/events/event-3"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -225,7 +244,12 @@ function Events() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-4">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-4">Join The Movement</Link>
+                          <Link
+                            to="/events/event-4"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -275,7 +299,12 @@ function Events() {
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-5">
                         <a className="thm-btn2" title="" itemprop="url">
-                          <Link to="/events/event-5">Join The Movement</Link>
+                          <Link
+                            to="/events/event-5"
+                            style={{ textDecoration: "none" }}
+                          >
+                            Join The Movement
+                          </Link>
                         </a>
                       </Link>
                       <span className="evnt-loc">
@@ -343,5 +372,5 @@ function Events() {
       </main>
     </div>
   );
-}
+};
 export default Events;
