@@ -2,7 +2,7 @@
 
 ## Owner 📛
 
-[Team LBTC](https://github.com/TeamLBTC/)
+- [Team LBTC](https://github.com/TeamLBTC/)
 
 ## Co-Owners 🔰
 
