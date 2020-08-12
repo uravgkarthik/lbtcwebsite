@@ -9,6 +9,12 @@
 - [Adithya Krishna Sharma](https://adithyaakrishna.github.io/) ✅
 - [Karthik Ravishankar](https://uravgkarthik.github.io/) ✅
 
+## Project Details
+
+- Hosted in [Netlify App](https://lbtcweb.netlify.app/) ✅
+
+<hr>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
