@@ -1,4 +1,13 @@
-### This Repository Is For Our LBTC Website Project Created Using ReactJS
+### This Repository Is For Our LBTC Website Project Created Using ReactJS 🕸
+
+## Owner 📛
+
+[Team LBTC](https://github.com/TeamLBTC/)
+
+## Co-Owners 🔰
+
+- [Adithya Krishna Sharma](https://adithyaakrishna.github.io/)
+- [Karthik Ravishankar](https://uravgkarthik.github.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
