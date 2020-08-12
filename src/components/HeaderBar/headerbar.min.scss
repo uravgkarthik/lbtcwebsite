@@ -2,9 +2,18 @@
     .txtrgtx{
         text-align: center !important;
     }
+    .mobilenodisplay{
+        display: none !important;
+    }
 
 }
 .headerbarfix{
     position: fixed !important;
     z-index: 25 !important;
+}
+@media (max-width: 996px) {
+    .mobilenodisplay{
+        display: none !important;
+    }
+
 }

@@ -4,7 +4,7 @@ import '../HeaderBar/headerbar.min.scss';
 function HeaderBar() {
     return (
       <div
-        className="tpbr flex headerbarfix"
+        className="tpbr flex headerbarfix mobilenodisplay"
         style={{
           margin: "0",
           padding: "0",
