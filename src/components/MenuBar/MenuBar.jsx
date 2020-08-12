@@ -14,8 +14,20 @@ function MenuBar() {
                 alt="MenuBar-Logo.png"
                 itemprop="image"
               />
+              
             </div>
           </Link>
+          
+          {/* <Link to="">
+            <div class="logo">
+              <img
+                src={require("../MenuBar/kannada-logo.png")}
+                alt="MenuBar-Logo.png"
+                itemprop="image"
+              />
+            </div>
+          </Link> */}
+         
 
           {/* <div className="tp-scl">
             <a
@@ -46,6 +58,13 @@ function MenuBar() {
           <nav>
             <div>
               <ul>
+                <li>
+                  <img className="kannadatextfinal"
+                    src={require("../MenuBar/kannada-logo.png")}
+                    alt="MenuBar-Logo.png"
+                    itemprop="image"
+                  />
+                </li>
                 <li class="menu-item-has-children">
                   <Link to="/about">About</Link>
                 </li>
