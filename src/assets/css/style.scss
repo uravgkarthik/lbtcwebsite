@@ -164,7 +164,12 @@ footer,
 .remove-bottom,
 .block.remove-bottom {padding-bottom: 0;}
 .no-padding,
-.block.no-padding {padding: 0;}
+.block.no-padding {padding: 7rem 0;}   
+
+
+// This is For Carousel Padding✅
+
+
 .wht-bg {background-color: #fff;}
 .drk-bg {background-color: #0f0f0f;}
 .drk-bg2 {background-color: #111111;}
@@ -1572,9 +1577,9 @@ header.style1
   visibility: visible;
 }
 .rspns-lnks-lst {
-  -ms-flex: 0 0 70%;
-  flex: 0 0 70%;
-  max-width: 70%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .rspns-lnks-lst > a {
   background-color: #000;
@@ -6999,3 +7004,15 @@ blockquote.alignright {
 }
 .prc-bx > a:hover, 
 .prc-bx > a:focus {color: #fff;}
+
+@media (max-width: 770px){
+ .block {
+    padding-top: 2.5rem !important; 
+}
+.feat-wrp2 {
+    padding-top: 0rem !important;
+}
+.pg-tp-bg {
+ display: contents !important;
+}
+}
