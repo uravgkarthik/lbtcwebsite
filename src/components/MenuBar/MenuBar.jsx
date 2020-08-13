@@ -1,5 +1,5 @@
 import React from "react";
-import {Link } from "react-router-dom";
+import { Router, Route, Link } from "react-router-dom";
 import "../MenuBar/menubar.min.scss";
 
 function MenuBar() {
