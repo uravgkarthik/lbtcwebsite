@@ -25,27 +25,29 @@ function ResponsiveHeader() {
               <i className="fa fa-times"></i>
             </span>
             <ul>
-              <li className="menu-item-has-children">
+              <li class="menu-item-has-children">
                 <Link to="/about">About</Link>
               </li>
-
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
+              <li class="menu-item-has-children">
+                <Link to="/gallery">Gallery</Link>
               </li>
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
+              <li class="menu-item-has-children">
+                <Link to="/events">Events</Link>
               </li>
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
+              <li class="menu-item-has-children">
+                <Link to="/contact">Contact</Link>
               </li>
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
+              <li>
+                <Link to="/blog">Blog</Link>
               </li>
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
-              </li>
-              <li className="menu-item-has-children">
-                <Link to="/about">About</Link>
+              <li>
+                <a
+                  href="https://bengaluruveeraru.org/ourwork/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Covid-19
+                  </a>
               </li>
             </ul>
           </div>
