@@ -6,7 +6,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../blog/blog.min.scss";
 import DisqusComments3 from "../../components/Disqus/DisqusComments3";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BlogDetails3() {
   return (
@@ -66,7 +66,7 @@ function BlogDetails3() {
                     <a href="#" title="" itemprop="url">
                       schools
                     </a>
-                    ,
+                    
                     <a href="#" title="" itemprop="url">
                       education
                     </a>
