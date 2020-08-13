@@ -12,9 +12,10 @@ function EventFunding() {
                                 <div className="col-md-3 col-sm-6 col-lg-3">
                                     <div className="cus-bx3">
                                         <div className="cus-thmb">
-                                            <a href="cause-detail.html" title="" itemprop="url">
+                                            <a href="https://rzp.io/l/lbtc" title="" itemprop="url" target="_blank"
+                                                rel="noopener noreferrer">
                                                 <img
-                                                    src={require("../EventFunding/Fundraising/4.jpg")}
+                                                    src={require("../EventFunding/Fundraising/10.jpg")}
                                                     alt="Fund-1.jpg"
                                                     itemprop="image"
                                                 />
@@ -22,23 +23,26 @@ function EventFunding() {
                                         </div>
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
-                                                <a href="cause-detail.html" title="">
-                                                    Donating For Daily Wage/Migrant Workers
+                                                <a href="https://rzp.io/l/lbtc" title="" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    Let's Be The Change <br />3 Year Plan
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000
+                                                {/* <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000 */}
                         </span>
-                                            <div className="progress">
-                                                <div className="progress-bar thm-bg wdth20">
-                                                    <span>20%</span>
-                                                </div>
+                                            <div className="progress" style={{ backgroundColor: "#1b6dae" }}>
+                                                {/* <div className="progress-bar thm-bg wdth0">
+                                                    <span>0%</span>
+                                                </div> */}
                                             </div>
                                             <a
                                                 className="thm-btn"
-                                                href="donate-now.html"
+                                                href="https://rzp.io/l/lbtc"
                                                 title=""
-                                                itemprop="url"
+                                                itemprop="url" target="_blank"
+                                                rel="noopener noreferrer"
+                                                style={{ textDecoration: "none" }}
                                             >
                                                 Donate Now<span></span>
                                             </a>
@@ -48,7 +52,8 @@ function EventFunding() {
                                 <div className="col-md-3 col-sm-6 col-lg-3">
                                     <div className="cus-bx3">
                                         <div className="cus-thmb">
-                                            <a href="cause-detail.html" title="" itemprop="url">
+                                            <a href="https://rzp.io/l/cleanathon" title="" itemprop="url" target="_blank"
+                                                rel="noopener noreferrer">
                                                 <img
                                                     src={require("../EventFunding/Fundraising/1.jpg")}
                                                     alt="Fund-2.jpg"
@@ -58,23 +63,26 @@ function EventFunding() {
                                         </div>
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
-                                                <a href="cause-detail.html" title="">
-                                                    Food For Daily Wage/Migrant Workers
+                                                <a href="https://rzp.io/l/cleanathon" title="" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    Cleanathon<br/> Activity
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">Rs.4500 Raised</i> of Rs.10,000
+                                                {/* <i className="thm-clr">Rs.4500 Raised</i> of Rs.10,000 */}
                         </span>
-                                            <div className="progress">
-                                                <div className="progress-bar thm-bg wdth45">
+                                            <div className="progress" style={{ backgroundColor: "#1b6dae" }}>
+                                                {/* <div className="progress-bar thm-bg wdth45">
                                                     <span>45%</span>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <a
                                                 className="thm-btn"
-                                                href="donate-now.html"
+                                                href="https://rzp.io/l/cleanathon"
                                                 title=""
-                                                itemprop="url"
+                                                itemprop="url" target="_blank"
+                                                rel="noopener noreferrer"
+                                                style={{ textDecoration: "none" }}
                                             >
                                                 Donate Now<span></span>
                                             </a>
@@ -84,7 +92,8 @@ function EventFunding() {
                                 <div className="col-md-3 col-sm-6 col-lg-3">
                                     <div className="cus-bx3">
                                         <div className="cus-thmb">
-                                            <a href="cause-detail.html" title="" itemprop="url">
+                                            <a href="https://rzp.io/l/BVProject" title="" itemprop="url" target="_blank"
+                                                rel="noopener noreferrer">
                                                 <img
                                                     src={require("../EventFunding/Fundraising/2.jpg")}
                                                     alt="Fund-3.jpg"
@@ -94,23 +103,26 @@ function EventFunding() {
                                         </div>
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
-                                                <a href="cause-detail.html" title="">
-                                                    Ration Donation For Daily Wage/Migrant Workers
+                                                <a href="https://rzp.io/l/BVProject" title="" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    Bengaluru Veeraru Project
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000
+                                                {/* <i className="thm-clr">Rs.2000 Raised</i> of Rs.10,000 */}
                         </span>
-                                            <div className="progress">
-                                                <div className="progress-bar thm-bg wdth20">
+                                            <div className="progress" style={{ backgroundColor: "#1b6dae" }}>
+                                                {/* <div className="progress-bar thm-bg wdth20">
                                                     <span>20%</span>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <a
                                                 className="thm-btn"
-                                                href="donate-now.html"
+                                                href="https://rzp.io/l/BVProject"
                                                 title=""
-                                                itemprop="url"
+                                                itemprop="url" target="_blank"
+                                                rel="noopener noreferrer"
+                                                style={{ textDecoration: "none" }}
                                             >
                                                 Donate Now<span></span>
                                             </a>
@@ -120,9 +132,10 @@ function EventFunding() {
                                 <div className="col-md-3 col-sm-6 col-lg-3">
                                     <div className="cus-bx3">
                                         <div className="cus-thmb">
-                                            <a href="cause-detail.html" title="" itemprop="url">
+                                            <a href="https://rzp.io/l/lbtcdonate4needy" title="" itemprop="url" target="_blank"
+                                                rel="noopener noreferrer">
                                                 <img
-                                                    src={require("../EventFunding/Fundraising/3.jpg")}
+                                                    src={require("../EventFunding/Fundraising/4.jpg")}
                                                     alt="Fund-4.jpg"
                                                     itemprop="image"
                                                 />
@@ -130,23 +143,26 @@ function EventFunding() {
                                         </div>
                                         <div className="cus-inf3">
                                             <h4 itemprop="headline">
-                                                <a href="cause-detail.html" title="">
-                                                    Ration For Daily Wage/Migrant Workers
+                                                <a href="https://rzp.io/l/lbtcdonate4needy" title="" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    COVID-19 <br />Relief
                           </a>
                                             </h4>
                                             <span className="cus-amt">
-                                                <i className="thm-clr">Rs.4000 Raised</i> of Rs.10,000
+                                                {/* <i className="thm-clr">Rs.4000 Raised</i> of Rs.10,000 */}
                         </span>
-                                            <div className="progress">
-                                                <div className="progress-bar thm-bg wdth40">
+                                            <div className="progress" style={{backgroundColor: "#1b6dae"}}>
+                                                {/* <div className="progress-bar thm-bg wdth40">
                                                     <span>40%</span>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <a
                                                 className="thm-btn"
-                                                href="donate-now.html"
+                                                href="https://rzp.io/l/lbtcdonate4needy"
                                                 title=""
-                                                itemprop="url"
+                                                itemprop="url" target="_blank"
+                                                rel="noopener noreferrer"
+                                                style={{ textDecoration: "none" }}
                                             >
                                                 Donate Now<span></span>
                                             </a>
