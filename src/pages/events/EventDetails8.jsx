@@ -11,7 +11,7 @@ function EventDetails8() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
 
         <section>

@@ -11,6 +11,7 @@ function EventDetails16() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
+        <ResponsiveHeader></ResponsiveHeader>
 
         <MenuBar></MenuBar>
 
