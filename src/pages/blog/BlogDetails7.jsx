@@ -3,6 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../blog/blog.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
 import DisqusComments7 from "../../components/Disqus/DisqusComments7";
@@ -13,6 +14,7 @@ function BlogDetails7() {
       <main>
         <HeaderBar></HeaderBar>
         <MenuBar></MenuBar>
+        <ResponsiveHeader></ResponsiveHeader>
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">

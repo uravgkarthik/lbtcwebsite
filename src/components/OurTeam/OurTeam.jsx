@@ -1,7 +1,103 @@
 import React from "react";
 import "../OurTeam/ourteam.min.scss";
-
+import ProfileCard from "./ProfileCard";
+import First from "../../assets/images/Our Team/Anirudh.jpg";
+import Second from "../../assets/images/Our Team/Prajwal.jpg";
+import Fourth from "../../assets/images/Our Team/Vyshak.jpg";
+import Fifth from "../../assets/images/Our Team/Amar.jpg";
+import Sixth from "../../assets/images/Our Team/Nidish.jpg";
+import Seventh from "../../assets/images/Our Team/Lohit.jpg";
+import Ninth from "../../assets/images/Our Team/Yoshita.jpg";
+import Tenth from "../../assets/images/Our Team/Bhuvan.jpg";
+import Eleventh from "../../assets/images/Our Team/Niranjan.jpg";
+import Twelveth from "../../assets/images/Our Team/Sharan.jpg";
 function OurTeam(){
+  const ourteamdata = [
+    {
+      name:"Anirudh S Dutt", 
+      designation:"Founder",
+      facebooklink:"",
+      linkedinlink:"",
+      twitterlink:"",
+      photo: First
+    },
+    {
+      name: "Prajwal GV",
+      designation: "Vice President",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Second
+    },
+    {
+      name: "Vyshak Iyengar",
+      designation: "Board Member",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Fourth
+    },
+    {
+      name: "Amar Prabhu",
+      designation: "Secretary",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Fifth
+    },
+    {
+      name: "Nidish",
+      designation: "Secretary",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Sixth
+    },
+    {
+      name: "Lohit BN",
+      designation: "Board Member",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Seventh
+    },
+    {
+      name: "Yoshita Ramesh",
+      designation: "Board Member",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Ninth
+    },
+    {
+      name: "Bhuvan",
+      designation: "Board Member",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Tenth
+    }
+    
+    
+  ]
+  const youthteamdata = [
+    {
+      name: "Niranjan Muralidhar",
+      designation: "Yuva Nayaka",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Eleventh
+    },
+    {
+      name: "Sharan",
+      designation: "",
+      facebooklink: "",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: Twelveth
+    }
+  ]
     return (
       <section>
         <div className="block">
@@ -15,435 +111,19 @@ function OurTeam(){
             </div>
             <div className="tem-wrp text-center remove-ext4">
               <div className="row">
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-1.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Anirudh S Dutt
-                        </a>
-                      </h4>
-                      <span>Founder, President</span>
-                    </div>
+                {
+                  ourteamdata.map((member)=> (
+                  <div className="col-md-3 col-sm-3 col-lg-3">
+                    <ProfileCard person={member}></ProfileCard>
                   </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-2.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Prajwal G V
-                        </a>
-                      </h4>
-                      <span>Vice President</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-3.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Srivatsa Gargesh
-                        </a>
-                      </h4>
-                      <span>General Secretary</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-                  
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-
-                </div>
+                  ))
+                }
               </div>
-              
             </div>
           </div>
-
           {/* Core Team Ends ✅*/}
-
           {/* Youth Team Starts ✅*/}
-
-          <div className="container" style={{marginTop: "3rem"}}>
+          <div className="container youthteampad">
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
                 <h2 className="smolfontsize" itemprop="headline">Youth Team</h2>
@@ -453,427 +133,14 @@ function OurTeam(){
             </div>
             <div className="tem-wrp text-center remove-ext4">
               <div className="row">
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-1.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
+                {
+                  youthteamdata.map((member) => (
+                    <div className="col-md-3 col-sm-3 col-lg-3">
+                      <ProfileCard person={member}></ProfileCard>
                     </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Anirudh S Dutt
-                        </a>
-                      </h4>
-                      <span>Founder, President</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-2.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Prajwal G V
-                        </a>
-                      </h4>
-                      <span>Vice President</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-3.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Srivatsa Gargesh
-                        </a>
-                      </h4>
-                      <span>General Secretary</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-
-                </div>
-                <div className="col-md-3 col-sm-3 col-lg-3">
-                  <div className="tem-bx">
-                    <div
-                      className="tem-thmb"
-                      style={{
-                        backgroundImage:
-                          "url(../../assets/images/resources/tem-img1-4.jpg)",
-                      }}
-                    >
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <i className="fa fa-chevron-right"></i>
-                      </a>
-                      <div className="tem-scl">
-                        <a
-                          className="facebook"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                        <a
-                          className="pinterest"
-                          href="#"
-                          title="Pinterest"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-pinterest-p"></i>
-                        </a>
-                        <a
-                          className="twitter"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="tem-inf">
-                      <h4 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Gorge James
-                        </a>
-                      </h4>
-                      <span>President & CEO</span>
-                    </div>
-                  </div>
-
-                </div>
+                  ))
+                }
               </div>
-
             </div>
           </div>
         </div>

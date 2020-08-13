@@ -3,6 +3,7 @@ import JotformEmbed from "react-jotform-embed";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../forms/mainform.min.scss";
 
   const EventDetails8 = () => {
@@ -13,9 +14,9 @@ import "../forms/mainform.min.scss";
     return (
       <main>
         <HeaderBar></HeaderBar>
-
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
-        <div className="container">
+        <div className="container formpaddingneeded">
           <div className="row"></div>
         </div>
         {/* <div className="containerx">

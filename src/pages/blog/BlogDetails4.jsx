@@ -3,6 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../blog/blog.min.scss";
 import DisqusComments4 from "../../components/Disqus/DisqusComments4";
 import { Switch, Route, Link } from "react-router-dom";
@@ -13,11 +14,12 @@ function BlogDetails4() {
       <main>
         <HeaderBar></HeaderBar>
         <MenuBar></MenuBar>
+        <ResponsiveHeader></ResponsiveHeader>
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="AboutUS"/>
             </div>
           </div>
         </section>
@@ -64,7 +66,7 @@ function BlogDetails4() {
                     <a href="#" title="" itemprop="url">
                       plog
                     </a>
-                    ,
+                    
                     <a href="#" title="" itemprop="url">
                       fitness
                     </a>

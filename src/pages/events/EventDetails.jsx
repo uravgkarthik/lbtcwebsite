@@ -4,15 +4,16 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function EventDetails() {
   return (
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
+
 
         <section>
           <div class="block no-padding">
