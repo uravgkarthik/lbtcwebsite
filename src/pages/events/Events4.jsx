@@ -14,6 +14,7 @@ const Events2 = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
         <section>
           <div className="block no-padding">
