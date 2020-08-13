@@ -5,12 +5,22 @@ import ResponsiveHeader from '../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from '../../components/StickyHeader/StickyHeader';
 import Footer from '../../components/Footer/Footer';
 
+<<<<<<< Updated upstream
 function EventDetails(){
     return(
         
         <div classNameName="App">
 
         <main>
+=======
+function EventDetails() {
+  return (
+    <div classNameName="App">
+      <main>
+        <HeaderBar></HeaderBar>
+        <ResponsiveHeader></ResponsiveHeader>
+        <MenuBar></MenuBar>
+>>>>>>> Stashed changes
 
             <HeaderBar></HeaderBar>
             
