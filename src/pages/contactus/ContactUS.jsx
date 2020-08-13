@@ -64,22 +64,22 @@ const ContactUS = () => {
                         Want to bring in change? Join hands with us to make a
                         difference.
                       </p>
-                      <form class="cnt-frm">
+                      <form class="cnt-frm" action="https://docs.google.com/forms/d/e/1FAIpQLSfv6LBUi-BcXO9f2aWAWE0RMZ4Bu126gGrzb6hbkwLM0KR9Nw/formResponse" method="post">
                         <div class="row mrg10">
                           <div class="col-md-6 col-sm-6 col-lg-6">
-                            <input type="text" placeholder="First Name" />
+                            <input name="entry.1472963030" type="text" placeholder="First Name" required/>
                           </div>
                           <div class="col-md-6 col-sm-6 col-lg-6">
-                            <input type="text" placeholder="Last Name" />
+                            <input name="entry.1753890476" type="text" placeholder="Last Name" required/>
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <input type="email" placeholder="Email Address" />
+                            <input name="entry.750465195" type="email" placeholder="Email Address" required />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <input type="text" placeholder="Subject" />
+                            <input name="entry.1475719518" type="text" placeholder="Subject" required/>
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="entry.582738885" placeholder="Message" required></textarea>
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
                             <button class="thm-btn" type="submit">
