@@ -3,6 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 
 const ContactUS = () => {
     React.useEffect(() => {
@@ -13,7 +14,7 @@ const ContactUS = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
 
         <section>
