@@ -3629,11 +3629,16 @@ div.slick-current .strs-itm-inr > i {
   overflow: hidden;
   min-height: 15.375rem;
   background-size: cover;
-  background-position-x: 0;
+  background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
 }
-.tem-bx:hover .tem-thmb{background-position-x: -10.0625rem;}
+.tem-bx:hover .tem-thmb{
+  background-position-x: center;
+}
+// .tem-thmb:hover{
+//   filter: grayscale(100%); //Adi Set Filter
+// }
 .tem-thmb > img {width: 100%;}
 .tem-thmb > a {
   -webkit-border-radius: 50%;
@@ -3647,10 +3652,10 @@ div.slick-current .strs-itm-inr > i {
   font-size: 1rem;
   line-height: 3.75rem;
   bottom: 0;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
+  // -webkit-transform: translateX(-50%);
+  // -ms-transform: translateX(-50%);
+  // -o-transform: translateX(-50%);
+  // transform: translateX(-50%);
   opacity: 0;
 }
 .tem-bx:hover .tem-thmb > a {
