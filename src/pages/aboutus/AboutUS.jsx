@@ -8,6 +8,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import OurTeam from "../../components/OurTeam/OurTeam";
 import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
+import { Switch, Route, Link } from "react-router-dom";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 const AboutUS = () => {
@@ -295,15 +296,15 @@ const AboutUS = () => {
                       Join Us{" "}
                       <span className="bluecolorhashtag">#TeamLBTC</span>
                     </p>
-                    <a
+                    <Link
+                      to="/form"
                       className="thm-btn"
-                      href="https://cdn.jotfor.ms/letsbethechange.india/bv-volunteers"
                       title=""
                       itemprop="url"
                       style={{ textDecoration: "none" }}
                     >
                       Become A Volunteer<span></span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-12 col-lg-6">
