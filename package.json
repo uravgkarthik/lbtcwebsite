@@ -1,6 +1,7 @@
 {
   "name": "lbtcwebsite",
   "homepage": "http://test.letsbethechange.in",
+  "homepage": "http://staging.letsbethechange.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -2,9 +2,9 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
-import StickyHeader from "../../components/StickyHeader/StickyHeader";
+//import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
-import { Switch, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 const Events2 = () => {
   React.useEffect(() => {
@@ -19,7 +19,10 @@ const Events2 = () => {
         <section>
           <div className="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
+              <img
+                src={require("../aboutus/AboutUs-Main-3.jpg")}
+                alt="AboutUS"
+              />
             </div>
           </div>
         </section>
@@ -74,17 +77,20 @@ const Events2 = () => {
                       worshiped and are immersed in rivers, lakes or wells.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="events/event-11">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          {" "}
-                          <Link
-                            to="events/event-11"
-                            style={{ textDecoration: "none" }}
-                          >
-                            Join The Movement
-                          </Link>
-                        </a>
+                      <Link
+                        to="events/event-11"
+                        className="thm-btn2"
+                        title=""
+                        itemprop="url"
+                      >
+                        <Link
+                          to="events/event-11"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Join The Movement
+                        </Link>
                       </Link>
+
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
@@ -130,16 +136,20 @@ const Events2 = () => {
                       city.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-12">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          <Link
-                            to="/events/event-12"
-                            style={{ textDecoration: "none" }}
-                          >
-                            Join The Movement
-                          </Link>
-                        </a>
+                      <Link
+                        to="/events/event-12"
+                        className="thm-btn2"
+                        title=""
+                        itemprop="url"
+                      >
+                        <Link
+                          to="/events/event-12"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Join The Movement
+                        </Link>
                       </Link>
+
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>Bengaluru</span>
@@ -180,16 +190,20 @@ const Events2 = () => {
                       made,worshiped and are immersed in rivers, lakes or wells.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-13">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          <Link
-                            to="/events/event-13"
-                            style={{ textDecoration: "none" }}
-                          >
-                            Join The Movement
-                          </Link>
-                        </a>
+                      <Link
+                        to="/events/event-13"
+                        className="thm-btn2"
+                        title=""
+                        itemprop="url"
+                      >
+                        <Link
+                          to="/events/event-13"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Join The Movement
+                        </Link>
                       </Link>
+
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
@@ -237,16 +251,20 @@ const Events2 = () => {
                       dump near Banashankari Sub Register Office.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-14">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          <Link
-                            to="/events/event-14"
-                            style={{ textDecoration: "none" }}
-                          >
-                            Join The Movement
-                          </Link>
-                        </a>
+                      <Link
+                        to="/events/event-14"
+                        className="thm-btn2"
+                        title=""
+                        itemprop="url"
+                      >
+                        <Link
+                          to="/events/event-14"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Join The Movement
+                        </Link>
                       </Link>
+
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
@@ -293,16 +311,20 @@ const Events2 = () => {
                       metre garage dump in Laggere.
                     </p>
                     <div className="evnt-inf-btm">
-                      <Link to="/events/event-10">
-                        <a className="thm-btn2" title="" itemprop="url">
-                          <Link
-                            to="/events/event-15"
-                            style={{ textDecoration: "none" }}
-                          >
-                            Join The Movement
-                          </Link>
-                        </a>
+                      <Link
+                        to="/events/event-10"
+                        className="thm-btn2"
+                        title=""
+                        itemprop="url"
+                      >
+                        <Link
+                          to="/events/event-15"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Join The Movement
+                        </Link>
                       </Link>
+
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
@@ -329,18 +351,23 @@ const Events2 = () => {
                     </Link>
                   </li>
                   <li className="page-item">
-                    {" "}
-                    <Link to="/events">
-                      <a className="page-link" title="" itemprop="url">
-                        1
-                      </a>
+                    <Link
+                      to="/events"
+                      className="page-link"
+                      title=""
+                      itemprop="url"
+                    >
+                      1
                     </Link>
                   </li>
                   <li className="page-item">
-                    <Link to="/events2">
-                      <a className="page-link" title="" itemprop="url">
-                        2
-                      </a>
+                    <Link
+                      to="/events2"
+                      className="page-link"
+                      title=""
+                      itemprop="url"
+                    >
+                      2
                     </Link>
                   </li>
 
@@ -349,10 +376,15 @@ const Events2 = () => {
                   </li>
 
                   <li className="page-item">
-                    <Link to="/events4">
-                      <a className="page-link" title="" itemprop="url">
+                    
+                      <Link
+                        to="/events4"
+                        className="page-link"
+                        title=""
+                        itemprop="url"
+                      >
                         4
-                      </a>
+                      
                     </Link>
                   </li>
 

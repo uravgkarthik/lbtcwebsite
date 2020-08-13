@@ -2,9 +2,9 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
-import StickyHeader from "../../components/StickyHeader/StickyHeader";
+//import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function EventDetails16() {
   return (
@@ -18,7 +18,7 @@ function EventDetails16() {
         <section>
           <div class="block no-padding">
             <div class="pg-tp-bg">
-              <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
+              <img src={require("../aboutus/AboutUs-Main-3.jpg")} alt="AboutUs" />
             </div>
           </div>
         </section>
