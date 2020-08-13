@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 
 const Blog = () => {
   React.useEffect(() => {
@@ -14,6 +15,7 @@ const Blog = () => {
       <main>
         <HeaderBar></HeaderBar>
         <MenuBar></MenuBar>
+        <ResponsiveHeader></ResponsiveHeader>
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding">
