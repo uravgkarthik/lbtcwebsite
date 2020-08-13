@@ -363,9 +363,14 @@ const Events2 = () => {
                   </li>
 
                   <li className="page-item">
-                    <a className="page-link next" title="" itemprop="url">
+                    <Link
+                      to="/events3"
+                      className="page-link next"
+                      title=""
+                      itemprop="url"
+                    >
                       <i className="fa fa-angle-right"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -271,7 +271,7 @@ const Events2 = () => {
               <div className="pgntin-wrp text-center">
                 <ul className="pagination">
                   <li className="page-item">
-                    <Link to="/events">
+                    <Link to="/events3">
                       <a className="page-link prev" title="" itemprop="url">
                         <i className="fa fa-angle-left"></i>
                       </a>
@@ -306,9 +306,14 @@ const Events2 = () => {
                   </li>
 
                   <li className="page-item">
-                    <a className="page-link next" title="" itemprop="url">
+                    <Link
+                      to="/events4"
+                      className="page-link next"
+                      title=""
+                      itemprop="url"
+                    >
                       <i className="fa fa-angle-right"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
