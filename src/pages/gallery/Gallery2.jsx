@@ -37,16 +37,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/1.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -57,16 +47,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/8.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -77,16 +57,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/7.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -97,16 +67,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/4.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                     </div>
@@ -119,16 +79,6 @@ function Gallery() {
                         itemprop="image"
                       />
                       <h4 itemprop="headline">Plog Run</h4>
-                      <a
-                        href="../gallery/Images/gallery2page/1L.jpg"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        data-fancybox="gallery"
-                        title=""
-                        itemprop="url"
-                      >
-                        +
-                      </a>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-lg-6">
@@ -141,16 +91,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Plog Run</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/3.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -161,16 +101,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/9.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-12 col-sm-12 col-lg-12">
@@ -181,16 +111,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/3L.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                     </div>
@@ -205,16 +125,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/4L.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -225,16 +135,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/10.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -245,16 +145,6 @@ function Gallery() {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">Plog Run</h4>
-                          <a
-                            href="../gallery/Images/gallery2page/11.jpg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-fancybox="gallery"
-                            title=""
-                            itemprop="url"
-                          >
-                            +
-                          </a>
                         </div>
                       </div>
                     </div>
