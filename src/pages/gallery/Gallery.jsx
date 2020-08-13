@@ -300,14 +300,15 @@ const Gallery = () => {
                     </Link>
                   </li>
                   <li class="page-item">
-                    <a
+                    <Link
+                      to="/gallery-2"
                       class="page-link next"
                       href="#top"
                       title=""
                       itemprop="url"
                     >
                       <i class="fa fa-angle-right"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -10,10 +10,8 @@ import { Link } from "react-router-dom";
 
 function Gallery() {
   React.useEffect(() => {
-
-    window.scrollTo(0, 0)
-
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="App">
       <main>
@@ -40,7 +38,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/1.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/1.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -58,7 +58,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/8.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/8.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -76,7 +78,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/7.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/7.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -94,7 +98,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/4.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/4.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -114,7 +120,9 @@ function Gallery() {
                       />
                       <h4 itemprop="headline">Plog Run</h4>
                       <a
-                        href="../gallery/Images/gallery2page/1L.jpg" target="_blank" rel="noopener noreferrer"
+                        href="../gallery/Images/gallery2page/1L.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         data-fancybox="gallery"
                         title=""
                         itemprop="url"
@@ -134,7 +142,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/Images/gallery2page/3.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/3.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -150,11 +160,11 @@ function Gallery() {
                             alt="gal-img2-7.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">
-                            Cleanathon
-                          </h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/9.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/9.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -172,7 +182,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/3L.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/3L.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -194,7 +206,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/4L.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/4L.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -210,11 +224,11 @@ function Gallery() {
                             alt="gal-img2-10.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">
-                            Cleanathon
-                          </h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery2page/10.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/10.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -232,7 +246,9 @@ function Gallery() {
                           />
                           <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/Images/gallery2page/11.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery2page/11.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -248,16 +264,23 @@ function Gallery() {
               <div class="pgntin-wrp">
                 <ul class="pagination">
                   <li class="page-item">
-                    <a class="page-link prev" href="#" title="" itemprop="url">
+                    <Link
+                      to="/gallery"
+                      class="page-link prev"
+                      title=""
+                      itemprop="url"
+                    >
                       <i class="fa fa-angle-left"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li class="page-item">
                     <Link
                       to="/gallery"
                       class="page-link"
                       style={{ color: "#1b6dae" }}
-                    >1</Link>
+                    >
+                      1
+                    </Link>
                   </li>
                   <li class="page-item active">
                     <span class="page-link">2</span>
@@ -272,9 +295,14 @@ function Gallery() {
                     </Link>
                   </li>
                   <li class="page-item">
-                    <a class="page-link next" href="#top" title="" itemprop="url">
+                    <Link
+                      to="/gallery-3"
+                      class="page-link next"
+                      title=""
+                      itemprop="url"
+                    >
                       <i class="fa fa-angle-right"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
