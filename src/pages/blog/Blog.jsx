@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
+import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import DisqusComments from "../../components/Disqus/DisqusComments";
 import "../blog/blog.min.scss";
@@ -15,6 +16,7 @@ const Blog = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
+        <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
         <StickyHeader></StickyHeader>
         <section>
