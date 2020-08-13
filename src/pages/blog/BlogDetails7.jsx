@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
-import DisqusComments from "../../components/Disqus/DisqusComments";
+import DisqusComments7 from "../../components/Disqus/DisqusComments7";
 
 function BlogDetails7() {
   return (
@@ -259,7 +259,7 @@ function BlogDetails7() {
                 <div class="cmt-wrp">
                   <h4 itemprop="headline">Comments</h4>
                   <br />
-                  <DisqusComments></DisqusComments>
+                  <DisqusComments7></DisqusComments7>
                 </div>
               </div>
             </div>

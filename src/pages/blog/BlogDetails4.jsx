@@ -4,7 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
-import DisqusComments from "../../components/Disqus/DisqusComments";
+import DisqusComments4 from "../../components/Disqus/DisqusComments4";
 import { Switch, Route, Link } from "react-router-dom";
 
 function BlogDetails4() {
@@ -169,7 +169,7 @@ function BlogDetails4() {
                   <h4 itemprop="headline">Comments</h4>
                 </div>
                 <br />
-                <DisqusComments></DisqusComments>
+                <DisqusComments4></DisqusComments4>
               </div>
             </div>
           </div>
