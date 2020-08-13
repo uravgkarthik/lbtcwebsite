@@ -26,14 +26,14 @@ function BlogDetails() {
             <div class="brdcrmb-inr flex justify-content-between">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item">
-                  <a href="blog-style4.html" title="" itemprop="url">
+                  <Link to="/blog" title="" itemprop="url">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item active">Jauntful Internship</li>
               </ol>
@@ -132,7 +132,6 @@ function BlogDetails() {
                   <br />
                   <div class="gallery">
                     <div class="row">
-
                       <div class="col-md-12 col-sm-12 col-lg-12"></div>
                     </div>
                   </div>

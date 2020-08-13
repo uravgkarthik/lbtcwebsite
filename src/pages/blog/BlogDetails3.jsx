@@ -26,14 +26,14 @@ function BlogDetails3() {
             <div class="brdcrmb-inr flex justify-content-between">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item">
-                  <a href="blog-style4.html" title="" itemprop="url">
+                  <Link to="/blog" title="" itemprop="url">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item active">
                   Restorative Practices for Schools

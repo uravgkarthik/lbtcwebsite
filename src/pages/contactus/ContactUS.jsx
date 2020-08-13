@@ -4,11 +4,12 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
+import { Switch, Route, Link } from "react-router-dom";
 
 const ContactUS = () => {
-    React.useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div classNameName="App">
@@ -32,9 +33,9 @@ const ContactUS = () => {
             <div class="brdcrmb-inr flex justify-content-between">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item active">Contact Us</li>
               </ol>
@@ -187,5 +188,5 @@ const ContactUS = () => {
       </main>
     </div>
   );
-}
+};
 export default ContactUS;

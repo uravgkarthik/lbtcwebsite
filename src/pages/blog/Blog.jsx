@@ -34,9 +34,9 @@ const Blog = () => {
             <div class="brdcrmb-inr flex justify-content-between">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item active">Blog</li>
               </ol>

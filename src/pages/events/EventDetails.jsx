@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
+import { Switch, Route, Link } from "react-router-dom";
 
 function EventDetails() {
   return (
@@ -26,14 +27,14 @@ function EventDetails() {
             <div class="brdcrmb-inr flex justify-content-between">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item">
-                  <a href="event-style1.html" title="" itemprop="url">
+                  <Link to="/events" title="" itemprop="url">
                     Event
-                  </a>
+                  </Link>
                 </li>
                 <li class="breadcrumb-item active">Event Details</li>
               </ol>

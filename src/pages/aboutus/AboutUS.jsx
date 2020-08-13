@@ -37,9 +37,9 @@ const AboutUS = () => {
           <div class="brdcrmb-inr flex justify-content-between">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="index.html" title="" itemprop="url">
+                <Link to="" title="" itemprop="url">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="breadcrumb-item active">About Us</li>
             </ol>

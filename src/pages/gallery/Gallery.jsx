@@ -9,13 +9,9 @@ import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 
 const Gallery = () => {
-  
-  
-    React.useEffect(() => {
-       
-        window.scrollTo(0, 0)
-      
-    }, [])
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="App">
@@ -43,7 +39,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery1page/1.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/1.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -61,7 +59,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Plog Run</h4>
                           <a
-                            href="../gallery/Images/gallery1page/8.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/8.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -79,7 +79,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Our Board</h4>
                           <a
-                            href="../gallery/Images/gallery1page/7.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/7.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -97,7 +99,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Team LBTC</h4>
                           <a
-                            href="../gallery/Images/gallery1page/4.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/4.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -117,7 +121,9 @@ const Gallery = () => {
                       />
                       <h4 itemprop="headline">Clay Ganesha Workshop</h4>
                       <a
-                        href="../gallery/Images/gallery1page/1L.jpg" target="_blank" rel="noopener noreferrer"
+                        href="../gallery/Images/gallery1page/1L.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         data-fancybox="gallery"
                         title=""
                         itemprop="url"
@@ -137,7 +143,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Clay Ganesha Workshop</h4>
                           <a
-                            href="../gallery/Images/gallery1page/3.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/3.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -157,7 +165,9 @@ const Gallery = () => {
                             Plog Run With West Block Blues
                           </h4>
                           <a
-                            href="../gallery/Images/gallery1page/9.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/9.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -175,7 +185,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">5 Ways To Fight Poverty</h4>
                           <a
-                            href="../gallery/Images/gallery1page/2L.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/2L.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -197,7 +209,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Plantathon</h4>
                           <a
-                            href="../gallery/Images/gallery1page/4L.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/4L.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -217,7 +231,9 @@ const Gallery = () => {
                             Development of Local Schools
                           </h4>
                           <a
-                            href="../gallery/Images/gallery1page/10.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/10.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -235,7 +251,9 @@ const Gallery = () => {
                           />
                           <h4 itemprop="headline">Muscial Cleanathon</h4>
                           <a
-                            href="../gallery/Images/gallery1page/11.jpg" target="_blank" rel="noopener noreferrer"
+                            href="../gallery/Images/gallery1page/11.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-fancybox="gallery"
                             title=""
                             itemprop="url"
@@ -251,7 +269,12 @@ const Gallery = () => {
               <div class="pgntin-wrp">
                 <ul class="pagination">
                   <li class="page-item">
-                    <a class="page-link prev" href="#top" title="" itemprop="url">
+                    <a
+                      class="page-link prev"
+                      href="#top"
+                      title=""
+                      itemprop="url"
+                    >
                       <i class="fa fa-angle-left"></i>
                     </a>
                   </li>
@@ -277,7 +300,12 @@ const Gallery = () => {
                     </Link>
                   </li>
                   <li class="page-item">
-                    <a class="page-link next" href="#top" title="" itemprop="url">
+                    <a
+                      class="page-link next"
+                      href="#top"
+                      title=""
+                      itemprop="url"
+                    >
                       <i class="fa fa-angle-right"></i>
                     </a>
                   </li>
@@ -291,6 +319,6 @@ const Gallery = () => {
       </main>
     </div>
   );
-}
+};
 
 export default Gallery;

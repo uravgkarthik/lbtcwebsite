@@ -28,9 +28,9 @@ const Events2 = () => {
             <div className="brdcrmb-inr flex justify-content-between">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="index.html" title="" itemprop="url">
+                  <Link to="" title="" itemprop="url">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="breadcrumb-item active">Our Events</li>
               </ol>
