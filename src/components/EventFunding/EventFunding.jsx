@@ -191,7 +191,7 @@ function EventFunding() {
                       <span className="cus-amt"></span>
                       <div className="progress">
                         <div className="progress-bar thm-bg wdth10">
-                          <span>10.52%</span>
+                          <span>10.5%</span>
                         </div>
                       </div>
                       <a
