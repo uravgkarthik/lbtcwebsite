@@ -13,7 +13,11 @@ function EventDetails() {
         <HeaderBar></HeaderBar>
         <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
-
+            <section>
+                <div class="block no-padding">
+                    <div class="pg-tp-bg" style={{backgroundImage: 'url(../../assets/images/pg-tp-bg3.jpg)'}}></div>
+                </div>
+            </section>
 
         <section>
           <div class="block no-padding">

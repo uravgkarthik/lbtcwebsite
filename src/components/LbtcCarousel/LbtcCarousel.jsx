@@ -20,7 +20,7 @@ function EventFunding() {
                   <div className="feat-cap">
                     <h2 itemprop="headline">
                       Let's Be The Change{" "}
-                      <strong>One Mission To Clean Bengaluru</strong>
+                      <strong>One Mission <br />Clean Bengaluru</strong>
                     </h2>
                     <p itemprop="description">
                       Want to be a part of the change?
@@ -32,10 +32,13 @@ function EventFunding() {
                       to="/form"
                       className="thm-btn"
                       title=""
-                      itemprop="url" style={{textDecoration: "none"}}
+                      itemprop="url" style={{ textDecoration: "none", marginTop: "1rem"}}
                     >
                       Sign Me Up As a Volunteer
                     </Link>
+                    <p itemprop="description" style={{ marginTop: "1rem" }}>
+                      Want to be an Active Citizen? Start reporting garbage dumps in your locality and we shall help you eradicate them.
+                    </p>
                     <Link
                       to="/form"
                       className="thm-btn reportaspot"

@@ -39,7 +39,7 @@ const ProfileCard=(props)=> {
                             itemprop="url"
                             target="_blank" rel="noopener noreferrer"
                         >
-                            <i className="fa fa-twitter"></i>
+                            <i className="fa fa-envelope"></i>
                         </a>
                     </div>
                 </div>

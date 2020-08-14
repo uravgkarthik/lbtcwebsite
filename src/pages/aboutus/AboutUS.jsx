@@ -253,13 +253,7 @@ const AboutUS = () => {
                         itemprop="image"
                       />
                       <img
-                        src={require("../events/Images/EventImages/19.jpg")}
-                        alt="WhatDoWeDo.jpg"
-                        itemprop="image"
-                      />
-
-                      <img
-                        src={require("../../pages/homepage/Come2OurEvents.jpg")}
+                        src={require("../../components/OurActivities/3.jpg")}
                         alt="WhatDoWeDo.jpg"
                         itemprop="image"
                       />
