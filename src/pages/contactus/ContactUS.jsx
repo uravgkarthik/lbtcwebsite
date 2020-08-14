@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import { Switch, Route, Link } from "react-router-dom";
+import "../contactus/contactus.min.scss";
 
 const ContactUS = () => {
   React.useEffect(() => {
@@ -44,7 +45,7 @@ const ContactUS = () => {
         </div>
 
         <section>
-          <div class="block">
+          <div class="block nocontactpadding">
             <div class="container">
               <div class="cnt-wrp">
                 <div class="row">
@@ -57,29 +58,59 @@ const ContactUS = () => {
                       }}
                     >
                       <h2 itemprop="headline">
-                        Don't be a stranger{" "}
-                        <span class="thm-clr">Just Say Hello!</span>
+                        Hello,{" "}
+                        <span class="thm-clr contactheadingsmall">
+                          Feel free to let us know your thoughts
+                        </span>
                       </h2>
                       <p itemprop="description">
                         Want to bring in change? Join hands with us to make a
                         difference.
                       </p>
-                      <form class="cnt-frm" action="https://docs.google.com/forms/d/e/1FAIpQLSfv6LBUi-BcXO9f2aWAWE0RMZ4Bu126gGrzb6hbkwLM0KR9Nw/formResponse" method="post">
+                      <form
+                        class="cnt-frm"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSfv6LBUi-BcXO9f2aWAWE0RMZ4Bu126gGrzb6hbkwLM0KR9Nw/formResponse"
+                        method="post"
+                      >
                         <div class="row mrg10">
                           <div class="col-md-6 col-sm-6 col-lg-6">
-                            <input name="entry.1472963030" type="text" placeholder="First Name" required/>
+                            <input
+                              name="entry.1472963030"
+                              type="text"
+                              placeholder="First Name"
+                              required
+                            />
                           </div>
                           <div class="col-md-6 col-sm-6 col-lg-6">
-                            <input name="entry.1753890476" type="text" placeholder="Last Name" required/>
+                            <input
+                              name="entry.1753890476"
+                              type="text"
+                              placeholder="Last Name"
+                              required
+                            />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <input name="entry.750465195" type="email" placeholder="Email Address" required />
+                            <input
+                              name="entry.750465195"
+                              type="email"
+                              placeholder="Email Address"
+                              required
+                            />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <input name="entry.1475719518" type="text" placeholder="Subject" required/>
+                            <input
+                              name="entry.1475719518"
+                              type="text"
+                              placeholder="Subject"
+                              required
+                            />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
-                            <textarea name="entry.582738885" placeholder="Message" required></textarea>
+                            <textarea
+                              name="entry.582738885"
+                              placeholder="Message"
+                              required
+                            ></textarea>
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
                             <button class="thm-btn" type="submit">
@@ -90,8 +121,8 @@ const ContactUS = () => {
                       </form>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-12 col-lg-4">
-                    <div class="cnt-inf thm-layer opc9">
+                  <div class="col-md-4 col-sm-12 col-lg-4 contactblueboxpadding">
+                    <div class="cnt-inf thm-layer opc9 ">
                       <div
                         class="fixed-bg patern-bg thm-bg back-blend-multiply"
                         style={{
@@ -100,6 +131,9 @@ const ContactUS = () => {
                         }}
                       ></div>
                       <p itemprop="description">
+                        <span>
+                          <i className="fa fa-home"></i>{" "}
+                        </span>
                         <a href="https://www.google.com/maps?ll=12.928404,77.528416&z=12&t=m&hl=en-US&gl=IN&mapclient=embed&saddr&daddr=Let%27s+Be+The+Change,+25th+Main+Road,+1062,+15th+Cross+Rd,+Banashankari+Stage+II,+Bengaluru,+Karnataka+560070&dirflg=d">
                           No. 1062, 15th Cross Rd, 25th Main Rd, BSK II Stage,
                           Bengaluru-70
@@ -107,8 +141,11 @@ const ContactUS = () => {
                       </p>
                       <ul class="cnt-inf-lst">
                         <li>
-                          <span>E:</span>
+                          <span>
+                            <i className="fa fa-envelope"></i>
+                          </span>
                           <a
+                            className="mailfontsmall"
                             href="mailto:contact@letsbethechange.in"
                             title=""
                             itemprop="url"
@@ -117,7 +154,9 @@ const ContactUS = () => {
                           </a>
                         </li>
                         <li>
-                          <span>T:</span>
+                          <span>
+                            <i className="fa fa-phone"></i>
+                          </span>
                           <a href="tel:+919353218818">+91 93532 18818</a>
                         </li>
                         {/* <li>

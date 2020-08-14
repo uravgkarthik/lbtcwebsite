@@ -49,9 +49,9 @@ const PartnersContainer = () => {
             <div className="sec-ttl-inr">
               <h2 itemprop="headline">Our Supporters</h2>
               <span>
-                Here we present to you all our partners whose contribution has
+                Here we present you all our supporters whose contribution has
                 helped us achieve our objectives and mission of enhancing
-                cleanliness.
+                cleanliness
               </span>
             </div>
           </div>
@@ -67,7 +67,7 @@ const PartnersContainer = () => {
             className="thm-btn"
             style={{ textDecoration: "none" }}
           >
-            Become A Partner<span></span>
+            Become Our Supporter<span></span>
           </Link>
         </div>
       </div>

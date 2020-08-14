@@ -89,7 +89,10 @@ const AboutUS = () => {
                       <p itemprop="description">
                         <ul>
                           <li>
-                            Namma Bengaluru Rising Star of the Year Award (2015)
+                            <a href="https://www.nammabengaluruawards.org/portfolio/sri-anirudh-s-dutt/">
+                              Namma Bengaluru Rising Star of the Year Award
+                              (2015)
+                            </a>
                           </li>{" "}
                           <li>National Yuva Chethana Award (2017)</li>
                           <li>
@@ -98,18 +101,22 @@ const AboutUS = () => {
                           </li>
                           <li>
                             Featured as one of the “Young Achiever” in{" "}
-                            <strong>Weekend with Ramesh</strong> (2019) (Prime
-                            Show in Karnataka)
+                            <a
+                              href="https://www.zee5.com/tvshows/details/weekend-with-ramesh-s4-finale-july-14-2019/0-6-1675/weekend-with-ramesh-s4-finale-july-14-2019/0-1-240658"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <strong>Weekend with Ramesh</strong>
+                            </a>{" "}
+                            (2019) (Prime Show in Karnataka)
                           </li>{" "}
                         </ul>
                       </p>
 
                       <br />
-                      <h2 itemprop="headline">
-                        Our Community Volunteering Activities{" "}
-                      </h2>
+                      <h2 itemprop="headline">Our Volunteering Activities </h2>
                       <p itemprop="description">
-                        Musical Cleanathon:
+                        <strong>Musical Cleanathon:</strong>
                         <ul>
                           <li>
                             Beautification of Garbage Dump while a local band
@@ -117,13 +124,13 @@ const AboutUS = () => {
                           </li>{" "}
                           <li>Encourages communities coming together</li>
                         </ul>
-                        Plog Run
+                        <strong>Plog Run</strong>
                         <ul>
                           <li>
                             Jogging while collecting Dry waste for recycling
                           </li>{" "}
                         </ul>
-                        Clay Ganapathi Workshop:
+                        <strong>Clay Ganapathi Workshop:</strong>
                         <ul>
                           <li>
                             Flagship activity where we train citizens to build
@@ -136,7 +143,17 @@ const AboutUS = () => {
                       <br />
                       <h2 itemprop="headline">Incubation</h2>
 
-                      <p itemprop="description">NSRCEL, IIMB – 2019 to 2020</p>
+                      <p itemprop="description">
+                        We were incubated in{" "}
+                        <a
+                          href="https://www.nsrcel.org/nsrcelsocial/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <strong>NSRCEL Social</strong>
+                        </a>
+                        , IIM Bengaluru - 2019 to 2020
+                      </p>
 
                       <br />
                       <h2 itemprop="headline">Our Current Work </h2>
@@ -196,6 +213,10 @@ const AboutUS = () => {
                                 them in building their organisation and vice
                                 versa
                               </li>
+
+                              <a href="https://rzp.io/l/BVProject">
+                                <strong>Donate Now</strong>
+                              </a>
                             </ul>
                           </ul>
                         </ul>

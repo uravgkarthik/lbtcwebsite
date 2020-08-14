@@ -95,7 +95,7 @@ function BlogArticles() {
                 className="viewallpostsbutton"
                 style={{ textDecoration: "none" }}
               >
-                View All Posts
+                View All Blogs
               </Link>
             </a>
           </div>

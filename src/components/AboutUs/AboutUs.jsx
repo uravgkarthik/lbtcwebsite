@@ -1,5 +1,5 @@
 import React from "react";
-import '../AboutUs/aboutus.min.scss';
+import "../AboutUs/aboutus.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
 
 function AboutUs() {

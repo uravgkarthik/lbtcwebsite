@@ -51,7 +51,7 @@ const HomePage = () => {
                   </div>
                   <div className="col-md-6 col-sm-12 col-lg-6">
                     <div className="abt-desc3">
-                      <h2 itemprop="headline">Come, be a part of our events</h2>
+                      <h2 itemprop="headline">Join our Upcoming Events</h2>
                       <p itemprop="description">
                         Here is a brief view of our upcoming events and the
                         highlights of our previous events
