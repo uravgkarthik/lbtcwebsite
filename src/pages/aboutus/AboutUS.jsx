@@ -178,7 +178,9 @@ const AboutUS = () => {
                           </li>
                           <li>3 key Activities of Bengaluru Veeraru:</li>
                           <ul>
-                            <li>BV Certification Course:</li>
+                            <li>
+                              <strong>BV Certification Course:</strong>
+                            </li>
                             <ul>
                               <li>
                                 Any individual can take up a volunteering course
@@ -194,7 +196,9 @@ const AboutUS = () => {
                             </ul>
                           </ul>
                           <ul>
-                            <li>BV Awards:</li>
+                            <li>
+                              <strong>BV Awards:</strong>
+                            </li>
                             <ul>
                               <li>
                                 Platform recognizes and honours active citizens,
@@ -205,7 +209,9 @@ const AboutUS = () => {
                             </ul>
                           </ul>
                           <ul>
-                            <li>BV Connect:</li>
+                            <li>
+                              <strong>BV Connect:</strong>
+                            </li>
                             <ul>
                               <li>
                                 Platform helps citizens to connect with similar
