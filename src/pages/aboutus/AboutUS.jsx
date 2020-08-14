@@ -120,8 +120,23 @@ function AboutUS() {
                   <div className="col-md-5 col-sm-12 col-lg-5">
                     <div className="abt-pg-imgs">
                       <img
-                        src={require("../../assets/images/resources/abt-pg-img1-1.jpg")}
-                        alt="abt-pg-img1-1.jpg"
+                        src={require("../aboutus/Who-AreWe.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../aboutus/WWR.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../gallery/Images/gallery1page/1L.jpg")}
+                        alt="WhatDoWeDo.jpg"
+                        itemprop="image"
+                      />
+                      <img
+                        src={require("../../components/OurActivities/3.jpg")}
+                        alt="WhatDoWeDo.jpg"
                         itemprop="image"
                       />
                       <img
