@@ -3,7 +3,7 @@ import Disqus from "disqus-react";
 
 export default class extends Component {
   render() {
-    const disqusShortname = "guruji123";
+    const disqusShortname = "let_s_be_the_change";
     const disqusConfig = {
       url: "http://letsbethechange.in",
       identifier: "blog-6",
