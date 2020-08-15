@@ -249,10 +249,10 @@ const Events2 = () => {
                     </p>
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-19">
-                        <a className="thm-btn2" title="" itemprop="url">
+                        <a className="thm-btn2" title="" itemprop="url" >
                           <Link
                             to="/events/event-19"
-                            style={{ textDecoration: "none" }}
+                            style={{ textDecoration: "none"}}
                           >
                             Join The Movement
                           </Link>
@@ -261,7 +261,7 @@ const Events2 = () => {
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
                         <span>
-                          <a href="">Kempegowda Bus Station</a>
+                          Kempegowda Bus Station
                         </span>
                       </span>
                     </div>
