@@ -80,7 +80,7 @@ const Events = () => {
                           {" "}
                           <Link
                             to="events/event-1"
-                            style={{ textDecoration: "none" }}
+                            style={{ textDecoration: "none"}}
                           >
                             Join The Movement
                           </Link>
@@ -190,7 +190,7 @@ const Events = () => {
                         <a className="thm-btn2" title="" itemprop="url">
                           <Link
                             to="/events/event-3"
-                            style={{ textDecoration: "none" }}
+                            style={{ textDecoration: "none"}}
                           >
                             Join The Movement
                           </Link>
