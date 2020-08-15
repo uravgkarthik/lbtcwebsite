@@ -93,7 +93,7 @@ function BlogArticles() {
               <Link
                 to="/blog"
                 className="viewallpostsbutton"
-                style={{ textDecoration: "none" }}
+                style={{ textDecoration: "none", color: "white" }}
               >
                 View All Blogs
               </Link>
