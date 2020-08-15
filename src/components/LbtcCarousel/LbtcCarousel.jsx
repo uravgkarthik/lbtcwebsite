@@ -23,7 +23,7 @@ function EventFunding() {
                       <strong>One Mission <br />Clean Bengaluru</strong>
                     </h2>
                     <p itemprop="description">
-                      Want to be a part of the change?
+                      <strong>Want to be a part of the change?</strong>
                     </p>
                     <p itemprop="description">
                       Join LBTC as a volunteer and contribute to the society.
@@ -36,17 +36,18 @@ function EventFunding() {
                     >
                       Sign Me Up As a Volunteer
                     </Link>
-                    <p itemprop="description" style={{ marginTop: "1rem" }}>
-                      Want to be an Active Citizen? Start reporting garbage dumps in your locality and we shall help you eradicate them.
-                    </p>
+                    
                     <Link
                       to="/form"
                       className="thm-btn reportaspot"
                       title=""
-                      itemprop="url" style={{marginTop: "0.625rem",textDecoration: "none"}}
+                      itemprop="url" style={{marginTop: "1rem",textDecoration: "none"}}
                     >
-                      Report a Spot
+                      Report a Problem
                     </Link>
+                    <p itemprop="description" style={{ marginTop: "1rem" }}>
+                      <strong>We shall help you to solve it</strong>
+                    </p>
                   </div>
                 </div>
                 <div className="col-md-7 col-sm-6 col-lg-7">
