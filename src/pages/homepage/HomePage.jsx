@@ -1,6 +1,8 @@
 import React from "react";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import Partners from "../../components/Partners/Partners";
+
+//import Partners from "../../components/Partners/Partners";
+
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
@@ -62,7 +64,7 @@ const HomePage = () => {
                         <Link
                           to="/events"
                           className="viewallbutton"
-                          style={{ textDecoration: "none" }}
+                          style={{ textDecoration: "none", color: "white"}}
                         >
                           View All The Events<span></span>
                         </Link>
