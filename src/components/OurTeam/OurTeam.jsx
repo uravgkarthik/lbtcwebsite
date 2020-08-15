@@ -3,7 +3,11 @@ import "../OurTeam/ourteam.min.scss";
 import ProfileCard from "./ProfileCard";
 import First from "../../assets/images/Our Team/Anirudh.jpg";
 import Avinash from "../../assets/images/Our Team/Avinash.jpg";
-import Vatsa from "../../assets/images/Our Team/Anirudh.jpg";
+import Hemanth from "../../assets/images/Our Team/Hemanth.jpg";
+import Adithya from "../../assets/images/Our Team/Adi.jpg";
+import Karthik from "../../assets/images/Our Team/Karthik.jpg";
+
+import Vatsa from "../../assets/images/Our Team/Vatsa.jpg";
 import Rahul from "../../assets/images/Our Team/Rahul.jpg";
 import Srinidhi from "../../assets/images/Our Team/Srinidhi.jpg";
 import Vinay from "../../assets/images/Our Team/Vinay.jpg";
@@ -14,9 +18,12 @@ import Sixth from "../../assets/images/Our Team/Nidish.jpg";
 import Seventh from "../../assets/images/Our Team/Lohit.jpg";
 import Ninth from "../../assets/images/Our Team/Yoshita.jpg";
 import Tenth from "../../assets/images/Our Team/Bhuvan.jpg";
+
 import Eleventh from "../../assets/images/Our Team/Niranjan.jpg";
 import Twelveth from "../../assets/images/Our Team/Sharan.jpg";
 function OurTeam(){
+  
+
   const ourteamdata = [
     {
       name:"Anirudh S Dutt", 
@@ -40,7 +47,7 @@ function OurTeam(){
       facebooklink: "https://www.instagram.com/avinoxxofficial/",
       linkedinlink: "",
       twitterlink: "mailto:hemanth@letsbethechange.in",
-      //photo: First
+      photo: Hemanth
     },
     {
       name: "Adithya Krishna",
@@ -48,7 +55,7 @@ function OurTeam(){
       facebooklink: "https://www.instagram.com/adiiikris/",
       linkedinlink: "https://www.linkedin.com/in/adiiikris/",
       twitterlink: "mailto:adithya.krishna@letsbethechange.in",
-      //photo:
+      photo: Adithya
     },
     {
       name: "Karthik Ravishankar",
@@ -56,7 +63,7 @@ function OurTeam(){
       facebooklink: "https://www.instagram.com/karthikravishankar/",
       linkedinlink: "https://www.linkedin.com/in/uravgkarthik/",
       twitterlink: "mailto:karthik@letsbethechange.in",
-      //photo: 
+      photo: Karthik 
     }
   ]
   const governingdata =[
@@ -251,8 +258,9 @@ function OurTeam(){
             </div>
           </div>
         </div>
-      </section>
-    );
+        
+      </section> 
+  ); 
 }
 
 export default OurTeam;
