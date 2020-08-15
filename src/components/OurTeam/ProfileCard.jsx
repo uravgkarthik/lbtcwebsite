@@ -16,8 +16,8 @@ const ProfileCard=(props)=> {
                     <div className="tem-scl">
                         <a
                             className="facebook"
-                            href={person.facebooklink}
-                            title="Facebook"
+                            href={person.linkedinlink}
+                            title="Linkedin"
                             itemprop="url"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -25,8 +25,8 @@ const ProfileCard=(props)=> {
                         </a>
                         <a
                             className="pinterest"
-                            href={person.linkedinlink}
-                            title="Pinterest"
+                            href={person.facebooklink}
+                            title="Instagram"
                             itemprop="url"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -35,7 +35,7 @@ const ProfileCard=(props)=> {
                         <a
                             className="twitter"
                             href={person.twitterlink}
-                            title="Twitter"
+                            title="Email"
                             itemprop="url"
                             target="_blank" rel="noopener noreferrer"
                         >
