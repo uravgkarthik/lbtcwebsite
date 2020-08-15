@@ -9,6 +9,7 @@ import OurTeam from "../../components/OurTeam/OurTeam";
 import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 import { Switch, Route, Link } from "react-router-dom";
+import FeaturedOn from "./FeaturedOn/FeaturedOn";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 const AboutUS = () => {
@@ -92,7 +93,10 @@ const AboutUS = () => {
                           </li>{" "}
                           <li>National Yuva Chethana Award (2017)</li>
                           <li>
-                            Guinness World Record for collecting 33.5 Tonnes of
+                            <a href="https://www.guinnessworldrecords.com/world-records/541225-most-plastic-bottles-collected-for-recycling-in-12-hours">
+                              Guinness World Record {" "}
+                            </a>
+                             for collecting 33.5 Tonnes of
                             plastic bottles in 12 hours (2018)
                           </li>
                           <li>
@@ -165,7 +169,7 @@ const AboutUS = () => {
                           <li>
                             About{" "}
                             <a href="https://bengaluruveeraru.org">
-                              Bengaluru Veeraru (BV):
+                              <strong>Bengaluru Veeraru (BV):</strong>
                             </a>{" "}
                             BV is a platform to recognize and bring together all
                             the like-minded NGOs, RWAs, and Active Citizens for
@@ -271,7 +275,7 @@ const AboutUS = () => {
           <div className="fixed-bg fullcontainerimg">
             <img
               className="fullcontainerimg"
-              src={require("../aboutus/../aboutus/VideoBkgnd.jpg")}
+              src={require("../aboutus/VideoBkgnd.jpg")}
               alt="abt-pg-img1-2.jpg"
               itemprop="image"
             />
@@ -279,20 +283,21 @@ const AboutUS = () => {
           <div className="container">
             <div className="vdo-wrp text-center">
               <div className="vdo-inr">
-                {/* <a
-                  href="https://www.youtube.com/watch?v=P4M4WRtlKPQ&feature=emb_logo"
-                  data-fancybox
-                  title=""
-                  itemprop="url"
-                > */}
+                
                 <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
-                {/* </a> */}
+
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <OurTeam></OurTeam> {/* Our Team Component */}
+
+   
+        
+    
+
       <section>
         <div className="block remove-gap">
           <div className="container">
@@ -338,6 +343,9 @@ const AboutUS = () => {
           </div>
         </div>
       </section>
+      
+      <FeaturedOn></FeaturedOn>
+
       <Footer></Footer> {/* Footer Component */}
     </main>
   );
