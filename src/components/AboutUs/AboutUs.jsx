@@ -30,10 +30,10 @@ function AboutUs() {
                 <div className="abt-desc">
                   <h2 itemprop="headline">About Us</h2>
                   <p itemprop="description">
-                    An NGO run by a group of passionate, energetic and like
-                    minded people towards achieving a common objective of
-                    eradicating garbage dumps and directing the residents
-                    towards achieving a cleaner and greener environment.
+                    Let's Be The Change (#TeamLBTC) is a non-profit organization
+                    which aims to build a cleaner, healthier and more
+                    sustainable society by working with the people and the
+                    Government.
                     <br /> <br /> LBTC provides it's volunteers a platform
                     filled with zest to contribute more to the society along
                     with a sense of accomplishment and satisfaction.

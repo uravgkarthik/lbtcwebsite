@@ -56,17 +56,13 @@ const AboutUS = () => {
                   <div className="col-md-7 col-sm-12 col-lg-7">
                     <div className="abt-pg-desc">
                       <p itemprop="description">
-                        Let’s Be The Change (LBTC)​ is a non-profit organization
-                        which aims to build a cleaner and healthier society by
-                        working with the people and the Government. LBTC was
-                        started by ​Anirudh S Dutt​ on 5th July 2013. ​ ​We have
-                        been growing ever since, with over 250 successful
-                        events, including cleanliness drives, awareness
-                        programmes, spot fixes, pet adoption drives and so on.
-                        We are mainly comprised of energetic youngsters whose
-                        only aim is to make Bengaluru a better place for the
-                        society. We are a bridge connection between the
-                        Municipal Corporation (BBMP) and the Citizens.
+                        Let's Be The Change (#TeamLBTC) is a non-profit
+                        organization which aims to build a cleaner, healthier
+                        and more sustainable society by working with the people
+                        and the Government.
+                        <br /> <br /> LBTC provides it's volunteers a platform
+                        filled with zest to contribute more to the society along
+                        with a sense of accomplishment and satisfaction.
                       </p>
                       <br />
                       <h2 itemprop="headline">Our Vision </h2>
