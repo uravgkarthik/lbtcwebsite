@@ -102,8 +102,8 @@ function OurTeam(){
     {
       name: "Nidish Kudwalli",
       designation: "Operations",
-      facebooklink: "https://www.linkedin.com/in/nidhish-kudwalli-a43466129/",
-      linkedinlink: "https://www.instagram.com/arachnid_27/",
+      facebooklink: "https://www.instagram.com/arachnid_27/",
+      linkedinlink: "https://www.linkedin.com/in/nidhish-kudwalli-a43466129/",
       twitterlink: "mailto:nidhish@letsbethechange.in",
       photo: Sixth
     },
