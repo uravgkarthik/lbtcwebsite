@@ -19,7 +19,7 @@ function EventFunding() {
                 <div className="col-md-5 col-sm-6 col-lg-5">
                   <div className="feat-cap">
                     <h2 itemprop="headline">
-                      Let's Be The Change{" "}
+                      Let's Be The Change <br />{" "}
                       <strong>One Mission <br />Clean Bengaluru</strong>
                     </h2>
                     <p itemprop="description">
