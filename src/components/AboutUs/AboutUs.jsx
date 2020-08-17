@@ -32,7 +32,7 @@ function AboutUs() {
                   <p itemprop="description">
                     Let's Be The Change (#TeamLBTC) is a non-profit organization
                     which aims to build a cleaner, healthier and more
-                    sustainable society by working with the people and the
+                    sustainable society by working in synergy with the citizens and the
                     Government.
                     <br /> <br /> LBTC provides it's volunteers a platform
                     filled with zest to contribute more to the society along
