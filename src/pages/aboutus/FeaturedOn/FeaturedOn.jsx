@@ -22,11 +22,12 @@ const FeaturedOn = () => {
                                 itemprop="image"
                                 /></a>
                             
-                            <img
-                                src={require("../FeaturedOn/lbtc-kannada-prabha-logo.png")}
-                                alt="org-img2-1.png"
-                                itemprop="image"
-                            />
+                            <a href="https://www.guinnessworldrecords.com/world-records/541225-most-plastic-bottles-collected-for-recycling-in-12-hours" target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src={require("../FeaturedOn/lbtc-kannada-prabha-logo.png")}
+                                    alt="org-img2-1.png"
+                                    itemprop="image"
+                                /></a>
                             <img
                                 src={require("../FeaturedOn/lbtc-vijay-karnataka.png")}
                                 alt="org-img2-1.png"
