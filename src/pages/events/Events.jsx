@@ -5,6 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
+import "../events/events.min.scss";
 
 const Events = () => {
   React.useEffect(() => {
@@ -18,7 +19,7 @@ const Events = () => {
         <ResponsiveHeader></ResponsiveHeader>
         <MenuBar></MenuBar>
         <section>
-          <div className="block no-padding">
+          <div className="block no-padding aboutpaddingnotreqd">
             <div class="pg-tp-bg">
               <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
