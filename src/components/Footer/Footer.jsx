@@ -24,11 +24,14 @@ function Footer() {
                       />
                     </Link>
                   </div>
-                  <p itemprop="description">
+                  {/* <p itemprop="description">
                     We believe cleanlinesss can be established and issues can be
                     solved when citizens take up initiatives and work in synergy
                     with the Government.
-                  </p>
+                  </p> */}
+                  <br />
+                  <br />
+                  <br />
                   <ul class="abt-cnt-lst">
                     <li>
                       <i class="flaticon-telephone thm-clr"></i>
