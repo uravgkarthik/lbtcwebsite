@@ -17,7 +17,7 @@ function BlogDetails() {
         <ResponsiveHeader></ResponsiveHeader>
         <StickyHeader></StickyHeader>
         <section>
-          <div class="block no-padding">
+          <div class="block no-padding aboutpaddingnotreqd">
             <div class="pg-tp-bg">
               <img src={require("../aboutus/AboutUs-Main-3.jpg")} />
             </div>
@@ -140,7 +140,7 @@ function BlogDetails() {
                 </div>
                 <div class="athr-bx">
                   <img
-                    src={require("../../assets/images/resources/athr-img1-1.jpg")}
+                    src={require("../blog/Images/Sahiti.jpg")}
                     alt="athr-img1-1.jpg"
                     itemprop="image"
                   />

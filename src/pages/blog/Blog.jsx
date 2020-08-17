@@ -20,7 +20,7 @@ const Blog = () => {
         <MenuBar></MenuBar>
         <StickyHeader></StickyHeader>
         <section>
-          <div class="block no-padding">
+          <div class="block no-padding aboutpaddingnotreqd">
             <div class="pg-tp-bg">
               <img
                 src={require("../aboutus/AboutUs-Main-3.jpg")}
