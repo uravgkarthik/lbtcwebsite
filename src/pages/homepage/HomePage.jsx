@@ -45,7 +45,7 @@ const HomePage = () => {
                   <div className="col-md-6 col-sm-12 col-lg-6">
                     <div className="abt-img">
                       <img
-                        src={require("../homepage/Come2OurEvents.jpg")}
+                        src={require("../homepage/Come2OurEventsX.jpg")}
                         alt="orgn-mckp1.png"
                         itemprop="image"
                       />
