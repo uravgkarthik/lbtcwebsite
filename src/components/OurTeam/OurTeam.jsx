@@ -37,7 +37,7 @@ function OurTeam(){
       name:"Avinash N Shastry",
       designation: "Manager, Operations",
       facebooklink: "https://www.instagram.com/avinaasha.shastry/",
-      linkedinlink: "",
+      //linkedinlink: "#",
       twitterlink: "mailto:avinaasha@letsbethechange.in",
       photo: Avinash
     },
@@ -45,7 +45,7 @@ function OurTeam(){
       name:"Hemanth R Shankar",
       designation: "Intern, Operations",
       facebooklink: "https://www.instagram.com/avinoxxofficial/",
-      linkedinlink: "",
+      //linkedinlink: "#",
       twitterlink: "mailto:hemanth@letsbethechange.in",
       photo: Hemanth
     },
@@ -159,10 +159,10 @@ function OurTeam(){
   const youthteamdata = [
     {
       name: "Niranjan Muralidhar",
-      designation: "",
+      // designation: "#",
       facebooklink: "https://www.instagram.com/niranjan_muralidhar/",
-      linkedinlink: "",
-      twitterlink: "",
+      // linkedinlink: "#",
+      // twitterlink: "#",
       photo: Eleventh
     },
     // {
@@ -175,10 +175,10 @@ function OurTeam(){
     // },
     {
       name: "Sharan",
-      designation: "",
-      facebooklink: "",
-      linkedinlink: "",
-      twitterlink: "",
+      // designation: "#",
+      // facebooklink: "#",
+      // linkedinlink: "#",
+      // twitterlink: "#",
       photo: Twelveth
     },
     // {
@@ -197,7 +197,7 @@ function OurTeam(){
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
                 <h2 className="smolfontsize" itemprop="headline">Core Team</h2>
-                <span>Our Main Team</span>
+                {/* <span>Our Main Team</span> */}
                 <i className="flaticon-sweat thm-clr"></i>
               </div>
             </div>
@@ -219,7 +219,7 @@ function OurTeam(){
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
                 <h2 className="smolfontsize" itemprop="headline">Governing Council</h2>
-                <span>Our Governing Members</span>
+                {/* <span>Our Governing Members</span> */}
                 <i className="flaticon-sweat thm-clr"></i>
               </div>
             </div>
@@ -241,7 +241,7 @@ function OurTeam(){
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
                 <h2 className="smolfontsize" itemprop="headline">Youth Team</h2>
-                <span>Our Youth Wing</span>
+                {/* <span>Our Youth Wing</span> */}
                 <i className="flaticon-sweat thm-clr"></i>
               </div>
             </div>
@@ -254,6 +254,28 @@ function OurTeam(){
                     </div>
                   ))
                 }
+              </div>
+            </div>
+          </div>
+          <div className="container youthteampad">
+            <div className="sec-ttl text-center">
+              <div className="sec-ttl-inr">
+                <h2 className="smolfontsize" itemprop="headline">Youth Team</h2>
+                {/* <span>Our Youth Wing</span> */}
+                <i className="flaticon-sweat thm-clr"></i>
+              </div>
+            </div>
+            <div className="tem-wrp text-center remove-ext4">
+              <div className="row">
+
+                    <div className="col-md-12 col-sm-12 col-lg-12">
+                  <img
+                    src={require("../../assets/images/CoreTeam.JPG")}
+                    alt="Core-Team.jpg"
+                    itemprop="image"
+                  />
+                    </div>
+
               </div>
             </div>
           </div>
