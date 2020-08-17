@@ -23,7 +23,7 @@ const AboutUS = () => {
       <StickyHeader></StickyHeader>
       <ResponsiveHeader></ResponsiveHeader>
       <section>
-        <div class="block no-padding">
+        <div class="block no-padding aboutpaddingnotreqd">
           <div class="pg-tp-bg">
             <img
               src={require("../aboutus/AboutUs-Main-3.jpg")}
@@ -48,16 +48,16 @@ const AboutUS = () => {
         </div>
       </div>
       <section>
-        <div className="block">
+        <div className="block" style={{padding: "7rem 0rem 0rem 0rem !important"}}>
           <div className="container">
             <div className="abt-pg-wrp">
-              <h2 itemprop="headline">Who are We? </h2>
+              <h2 itemprop="headline">About Us</h2>
               <div className="abt-pg-inr">
                 <div className="row align-items-center">
                   <div className="col-md-7 col-sm-12 col-lg-7">
                     <div className="abt-pg-desc">
                       <p itemprop="description">
-                        Let's Be The Change (#TeamLBTC) is a non-profit
+                        <strong>Let's Be The Change</strong> (#TeamLBTC) is a non-profit
                         organization which aims to build a cleaner, healthier
                         and more sustainable society by working with the people
                         and the Government.
@@ -123,6 +123,11 @@ const AboutUS = () => {
                             performs
                           </li>{" "}
                           <li>Encourages communities coming together</li>
+                          <a
+                            href="https://pages.razorpay.com/cleanathon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          ><strong>Donate For Cleanathon</strong></a>
                         </ul>
                         <strong>Plog Run</strong>
                         <ul>
@@ -294,9 +299,7 @@ const AboutUS = () => {
 
       <OurTeam></OurTeam> {/* Our Team Component */}
 
-   
-        
-    
+      <FeaturedOn></FeaturedOn> {/* Featured On Component */}
 
       <section>
         <div className="block remove-gap">
@@ -344,7 +347,7 @@ const AboutUS = () => {
         </div>
       </section>
       
-      <FeaturedOn></FeaturedOn>
+      
 
       <Footer></Footer> {/* Footer Component */}
     </main>
