@@ -44,8 +44,8 @@ function EventFunding() {
                       </h4>
                       <span className="cus-amt"></span>
                       <div className="progress">
-                        <div className="progress-bar thm-bg wdth60">
-                          <span>60%</span>
+                        <div className="progress-bar thm-bg wdth10">
+                          <span>09%</span>
                         </div>
                       </div>
                       <a
@@ -83,10 +83,9 @@ function EventFunding() {
                       <h4 itemprop="headline">
                         <a
                           href="https://rzp.io/l/cleanathon"
-                          title=""
+                          title="#"
                           target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                          rel="noopener noreferrer">
                           {" "}
                           Help us Beautify Bengaluru <br />
                         </a>
