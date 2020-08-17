@@ -260,7 +260,7 @@ function OurTeam(){
           <div className="container youthteampad">
             <div className="sec-ttl text-center">
               <div className="sec-ttl-inr">
-                <h2 className="smolfontsize" itemprop="headline">Youth Team</h2>
+                <h2 className="smolfontsize" itemprop="headline">Core Team</h2>
                 {/* <span>Our Youth Wing</span> */}
                 <i className="flaticon-sweat thm-clr"></i>
               </div>
