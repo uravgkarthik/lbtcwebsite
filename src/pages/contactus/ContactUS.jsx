@@ -20,7 +20,7 @@ const ContactUS = () => {
         <MenuBar></MenuBar>
 
         <section>
-          <div class="block no-padding">
+          <div class="block no-padding aboutpaddingnotreqd">
             <div class="pg-tp-bg">
               <img
                 src={require("../aboutus/AboutUs-Main-3.jpg")}
@@ -64,8 +64,8 @@ const ContactUS = () => {
                         </span>
                       </h2>
                       <p itemprop="description">
-                        Want to bring in change? Join hands with us to make a
-                        difference.
+                        {/* Want to bring in change? Join hands with us to make a
+                        difference. */}
                       </p>
                       <form
                         class="cnt-frm"
