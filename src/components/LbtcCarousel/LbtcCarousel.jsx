@@ -13,14 +13,17 @@ function EventFunding() {
               backgroundImage: "url(../../assets/images/bg-shp3.png)",
             }}
           ></div>
-          <div className="container">
+          <div className="container respspace">
             <div className="feat-wrp2">
               <div className="row align-items-center">
                 <div className="col-md-5 col-sm-6 col-lg-5">
                   <div className="feat-cap">
                     <h2 itemprop="headline">
                       Let's Be The Change <br />{" "}
-                      <strong>One Mission <br />Clean Bengaluru</strong>
+                      <strong>
+                        One Mission <br />
+                        Clean Bengaluru
+                      </strong>
                     </h2>
                     <p itemprop="description">
                       <strong>Want to be a part of the change?</strong>
@@ -32,16 +35,18 @@ function EventFunding() {
                       to="/form"
                       className="thm-btn"
                       title=""
-                      itemprop="url" style={{ textDecoration: "none", marginTop: "1rem"}}
+                      itemprop="url"
+                      style={{ textDecoration: "none", marginTop: "1rem" }}
                     >
                       Sign Me Up As a Volunteer
                     </Link>
-                    
+
                     <Link
                       to="/form"
                       className="thm-btn reportaspot"
                       title=""
-                      itemprop="url" style={{marginTop: "1rem",textDecoration: "none"}}
+                      itemprop="url"
+                      style={{ marginTop: "1rem", textDecoration: "none" }}
                     >
                       Report a Problem
                     </Link>
