@@ -20,3 +20,17 @@ a.thm-btn.yellowcolor{
     display: none;
 }
 }
+.whitebkgnd{
+    background-color: white !important;
+}
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: #1b6dae !important;
+    
+}
+
+@media (min-width: 996px){
+    .mobilenotrqd{
+        display: none !important;
+}
+}
