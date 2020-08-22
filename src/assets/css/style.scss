@@ -104,6 +104,12 @@ footer,
   position:relative;
   width:100%;
 }
+
+@media(max-width: 770px){
+  .blockx{
+      padding: 0 !important;
+  }
+}
 .block {padding: 7.8125rem 0;}
 .less-spacing,
 .block.less-spacing {padding: 6.25rem 0;}
@@ -166,7 +172,10 @@ footer,
 .no-padding,
 .block.no-padding {padding-top: 5rem !important;}   
 
-
+@media(max-width: 996px){
+  .no-padding,
+.block.no-padding {padding-top: 4rem !important;}
+}
 // This is For Carousel Padding✅
 
 
@@ -3804,6 +3813,8 @@ div.slick-current .strs-itm-inr > i {
   position: relative;
   margin-bottom: 1.25rem;
 }
+
+
 .gal-itm > img {width: 100%;}
 .gal-itm:before {
   content: "";
