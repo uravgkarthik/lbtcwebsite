@@ -10,6 +10,7 @@ import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 import { Switch, Route, Link } from "react-router-dom";
 import FeaturedOn from "./FeaturedOn/FeaturedOn";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 const AboutUS = () => {
@@ -20,8 +21,9 @@ const AboutUS = () => {
     <main>
       <HeaderBar></HeaderBar>
       <MenuBar></MenuBar>
-      <StickyHeader></StickyHeader>
-      <ResponsiveHeader></ResponsiveHeader>
+      {/*<StickyHeader></StickyHeader>
+      <ResponsiveHeader></ResponsiveHeader> */}
+      <MenuBarX></MenuBarX>
       <section>
         <div class="block no-padding aboutpaddingnotreqd">
           <div class="pg-tp-bg">
@@ -48,7 +50,10 @@ const AboutUS = () => {
         </div>
       </div>
       <section>
-        <div className="block" style={{padding: "7rem 0rem 0rem 0rem !important"}}>
+        <div
+          className="block blockx"
+          style={{ padding: "1rem" }}
+        >
           <div className="container">
             <div className="abt-pg-wrp">
               <h2 itemprop="headline">About Us</h2>
@@ -57,10 +62,10 @@ const AboutUS = () => {
                   <div className="col-md-7 col-sm-12 col-lg-7">
                     <div className="abt-pg-desc">
                       <p itemprop="description">
-                        <strong>Let's Be The Change</strong> (#TeamLBTC) is a non-profit
-                        organization which aims to build a cleaner, healthier
-                        and more sustainable society by working with the people
-                        and the Government.
+                        <strong>Let's Be The Change</strong> (#TeamLBTC) is a
+                        non-profit organization which aims to build a cleaner,
+                        healthier and more sustainable society by working with
+                        the people and the Government.
                         <br /> <br /> LBTC provides it's volunteers a platform
                         filled with zest to contribute more to the society along
                         with a sense of accomplishment and satisfaction.
@@ -94,10 +99,10 @@ const AboutUS = () => {
                           <li>National Yuva Chethana Award (2017)</li>
                           <li>
                             <a href="https://www.guinnessworldrecords.com/world-records/541225-most-plastic-bottles-collected-for-recycling-in-12-hours">
-                              Guinness World Record {" "}
+                              Guinness World Record{" "}
                             </a>
-                             for collecting 33.5 Tonnes of
-                            plastic bottles in 12 hours (2018)
+                            for collecting 33.5 Tonnes of plastic bottles in 12
+                            hours (2018)
                           </li>
                           <li>
                             Featured as one of the “Young Achiever” in{" "}
@@ -127,7 +132,9 @@ const AboutUS = () => {
                             href="https://pages.razorpay.com/cleanathon"
                             target="_blank"
                             rel="noopener noreferrer"
-                          ><strong>Donate For Cleanathon</strong></a>
+                          >
+                            <strong>Donate For Cleanathon</strong>
+                          </a>
                         </ul>
                         <strong>Plog Run</strong>
                         <ul>
@@ -288,19 +295,14 @@ const AboutUS = () => {
           <div className="container">
             <div className="vdo-wrp text-center">
               <div className="vdo-inr">
-                
                 <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
-
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <OurTeam></OurTeam> {/* Our Team Component */}
-
       <FeaturedOn></FeaturedOn> {/* Featured On Component */}
-
       <section>
         <div className="block remove-gap">
           <div className="container">
@@ -346,9 +348,6 @@ const AboutUS = () => {
           </div>
         </div>
       </section>
-      
-      
-
       <Footer></Footer> {/* Footer Component */}
     </main>
   );

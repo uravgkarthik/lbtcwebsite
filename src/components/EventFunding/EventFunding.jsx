@@ -25,7 +25,7 @@ function EventFunding() {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require("../EventFunding/Fundraising/10.jpg")}
+                          src={require("../EventFunding/Fundraising/X10X.png")}
                           alt="Fund-1.jpg"
                           itemprop="image"
                         />
@@ -73,7 +73,7 @@ function EventFunding() {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require("../EventFunding/Fundraising/1.jpg")}
+                          src={require("../EventFunding/Fundraising/1X.png")}
                           alt="Fund-2.jpg"
                           itemprop="image"
                         />
@@ -121,7 +121,7 @@ function EventFunding() {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require("../EventFunding/Fundraising/2.jpg")}
+                          src={require("../EventFunding/Fundraising/2X.png")}
                           alt="Fund-3.jpg"
                           itemprop="image"
                         />
@@ -169,7 +169,7 @@ function EventFunding() {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src={require("../EventFunding/Fundraising/4.jpg")}
+                          src={require("../EventFunding/Fundraising/4X.png")}
                           alt="Fund-4.jpg"
                           itemprop="image"
                         />

@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import { Switch, Route, Link } from "react-router-dom";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../contactus/contactus.min.scss";
 
 const ContactUS = () => {
@@ -17,6 +18,7 @@ const ContactUS = () => {
       <main>
         <HeaderBar></HeaderBar>
         <ResponsiveHeader></ResponsiveHeader>
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
 
         <section>
