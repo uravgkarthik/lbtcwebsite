@@ -6,6 +6,7 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import BlogArticles from "../../components/BlogArticles/BlogArticles";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
@@ -27,7 +28,8 @@ const HomePage = () => {
         <HeaderBar></HeaderBar> {/* Headers Component */}
         <MenuBar></MenuBar> {/* MenuBar Component */}
         <StickyHeader></StickyHeader> {/* StickyHeader Component */}
-        <ResponsiveHeader></ResponsiveHeader> {/* Headers Component */}
+        {/* <ResponsiveHeader></ResponsiveHeader> Headers Component */}
+        <MenuBarX></MenuBarX>
         <LbtcCarousel></LbtcCarousel> {/* Home Page First Section Component */}
         <AboutUs></AboutUs> {/* About Us Component */}
         <EventFunding></EventFunding> {/* Event Funds Section Component */}
