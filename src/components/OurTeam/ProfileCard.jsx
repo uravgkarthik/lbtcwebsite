@@ -14,6 +14,7 @@ const ProfileCard=(props)=> {
                     }}
                 >
                     <div className="tem-scl">
+                    {person.linkedinlink && 
                         <a
                             className="facebook"
                             href={person.linkedinlink}
@@ -23,6 +24,8 @@ const ProfileCard=(props)=> {
                         >
                             <i className="fa fa-linkedin"></i>
                         </a>
+                    }
+                    {person.facebooklink && 
                         <a
                             className="pinterest"
                             href={person.facebooklink}
@@ -32,6 +35,8 @@ const ProfileCard=(props)=> {
                         >
                             <i className="fa fa-instagram"></i>
                         </a>
+                    }
+                    {person.twitterlink &&
                         <a
                             className="twitter"
                             href={person.twitterlink}
@@ -41,6 +46,7 @@ const ProfileCard=(props)=> {
                         >
                             <i className="fa fa-envelope"></i>
                         </a>
+                    }
                     </div>
                 </div>
                 <div className="tem-inf">
