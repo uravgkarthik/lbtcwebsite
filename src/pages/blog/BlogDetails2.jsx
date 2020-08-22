@@ -7,6 +7,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import "../blog/blog.min.scss";
 import DisqusComments2 from "../../components/Disqus/DisqusComments2";
 import { Switch, Route, Link } from "react-router-dom";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 
 function BlogDetails2() {
   return (
@@ -15,6 +16,7 @@ function BlogDetails2() {
         <HeaderBar></HeaderBar>
         <MenuBar></MenuBar>
         <ResponsiveHeader></ResponsiveHeader>
+        <MenuBarX></MenuBarX>
         <StickyHeader></StickyHeader>
         <section>
           <div class="block no-padding aboutpaddingnotreqd">

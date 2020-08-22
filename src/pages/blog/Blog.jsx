@@ -7,6 +7,7 @@ import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import DisqusComments from "../../components/Disqus/DisqusComments";
 import "../blog/blog.min.scss";
 import { Switch, Route, Link } from "react-router-dom";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 
 const Blog = () => {
   React.useEffect(() => {
@@ -16,7 +17,8 @@ const Blog = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
         <StickyHeader></StickyHeader>
         <section>
@@ -44,6 +46,15 @@ const Blog = () => {
           </div>
         </div>
         <section>
+          <section>
+            <div className="block blockx" style={{ padding: "1rem" }}>
+              <div className="container">
+                <div className="abt-pg-wrp">
+                  <h2 itemprop="headline">Blog</h2>
+                </div>
+              </div>
+            </div>
+          </section>
           <div class="block">
             <div class="container">
               <div class="row">
