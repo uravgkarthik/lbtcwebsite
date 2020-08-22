@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import "../gallery/gallery.min.scss";
@@ -22,8 +23,43 @@ const Gallery = () => {
 
         <StickyHeader></StickyHeader>
 
-        <ResponsiveHeader></ResponsiveHeader>
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <section>
+          <div class="block no-padding aboutpaddingnotreqd">
+            <div class="pg-tp-bg">
+              <img
+                src={require("../aboutus/AboutUs-Main-3.jpg")}
+                alt="Main-Background.jpg"
+                itemprop="image"
+              />
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="gray-bg3 brdcrmb-wrp">
+            <div class="container">
+              <div class="brdcrmb-inr flex justify-content-between">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <Link to="" title="" itemprop="url">
+                      Home
+                    </Link>
+                  </li>
+                  <li class="breadcrumb-item active">Gallery</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <section>
+            <div className="block blockx" style={{ padding: "1rem" }}>
+              <div className="container">
+                <div className="abt-pg-wrp">
+                  <h2 itemprop="headline">Gallery</h2>
+                </div>
+              </div>
+            </div>
+          </section>
           <div class="block">
             <div class="container">
               <div class="gal-wrp text-center remove-ext1">
