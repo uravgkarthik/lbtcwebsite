@@ -4,6 +4,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import { Switch, Route, Link } from "react-router-dom";
 
 function EventDetails4() {
@@ -11,8 +12,8 @@ function EventDetails4() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
-
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
 
         <section>

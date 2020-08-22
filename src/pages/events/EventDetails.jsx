@@ -3,6 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
@@ -11,7 +12,8 @@ function EventDetails() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
             <section>
                 <div class="block no-padding">

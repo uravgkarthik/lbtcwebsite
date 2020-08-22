@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
@@ -11,8 +12,8 @@ function EventDetails15() {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
-
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
 
         <section>

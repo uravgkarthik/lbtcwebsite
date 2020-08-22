@@ -5,6 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 //import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import {Link } from "react-router-dom";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../events/events.min.scss";
 
 const Events2 = () => {
@@ -15,7 +16,8 @@ const Events2 = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
         <section>
           <div className="block no-padding aboutpaddingnotreqd">
@@ -27,6 +29,7 @@ const Events2 = () => {
             </div>
           </div>
         </section>
+
         <div className="gray-bg3 brdcrmb-wrp">
           <div className="container">
             <div className="brdcrmb-inr flex justify-content-between">
@@ -41,6 +44,15 @@ const Events2 = () => {
             </div>
           </div>
         </div>
+        <section>
+          <div className="block blockx" style={{ padding: "1rem" }}>
+            <div className="container">
+              <div className="abt-pg-wrp">
+                <h2 itemprop="headline">Events</h2>
+              </div>
+            </div>
+          </div>
+        </section>
         <section>
           <div className="block">
             <div className="container">
@@ -377,15 +389,13 @@ const Events2 = () => {
                   </li>
 
                   <li className="page-item">
-                    
-                      <Link
-                        to="/events4"
-                        className="page-link"
-                        title=""
-                        itemprop="url"
-                      >
-                        4
-                      
+                    <Link
+                      to="/events4"
+                      className="page-link"
+                      title=""
+                      itemprop="url"
+                    >
+                      4
                     </Link>
                   </li>
 

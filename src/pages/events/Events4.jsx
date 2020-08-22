@@ -5,6 +5,7 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import { Switch, Route, Link } from "react-router-dom";
+import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../events/events.min.scss";
 
 const Events2 = () => {
@@ -15,7 +16,8 @@ const Events2 = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
+        <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
         <section>
           <div className="block no-padding aboutpaddingnotreqd">
@@ -24,6 +26,7 @@ const Events2 = () => {
             </div>
           </div>
         </section>
+
         <div className="gray-bg3 brdcrmb-wrp">
           <div className="container">
             <div className="brdcrmb-inr flex justify-content-between">
@@ -38,6 +41,15 @@ const Events2 = () => {
             </div>
           </div>
         </div>
+        <section>
+          <div className="block blockx" style={{ padding: "1rem" }}>
+            <div className="container">
+              <div className="abt-pg-wrp">
+                <h2 itemprop="headline">Events</h2>
+              </div>
+            </div>
+          </div>
+        </section>
         <section>
           <div className="block">
             <div className="container">
@@ -250,10 +262,10 @@ const Events2 = () => {
                     </p>
                     <div className="evnt-inf-btm">
                       <Link to="/events/event-19">
-                        <a className="thm-btn2" title="" itemprop="url" >
+                        <a className="thm-btn2" title="" itemprop="url">
                           <Link
                             to="/events/event-19"
-                            style={{ textDecoration: "none"}}
+                            style={{ textDecoration: "none" }}
                           >
                             Join The Movement
                           </Link>
@@ -261,9 +273,7 @@ const Events2 = () => {
                       </Link>
                       <span className="evnt-loc">
                         <i className="fa fa-map-marker"></i>
-                        <span>
-                          Kempegowda Bus Station
-                        </span>
+                        <span>Kempegowda Bus Station</span>
                       </span>
                     </div>
                   </div>
