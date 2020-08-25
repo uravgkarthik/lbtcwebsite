@@ -25,8 +25,8 @@ function MenuBar() {
           <Nav.Link as={Link} to="/events" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Events</Nav.Link>
           <Nav.Link as={Link} to="/contact" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Contact</Nav.Link>
           <Nav.Link as={Link} to="/blog" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Blog</Nav.Link>
-          <Nav.Link as={Link} href="https://bengaluruveeraru.org/ourwork/index.html" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Covid-19</Nav.Link>
-          <Nav.Link as={Link} href="https://milaap.org/fundraisers/cleanathon-by-lbtc" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Donate</Nav.Link>
+          <Nav.Link href="https://bengaluruveeraru.org/ourwork/index.html" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Covid-19</Nav.Link>
+          <Nav.Link href="https://milaap.org/fundraisers/cleanathon-by-lbtc" style={{ color: "white", textAlignLast: "center", fontSize: "1.1rem", fontWeight: "700" }}>Donate</Nav.Link>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
