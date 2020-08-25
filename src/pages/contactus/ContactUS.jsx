@@ -17,7 +17,7 @@ const ContactUS = () => {
     <div classNameName="App">
       <main>
         <HeaderBar></HeaderBar>
-        <ResponsiveHeader></ResponsiveHeader>
+
         <MenuBarX></MenuBarX>
         <MenuBar></MenuBar>
 
