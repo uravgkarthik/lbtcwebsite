@@ -60,6 +60,62 @@ const Blog = () => {
               <div class="row">
                 <div class="col-md-8 col-sm-12 col-lg-8">
                   <div class="blg-wrp style4 remove-ext6">
+
+                    <div class="blg-bx lst">
+                      <div class="blg-thmb">
+                        <Link to="/blog/blog-8">
+                          <img
+                            src={require("../blog/Images/Blog2.jpg")}
+                            alt="Blog-2"
+                            itemprop="image"
+                          />
+                        </Link>
+                      </div>
+                      <div class="blg-inf">
+                        <span class="blg-dat thm-bg">
+                          <a href="#top" title="" itemprop="url">
+                            September 1, 2020
+                          </a>
+                        </span>
+                        <span class="blg-tgs">
+                          <i class="fa fa-tag"></i>
+                          <a href="#top" title="" itemprop="url">
+                            Charity
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            poor
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            people
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            ideas
+                          </a>
+                        </span>
+                        <h4 itemprop="headline">
+                          <Link to="/blog/blog-8">
+                            ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ,  ಸ್ವಚ್ಛ ಬೆಂಗಳೂರು ಕನಸನ್ನು ನನಸು ಮಾಡೋಣ!
+                          </Link>
+                        </h4>
+                        <ul class="pst-mta">
+                          <li>
+                            <i class="fa fa-user thm-clr"></i>
+                            <a href="#top" title="" itemprop="url">
+                              Avinaasha Shastry
+                            </a>
+                          </li>
+                          <li>
+                            <i class="fa fa-comments thm-clr"></i>30
+                          </li>
+                        </ul>
+                        <p itemprop="description">
+                          ಬದಲಾಗಿ ಬದಲಾಗಿಸೋಣ ಸಂಸ್ಥೆಯು 2013ರಲ್ಲಿ ಸ್ವಚ್ಛತೆ ಹಾಗೂ ಪರಿಸರ ಸಂರಕ್ಷಣೆಯ ಕುರಿತು ಜಾಗೃತಿ ಮೂಡಿಸಿ, ಅವಶ್ಯ ಬದಲಾವಣೆಗಳನ್ನು ಮೂಡಿಸುವ ಸಲುವಾಗಿ ಪ್ರಾರಂಭವಾಯಿತು.
+                        </p>
+                      </div>
+                    </div>
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
                         <Link to="/blog/blog-1">
