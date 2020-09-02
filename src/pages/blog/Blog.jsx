@@ -769,7 +769,9 @@ const Blog = () => {
             </div>
           </div>
         </section>
+
         <Footer></Footer> {/* Footer Component */}
+        
       </main>
     </div>
   );

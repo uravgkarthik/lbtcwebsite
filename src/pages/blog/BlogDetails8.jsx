@@ -49,7 +49,7 @@ function BlogDetails8() {
             <div class="container">
               <div class="blg-dtl-thmb">
                 <img
-                  src={require("../blog/Images/Blog7.jpg")}
+                  src={require("../blog/Images/Blog2.jpg")}
                   alt="blg-dtl-img2-1.jpg"
                   itemprop="image"
                 />
@@ -107,7 +107,7 @@ function BlogDetails8() {
                 </div>
                 <div class="athr-bx">
                   <img
-                    src={require("../blog/Images/Authors/Author-LBTC-L.png")}
+                    src={require("../blog/Images/Authors/Avi.png")}
                     alt="athr-img1-1.jpg"
                     itemprop="image"
                   />
