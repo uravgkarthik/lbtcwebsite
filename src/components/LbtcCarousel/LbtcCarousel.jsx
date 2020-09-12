@@ -41,7 +41,7 @@ function EventFunding() {
                       Sign Me Up As a Volunteer
                     </Link>
 
-                    <Link
+                    {/* <Link
                       to="/form"
                       className="thm-btn reportaspot"
                       title=""
@@ -52,7 +52,21 @@ function EventFunding() {
                     </Link>
                     <p itemprop="description" style={{ marginTop: "1rem" }}>
                       <strong>We shall help you to solve it</strong>
+                    </p> */}
+
+                    <a
+                      href="https://bit.ly/lbtchire-crp"
+                      className="thm-btn reportaspot"
+                      title=""
+                      itemprop="url"
+                      style={{ marginTop: "1rem", textDecoration: "none" }}
+                    >
+                      We are Hiring !!!
+                    </a>
+                    <p itemprop="description" style={{ marginTop: "0.5rem" }}>
+                      <strong>For Covid Relief Work</strong>
                     </p>
+
                   </div>
                 </div>
                 <div className="col-md-7 col-sm-6 col-lg-7">
