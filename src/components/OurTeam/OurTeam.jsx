@@ -18,7 +18,7 @@ import Sixth from "../../assets/images/Our Team/Nidish.jpg";
 import Seventh from "../../assets/images/Our Team/Lohit.jpg";
 import Ninth from "../../assets/images/Our Team/Yoshita.jpg";
 import Tenth from "../../assets/images/Our Team/Bhuvan.jpg";
-
+import YashVikas from "../../assets/images/Our Team/YashVikas.png";
 import Eleventh from "../../assets/images/Our Team/Niranjan.jpg";
 import Twelveth from "../../assets/images/Our Team/Sharan.jpg";
 function OurTeam(){
@@ -165,14 +165,14 @@ function OurTeam(){
       // twitterlink: "#",
       photo: Eleventh
     },
-    // {
-    //   name: "Yash Vikas",
-    //   designation: "",
-    //   facebooklink: "https://www.instagram.com/yashvikas_/",
-    //   linkedinlink: "",
-    //   twitterlink: "",
-    //   photo: Twelveth
-    // },
+    {
+      name: "Yash Vikas",
+      designation: "",
+      facebooklink: "https://www.instagram.com/yashvikas_/",
+      linkedinlink: "",
+      twitterlink: "",
+      photo: YashVikas
+    },
     {
       name: "Sharan",
       // designation: "#",
