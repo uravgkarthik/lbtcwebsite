@@ -45,6 +45,7 @@ import BlogDetails5 from "./pages/blog/BlogDetails5";
 import BlogDetails6 from "./pages/blog/BlogDetails6";
 import BlogDetails7 from "./pages/blog/BlogDetails7";
 import BlogDetails8 from "./pages/blog/BlogDetails8";
+import BlogDetails9 from "./pages/blog/BlogDetails9";
 
 import MainForm from "./pages/forms/MainForm";
 function App() {
@@ -238,6 +239,12 @@ function App() {
         exact
         path="/blog/blog-8"
         render={() => <BlogDetails8></BlogDetails8>}
+      ></Route>
+
+      <Route
+        exact
+        path="/blog/blog-9"
+        render={() => <BlogDetails9></BlogDetails9>}
       ></Route>
 
       <Route exact path="/form" render={() => <MainForm></MainForm>}></Route>

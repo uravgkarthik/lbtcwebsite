@@ -63,6 +63,62 @@ const Blog = () => {
 
                     <div class="blg-bx lst">
                       <div class="blg-thmb">
+                        <Link to="/blog/blog-9">
+                          <img
+                            src={require("../blog/Images/Blog2.jpg")}
+                            alt="Blog-2"
+                            itemprop="image"
+                          />
+                        </Link>
+                      </div>
+                      <div class="blg-inf">
+                        <span class="blg-dat thm-bg">
+                          <a href="#top" title="" itemprop="url">
+                            September 18, 2020
+                          </a>
+                        </span>
+                        <span class="blg-tgs">
+                          <i class="fa fa-tag"></i>
+                          <a href="#top" title="" itemprop="url">
+                            COVID-19
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            poor
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            people
+                          </a>
+                          ,
+                          <a href="#top" title="" itemprop="url">
+                            ideas
+                          </a>
+                        </span>
+                        <h4 itemprop="headline">
+                          <Link to="/blog/blog-9">
+                            The Home Quarantine Watch Volunteer Task
+                          </Link>
+                        </h4>
+                        <ul class="pst-mta">
+                          <li>
+                            <i class="fa fa-user thm-clr"></i>
+                            <a href="#top" title="" itemprop="url">
+                              Hemanth R Shankar
+                            </a>
+                          </li>
+                          <li>
+                            <i class="fa fa-comments thm-clr"></i>30
+                          </li>
+                        </ul>
+                        <p itemprop="description">
+                          The world has been in the gripping claws of the COVID-19 virus for quite a while now. This has made a major impact in the lives of every human on Earth and India is one of the chief victims at this time.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="blg-bx lst">
+                      <div class="blg-thmb">
                         <Link to="/blog/blog-8">
                           <img
                             src={require("../blog/Images/Blog2.jpg")}
@@ -771,7 +827,7 @@ const Blog = () => {
         </section>
 
         <Footer></Footer> {/* Footer Component */}
-        
+
       </main>
     </div>
   );
