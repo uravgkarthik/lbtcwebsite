@@ -29,7 +29,7 @@ function EventFunding() {
                       <strong>Want to be a part of the change?</strong>
                     </p>
                     <p itemprop="description">
-                      
+
                     </p>
                     <Link
                       to="/form"
@@ -41,7 +41,7 @@ function EventFunding() {
                       Sign Me Up As a Volunteer
                     </Link>
 
-                    {/* <Link
+                    <Link
                       to="/form"
                       className="thm-btn reportaspot"
                       title=""
@@ -52,8 +52,8 @@ function EventFunding() {
                     </Link>
                     <p itemprop="description" style={{ marginTop: "1rem" }}>
                       <strong>We shall help you to solve it</strong>
-                    </p> */}
-                    <p itemprop="description" style={{ marginTop: "1rem" }}>
+                    </p>
+                    {/*} <p itemprop="description" style={{ marginTop: "1rem" }}>
                       <strong>Hiring For Covid-19 Relief Work</strong>
                     </p>
 
@@ -65,8 +65,8 @@ function EventFunding() {
                       style={{ marginTop: "1rem", textDecoration: "none" }}
                     >
                       Apply Now
-                    </a>
-                   
+                    </a> */}
+
                   </div>
                 </div>
                 <div className="col-md-7 col-sm-6 col-lg-7">
