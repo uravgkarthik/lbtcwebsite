@@ -81,13 +81,9 @@ function MenuBar() {
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                  <a
-                    href="https://bengaluruveeraru.org/ourwork/index.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <Link to="/covid19">
                     Covid-19
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <a
