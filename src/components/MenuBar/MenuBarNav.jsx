@@ -97,7 +97,9 @@ function MenuBar() {
             Blog
           </Nav.Link>
           <Nav.Link
-            href="https://bengaluruveeraru.org/ourwork/index.html"
+            //href="https://bengaluruveeraru.org/ourwork/index.html"
+            as={Link}
+            to="/covid19"
             style={{
               color: "white",
               textAlignLast: "center",

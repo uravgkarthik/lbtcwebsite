@@ -23,7 +23,7 @@ import EventDetails9 from "./pages/events/EventDetails9";
 import EventDetails10 from "./pages/events/EventDetails10";
 import Events3 from "./pages/events/Events3";
 import Events4 from "./pages/events/Events4";
-
+import Covid19 from "./pages/covid19/Covid19";
 import Events2 from "./pages/events/Events2";
 import ScrollToTop from "react-router-scroll-top";
 import EventDetails11 from "./pages/events/EventDetails11";
@@ -55,6 +55,7 @@ function App() {
 
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
 
+      <Route exact path="/covid19" render={() => <AboutUS></AboutUS>}></Route>
       <Route
         exact
         path="/contact"
