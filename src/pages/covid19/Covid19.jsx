@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
-
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 //import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 //import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import OurTeam from "../../components/OurTeam/OurTeam";
 import "../aboutus/aboutus.min.scss";
-import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
 import { 
     //Switch, 
     //Route, 
@@ -44,7 +42,7 @@ class Covid19 extends Component {
                                         Home
                 </Link>
                                 </li>
-                                <li class="breadcrumb-item active">About Us</li>
+                                <li class="breadcrumb-item active">Covid-19 Relief Project</li>
                             </ol>
                         </div>
                     </div>
@@ -56,7 +54,7 @@ class Covid19 extends Component {
                     >
                         <div className="container">
                             <div className="abt-pg-wrp">
-                                <h2 itemprop="headline">About Us</h2>
+                                <h2 itemprop="headline">Covid-19 Relief Project</h2>
                                 <div className="abt-pg-inr">
                                     <div className="row align-items-center">
                                         <div className="col-md-7 col-sm-12 col-lg-7">
@@ -250,27 +248,27 @@ class Covid19 extends Component {
                                         <div className="col-md-5 col-sm-12 col-lg-5">
                                             <div className="abt-pg-imgs">
                                                 <img
-                                                    src={require("../aboutus/Who-AreWe.jpg")}
+                                                    src={require("../covid19/D2.jpg")}
                                                     alt="WhatDoWeDo.jpg"
                                                     itemprop="image"
                                                 />
                                                 <img
-                                                    src={require("../aboutus/WWR.jpg")}
+                                                    src={require("../covid19/D3.jpg")}
                                                     alt="WhatDoWeDo.jpg"
                                                     itemprop="image"
                                                 />
                                                 <img
-                                                    src={require("../gallery/Images/gallery1page/1L.jpg")}
+                                                    src={require("../covid19/D1.jpg")}
                                                     alt="WhatDoWeDo.jpg"
                                                     itemprop="image"
                                                 />
                                                 <img
-                                                    src={require("../../components/OurActivities/3.jpg")}
+                                                    src={require("../covid19/D3.jpg")}
                                                     alt="WhatDoWeDo.jpg"
                                                     itemprop="image"
                                                 />
                                                 <img
-                                                    src={require("../aboutus/What-Do-WeDo.jpg")}
+                                                    src={require("../covid19/D2.jpg")}
                                                     alt="abt-pg-img1-2.jpg"
                                                     itemprop="image"
                                                 />
@@ -282,71 +280,19 @@ class Covid19 extends Component {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className="block black-layer opc3 paddingbeda">
-                        <div className="fixed-bg fullcontainerimg">
+                <div className="tem-wrp text-center remove-ext4">
+                    <div className="row" style={{ marginBottom: "75px" }}>
+
+                        <div className="col-md-12 col-sm-12 col-lg-12">
                             <img
-                                className="fullcontainerimg"
-                                src={require("../aboutus/VideoBkgnd.jpg")}
-                                alt="abt-pg-img1-2.jpg"
+                                src={require("../covid19/Team.jpg")}
+                                alt="Core-Team.jpg"
                                 itemprop="image"
+                                style={{marginBottom:"25px"}}
                             />
                         </div>
-                        <div className="container">
-                            <div className="vdo-wrp text-center">
-                                <div className="vdo-inr">
-                                    <YoutubeVideo></YoutubeVideo> {/* Youtube Video Component */}
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </section>
-                <OurTeam></OurTeam> {/* Our Team Component */}
-                <section>
-                    <div className="block remove-gap">
-                        <div className="container">
-                            <div className="fndrs-wrp">
-                                <div className="row align-items-center">
-                                    <div className="col-md-6 col-sm-12 col-lg-6">
-                                        <div className="fndrs-desc">
-                                            <h2 itemprop="headline">
-                                                Our<strong className="thm-clr"> Belief</strong>
-                                            </h2>
-                                            <p itemprop="description">
-                                                We believe cleanliness can be established and issues can
-                                                be solved when Citizens take up initiatives and work in
-                                                synergy with the government.
-                    </p>
-                                            <br></br>
-                                            <p itemprop="description">
-                                                Join Us{" "}
-                                                <span className="bluecolorhashtag">#TeamLBTC</span>
-                                            </p>
-                                            <Link
-                                                to="/form"
-                                                className="thm-btn"
-                                                title=""
-                                                itemprop="url"
-                                                style={{ textDecoration: "none" }}
-                                            >
-                                                Become A Volunteer<span></span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-12 col-lg-6">
-                                        <div className="fndrs-img">
-                                            <img
-                                                src={require("../aboutus/JoinUs.jpg")}
-                                                alt="fndrs-img.png"
-                                                itemprop="image"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
                 <Footer></Footer> {/* Footer Component */}
             </main>
         );

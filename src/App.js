@@ -55,7 +55,7 @@ function App() {
 
       <Route exact path="/about" render={() => <AboutUS></AboutUS>}></Route>
 
-      <Route exact path="/covid19" render={() => <AboutUS></AboutUS>}></Route>
+      <Route exact path="/covid19" render={() => <Covid19></Covid19>}></Route>
       <Route
         exact
         path="/contact"
