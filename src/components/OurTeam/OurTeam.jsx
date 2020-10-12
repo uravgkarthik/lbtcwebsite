@@ -38,7 +38,7 @@ function OurTeam(){
       designation: "Manager, Operations",
       facebooklink: "https://www.instagram.com/avinaasha.shastry/",
       //linkedinlink: "#",
-      twitterlink: "mailto:avinaasha@letsbethechange.in",
+      twitterlink: "mailto:avinash@letsbethechange.in",
       photo: Avinash
     },
     {
@@ -46,7 +46,7 @@ function OurTeam(){
       designation: "Intern, Operations",
       facebooklink: "https://www.instagram.com/avinoxxofficial/",
       //linkedinlink: "#",
-      twitterlink: "mailto:hemanth@letsbethechange.in",
+      //twitterlink: "mailto:hemanth@letsbethechange.in",
       photo: Hemanth
     },
     {
@@ -54,7 +54,7 @@ function OurTeam(){
       designation: "Intern, Tech",
       facebooklink: "https://www.instagram.com/adiiikris/",
       linkedinlink: "https://www.linkedin.com/in/adiiikris/",
-      twitterlink: "mailto:adithya.krishna@letsbethechange.in",
+      //twitterlink: "mailto:adithya.krishna@letsbethechange.in",
       photo: Adithya
     },
     {
@@ -62,7 +62,7 @@ function OurTeam(){
       designation: "Intern, Tech",
       facebooklink: "https://www.instagram.com/karthikravishankar/",
       linkedinlink: "https://www.linkedin.com/in/uravgkarthik/",
-      twitterlink: "mailto:karthik@letsbethechange.in",
+      //twitterlink: "mailto:karthik@letsbethechange.in",
       photo: Karthik 
     }
   ]
@@ -72,7 +72,7 @@ function OurTeam(){
       designation: "Strategy & Re-Engineering",
       facebooklink: "https://www.instagram.com/prajwalgvredforever/",
       linkedinlink: "https://www.linkedin.com/in/prajwal-g-v/",
-      twitterlink: "mailto:prajwal@letsbethechange.in",
+      //twitterlink: "mailto:prajwal@letsbethechange.in",
       photo: Second
     },
     {
@@ -80,7 +80,7 @@ function OurTeam(){
       designation: "Quality",
       facebooklink: "https://www.instagram.com/vatsa07/",
       linkedinlink: "https://www.linkedin.com/in/srivatsa-gargesh-b3398518b/",
-      twitterlink: "mailto:srivatsa@letsbethechange.in",
+      //twitterlink: "mailto:srivatsa@letsbethechange.in",
       photo: Vatsa
     },
     {
@@ -88,7 +88,7 @@ function OurTeam(){
       designation: "Strategy & Growth",
       facebooklink: "https://www.instagram.com/vyshak_iyengar/",
       linkedinlink: "https://www.linkedin.com/in/vyshakiyengar/",
-      twitterlink: "mailto:vyshak@letsbethechange.in",
+      //twitterlink: "mailto:vyshak@letsbethechange.in",
       photo: Fourth
     },
     {
@@ -96,7 +96,7 @@ function OurTeam(){
       designation: "Strategy & Growth",
       facebooklink: "https://www.instagram.com/amar_prabhu/",
       linkedinlink: "https://www.linkedin.com/in/amar-prabhu/",
-      twitterlink: "mailto:amar@letsbethechange.in",
+      //twitterlink: "mailto:amar@letsbethechange.in",
       photo: Fifth
     },
     {
@@ -104,7 +104,7 @@ function OurTeam(){
       designation: "Operations",
       facebooklink: "https://www.instagram.com/arachnid_27/",
       linkedinlink: "https://www.linkedin.com/in/nidhish-kudwalli-a43466129/",
-      twitterlink: "mailto:nidhish@letsbethechange.in",
+      //twitterlink: "mailto:nidhish@letsbethechange.in",
       photo: Sixth
     },
     {
@@ -112,7 +112,7 @@ function OurTeam(){
       designation: "Technical",
       facebooklink: "https://www.instagram.com/thevvasist/",
       linkedinlink: "https://www.linkedin.com/in/vinayvasist/",
-      twitterlink: "mailto:vinay@letsbethechange.in",
+      //twitterlink: "mailto:vinay@letsbethechange.in",
       photo: Vinay
     },
     {
@@ -120,7 +120,7 @@ function OurTeam(){
       designation: "Quality",
       facebooklink: "https://www.instagram.com/_loh1t_/",
       linkedinlink: "https://www.linkedin.com/in/lohit-bn-87a52a13b/",
-      twitterlink: "mailto:lohit@letsbethechange.in",
+      //twitterlink: "mailto:lohit@letsbethechange.in",
       photo: Seventh
     },
     {
@@ -128,7 +128,7 @@ function OurTeam(){
       designation: "Design & Planning",
       facebooklink: "https://www.instagram.com/yoshita.ramesh/",
       linkedinlink: "https://www.linkedin.com/in/yoshita-ramesh-9414b8104/",
-      twitterlink: "mailto:yoshita@letsbethechange.in",
+      //twitterlink: "mailto:yoshita@letsbethechange.in",
       photo: Ninth
     },
     {
@@ -136,7 +136,7 @@ function OurTeam(){
       designation: "Technical",
       facebooklink: "https://www.instagram.com/kathegaaara/",
       linkedinlink: "https://www.linkedin.com/in/bhuvan-nagaraj/",
-      twitterlink: "mailto:bhuvan@letsbethechange.in",
+      //twitterlink: "mailto:bhuvan@letsbethechange.in",
       photo: Tenth
     },
     {
@@ -144,7 +144,7 @@ function OurTeam(){
       designation: "Operations",
       facebooklink: "https://www.instagram.com/rahulsubhu/",
       linkedinlink: "https://www.linkedin.com/in/03-rahulanand/",
-      twitterlink: "mailto:rahul@letsbethechange.in",
+      //twitterlink: "mailto:rahul@letsbethechange.in",
       photo: Rahul
     },
     {
@@ -152,7 +152,7 @@ function OurTeam(){
       designation: "Operations",
       facebooklink: "https://www.instagram.com/shindi_96/",
       linkedinlink: "https://www.linkedin.com/in/srinidhi-chandra-4aa42515b/",
-      twitterlink: "mailto:srinidhi@letsbethechange.in",
+      //twitterlink: "mailto:srinidhi@letsbethechange.in",
       photo: Srinidhi
     }
   ]
