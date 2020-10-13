@@ -49,7 +49,7 @@ function BlogDetails7() {
             <div class="container">
               <div class="blg-dtl-thmb">
                 <img
-                  src={require("../blog/Images/Blog7.jpg")}
+                  src={require("../blog/Images/Blog-Hemanth.jpg")}
                   alt="blg-dtl-img2-1.jpg"
                   itemprop="image"
                 />
@@ -134,18 +134,14 @@ function BlogDetails7() {
                 </div>
                 <div class="athr-bx">
                   <img
-                    src={require("../blog/Images/Authors/Author-LBTC-L.png")}
+                    src={require("../blog/Images/Authors/Hemanth.png")}
                     alt="athr-img1-1.jpg"
                     itemprop="image"
                   />
                   <div class="athr-inf">
                     <h4 itemprop="headline">About Author</h4>
                     <p itemprop="description">
-                      Let's Be The Change is an NGO run by a group of
-                      passionate, energetic and like minded people towards
-                      achieving a common objective of eradicating garbage dumps
-                      and directing the residents towards achieving a cleaner
-                      and greener environment.
+                      Hemanth is an Intern working at Let's Be The Change.
                     </p>
                     <div class="athr-scl">
                       <a
@@ -159,7 +155,7 @@ function BlogDetails7() {
 
                       <a
                         class="instagram"
-                        href="https://www.instagram.com/team_lbtc/"
+                        href="https://www.instagram.com/avinoxxofficial/"
                         title="Twitter"
                         target="_blank"
                       >

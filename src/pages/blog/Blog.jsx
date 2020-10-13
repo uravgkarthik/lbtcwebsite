@@ -65,7 +65,7 @@ const Blog = () => {
                       <div class="blg-thmb">
                         <Link to="/blog/blog-9">
                           <img
-                            src={require("../blog/Images/Blog2.jpg")}
+                            src={require("../blog/Images/Blog-Hemanth.jpg")}
                             alt="Blog-2"
                             itemprop="image"
                           />
