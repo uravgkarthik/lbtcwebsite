@@ -60,11 +60,15 @@ class Covid19 extends Component {
                                         <div className="col-md-7 col-sm-12 col-lg-7">
                                             <div className="abt-pg-desc">
                                                 <p itemprop="description">
-                                                    <strong>Novel Corona Virus!! Or Covid 19!! </strong>
-                                                    Born in China and roaming the world.! As funny as it may seem, its not.!!
-                                                    The world as we know it, is constantly battling the pandemic which has left close to a million people dead already and ten of millions affected directly or indirectly.  
-                                                    India as a nation is putting up a brave front against Covid 19. We are doing everything we can to contain the spread of Covid 19 and quite successful in doing so. 
-                                                    We at <strong>Let’s Be The Change</strong> are striving hard to make Namma Bengaluru Covid free.
+                                                    We at Let's Be The Change have been working with BBMP & BCP from the past 7 months in the following:<br/>
+                                                    <ul>
+                                                    <li>
+                                                        Mapping 11000+ Operating Essential Stores like Medical Stores, Grocery Stores during lockdown for easy access for Public. We also mapped Needy Families for Ration & Hygiene Kit Distribution.
+                                                    </li>
+                                                    <li>
+                                                        BBMP Citizen Squad
+                                                    </li>
+                                                    </ul> 
                                                 </p>
                                                 <br />
                                                 <h2 itemprop="headline">Our Target</h2>
@@ -81,7 +85,7 @@ class Covid19 extends Component {
                                                     </ul>                                                                           
                                                 </p>
                                                 <p className="thm-clr blc-wt">
-                                                    Our target is to provide them with end to end support for the next 4 months:
+                                                    We understood the impact created to vulnerable families from losing jobs to physical and mental illness, due to the pandemic. We then set on a mission to adopt communities and support them with the below mentioned 5 things for a span of 4 months:
                                                     <ul>
                                                         <li>
                                                             <strong>Health Support </strong>(Medicine Kits, Ration Kits, Hygiene Kits)
@@ -147,40 +151,23 @@ class Covid19 extends Component {
                                                 </p>
                                                 <br />
                                                 <h2 itemprop="headline">Our Plan</h2>
-                                                <p className="thm-clr blc-wt">
+                                                {/* <p className="thm-clr blc-wt">
                                                     <strong>This is Dummy Text For Now</strong>
                                                     
-                                                </p>
-                                                {/* <p className="blc-wt">
-                                                    Novel Corona Virus!! Or Covid 19!! 
-                                                    Born in China and roaming the world.! As funny as it may seem, its not.!!
-                                                    The world as we know it, is constantly battling the pandemic which has left close to a million people dead already and ten of millions affected directly or indirectly.  
-                                                    India as a nation is putting up a brave front against Covid 19. We are doing everything we can to contain the spread of Covid 19 and quite successful in doing so. 
-                                                    We at Let’s Be The Change are striving hard to make Namma Bengaluru Covid free.
+                                                </p> */}
+                                                <p className="blc-wt">
                                                     <ul>
                                                         <li>
-                                                            2 Project Managers
+                                                            Month 1: Survey and Understand the Community
                                                         </li>
                                                         <li>
-                                                            3 Health Care Workers
+                                                            Month 2 & 3: Provide Resources as per Survey and help strengthen their roots
                                                         </li>
                                                         <li>
-                                                            10 Interns
-                                                        </li>
-                                                        <li>
-                                                            10 Community leaders
-                                                        </li>
-                                                        <li>
-                                                            1 Doctor on call (24/7)
-                                                        </li>
-                                                        <li>
-                                                            3+ Street Play Trainers & Artists
-                                                        </li>
-                                                        <li>
-                                                            10+ Weekend Volunteers
+                                                            Month 4: Providing Community Leaders will established connects so that the community will be Self Sustainable
                                                         </li>
                                                     </ul>
-                                                </p> */}
+                                                </p>
                                                 <img
                                                     src={require("../aboutus/TeamLBTC.png")}
                                                     alt="WhoAreWe.jpg"
@@ -210,11 +197,11 @@ class Covid19 extends Component {
                                                     alt="WhatDoWeDo.jpg"
                                                     itemprop="image"
                                                 />
-                                                {/* <img
+                                                <img
                                                     src={require("../covid19/D4.jpg")}
                                                     alt="abt-pg-img1-2.jpg"
                                                     itemprop="image"
-                                                /> */}
+                                                />
                                             </div>
                                         </div>
                                     </div>
