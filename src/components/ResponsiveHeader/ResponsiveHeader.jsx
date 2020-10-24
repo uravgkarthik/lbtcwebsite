@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../ResponsiveHeader/responsiveheader.min.scss";
 
 function ResponsiveHeader() {

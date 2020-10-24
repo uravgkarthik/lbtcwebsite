@@ -2,16 +2,10 @@ import React, { Component } from 'react';
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
-//import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
-//import StickyHeader from "../../components/StickyHeader/StickyHeader";
-import OurTeam from "../../components/OurTeam/OurTeam";
 import "../aboutus/aboutus.min.scss";
-import { 
-    //Switch, 
-    //Route, 
+import {
     Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
-// import "../../components/MenuBar/menubarwhitetext.min.scss";
 
 class Covid19 extends Component {
     render() {

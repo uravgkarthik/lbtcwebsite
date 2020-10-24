@@ -3,12 +3,10 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
-import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import OurTeam from "../../components/OurTeam/OurTeam";
 import "../aboutus/aboutus.min.scss";
 import YoutubeVideo from "../../components/YoutubeVideo/YoutubeVideo";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FeaturedOn from "./FeaturedOn/FeaturedOn";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 // import "../../components/MenuBar/menubarwhitetext.min.scss";

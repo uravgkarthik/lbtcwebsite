@@ -3,7 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "./signupform.min.scss";
 import { firestore } from '../../services/firebase';
@@ -70,7 +70,6 @@ const SignUpForm = () => {
                         </div>
                     </div>
                 </div>
-
                 <section>
                     <div class="block nocontactpadding">
                         <div class="container">
@@ -88,14 +87,13 @@ const SignUpForm = () => {
                                                 Hello,{" "}
                                                 <span class="thm-clr contactheadingsmall">
                                                     Feel free to let us know your thoughts
-                        </span>
+                                                </span>
                                             </h2>
                                             <div>
                                                 <span style={{ color: "white", background: "#00c664", borderRadius: "5px", padding: "5px" }}>Thank You! We'll Get Back To You Soon</span>
                                             </div>
                                             <p itemprop="description">
-                                                {/* Want to bring in change? Join hands with us to make a
-                        difference. */}
+                                                {/* Want to bring in change? Join hands with us to make a difference. */}
                                             </p>
                                             <form
                                                 class="cnt-frm"
@@ -157,7 +155,6 @@ const SignUpForm = () => {
                                                             Send Message<span></span>
                                                         </button>
                                                     </div>
-
                                                 </div>
                                             </form>
                                         </div>

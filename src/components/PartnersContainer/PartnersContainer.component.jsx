@@ -3,13 +3,12 @@ import Partners from "../Partners/Partners";
 import First from "../PartnersContainer/PartnerImages/lbtc-britannia.png";
 import Second from "../PartnersContainer/PartnerImages/lbtc-dell.png";
 import Third from "../PartnersContainer/PartnerImages/lbtc-allergan.png";
-import Fourth from "../PartnersContainer/PartnerImages/lbtc.cookie-jar.png";
 import Fifth from "../PartnersContainer/PartnerImages/lbtc-herman.png";
 import Sixth from "../PartnersContainer/PartnerImages/lbtc-bbn.png";
 import Seventh from "../PartnersContainer/PartnerImages/lbtc-jyoti.png";
 import Eighth from "../PartnersContainer/PartnerImages/lbtc-infosys.png";
 import Ninth from "../PartnersContainer/PartnerImages/lbtc-st-jhones.png";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PartnersContainer = () => {
   const partners = [

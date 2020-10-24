@@ -3,7 +3,6 @@ import JotformEmbed from "react-jotform-embed";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../forms/mainform.min.scss";
 

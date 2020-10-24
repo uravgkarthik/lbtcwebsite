@@ -3,8 +3,7 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import "../../components/HeaderBar/headerbar.min.scss";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../contactus/contactus.min.scss";
 import { firestore } from '../../services/firebase'

@@ -1,7 +1,6 @@
 import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
