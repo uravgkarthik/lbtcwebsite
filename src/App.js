@@ -46,8 +46,9 @@ import BlogDetails6 from "./pages/blog/BlogDetails6";
 import BlogDetails7 from "./pages/blog/BlogDetails7";
 import BlogDetails8 from "./pages/blog/BlogDetails8";
 import BlogDetails9 from "./pages/blog/BlogDetails9";
-
 import MainForm from "./pages/forms/MainForm";
+import SignUpForm from "./pages/signupform/SignUpForm";
+
 function App() {
   return (
     <Switch>
@@ -60,6 +61,12 @@ function App() {
         exact
         path="/contact"
         render={() => <ContactUS></ContactUS>}
+      ></Route>
+
+      <Route
+        exact
+        path="/signupform"
+        render={() => <SignUpForm></SignUpForm>}
       ></Route>
 
       <Route exact path="/gallery" render={() => <Gallery></Gallery>}></Route>

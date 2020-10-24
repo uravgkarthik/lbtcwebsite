@@ -32,7 +32,7 @@ function EventFunding() {
 
                     </p>
                     <Link
-                      to="/form"
+                      to="/signupform"
                       className="thm-btn"
                       title=""
                       itemprop="url"
@@ -42,7 +42,7 @@ function EventFunding() {
                     </Link>
 
                     <Link
-                      to="/form"
+                      to="/signupform"
                       className="thm-btn reportaspot"
                       title=""
                       itemprop="url"
