@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
@@ -7,11 +7,40 @@ import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader
 import { Switch, Route, Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../contactus/contactus.min.scss";
+import { firestore } from '../../services/firebase'
 
 const ContactUS = () => {
+
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    await firestore.collection("formData").add({
+      firstName: firstName,
+      lastName: lastName,
+      email: email,
+      subject: subject,
+      message: message
+    }).then(() => {
+      setFirstName("");
+      setLastName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+      console.log("Success")
+    }).catch((error) => {
+      console.log(error)
+    })
+
+  }
 
   return (
     <div classNameName="App">
@@ -71,7 +100,7 @@ const ContactUS = () => {
                       </p>
                       <form
                         class="cnt-frm"
-                        action="https://docs.google.com/forms/d/e/1FAIpQLSfv6LBUi-BcXO9f2aWAWE0RMZ4Bu126gGrzb6hbkwLM0KR9Nw/formResponse"
+                        onSubmit={handleSubmit}
                         method="post"
                       >
                         <div class="row mrg10">
@@ -81,6 +110,8 @@ const ContactUS = () => {
                               type="text"
                               placeholder="First Name"
                               required
+                              value={firstName}
+                              onChange={(e) => setFirstName(e.target.value)}
                             />
                           </div>
                           <div class="col-md-6 col-sm-6 col-lg-6">
@@ -89,6 +120,8 @@ const ContactUS = () => {
                               type="text"
                               placeholder="Last Name"
                               required
+                              value={lastName}
+                              onChange={(e) => setLastName(e.target.value)}
                             />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
@@ -97,6 +130,8 @@ const ContactUS = () => {
                               type="email"
                               placeholder="Email Address"
                               required
+                              value={email}
+                              onChange={(e) => setEmail(e.target.value)}
                             />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
@@ -105,6 +140,8 @@ const ContactUS = () => {
                               type="text"
                               placeholder="Subject"
                               required
+                              value={subject}
+                              onChange={(e) => setSubject(e.target.value)}
                             />
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
@@ -112,6 +149,8 @@ const ContactUS = () => {
                               name="entry.582738885"
                               placeholder="Message"
                               required
+                              value={message}
+                              onChange={(e) => setMessage(e.target.value)}
                             ></textarea>
                           </div>
                           <div class="col-md-12 col-sm-12 col-lg-12">
