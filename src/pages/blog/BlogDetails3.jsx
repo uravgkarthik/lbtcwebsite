@@ -3,7 +3,6 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../blog/blog.min.scss";
 import DisqusComments3 from "../../components/Disqus/DisqusComments3";
 import { Link } from "react-router-dom";

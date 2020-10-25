@@ -4,7 +4,6 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import "../blog/blog.min.scss";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 
 const Blog = () => {

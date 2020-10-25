@@ -1,8 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
-import { Switch, Route, Redirect } from "react-router-dom";
-import ReactDOM from "react-dom";
+import { Switch, Route} from "react-router-dom";
 import HomePage from "./pages/homepage/HomePage";
 import AboutUS from "./pages/aboutus/AboutUS";
 import Gallery from "./pages/gallery/Gallery";
@@ -25,14 +24,12 @@ import Events3 from "./pages/events/Events3";
 import Events4 from "./pages/events/Events4";
 import Covid19 from "./pages/covid19/Covid19";
 import Events2 from "./pages/events/Events2";
-import ScrollToTop from "react-router-scroll-top";
 import EventDetails11 from "./pages/events/EventDetails11";
 import EventDetails12 from "./pages/events/EventDetails12";
 import EventDetails13 from "./pages/events/EventDetails13";
 import EventDetails14 from "./pages/events/EventDetails14";
 import EventDetails15 from "./pages/events/EventDetails15";
 import EventDetails16 from "./pages/events/EventDetails16";
-
 import EventDetails17 from "./pages/events/EventDetails17";
 import EventDetails18 from "./pages/events/EventDetails18";
 import EventDetails19 from "./pages/events/EventDetails19";

@@ -3,11 +3,10 @@ import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import StickyHeader from "../../components/StickyHeader/StickyHeader";
-import ResponsiveHeader from "../../components/ResponsiveHeader/ResponsiveHeader";
 import "../blog/blog.min.scss";
 import DisqusComments6 from "../../components/Disqus/DisqusComments6";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BlogDetails6() {
   return (
@@ -15,7 +14,6 @@ function BlogDetails6() {
       <main>
         <HeaderBar></HeaderBar>
         <MenuBar></MenuBar>
-        {/* <ResponsiveHeader></ResponsiveHeader> */}
         <MenuBarX></MenuBarX>
         <StickyHeader></StickyHeader>
         <section>
