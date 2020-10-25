@@ -22,7 +22,7 @@ const SignUpForm = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        await firestore.collection("fSignUpForm").add({
+        await firestore.collection("SignUpForm").add({
             typeValue: typeValue,
             Name: Name,
             phoneNumber: phoneNumber,
