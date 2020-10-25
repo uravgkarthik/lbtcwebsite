@@ -10,7 +10,8 @@ import { firestore } from '../../services/firebase';
 
 const SignUpForm = () => {
     const [firstName, setFirstName] = useState("");
-    const [lastName, setLastName] = useState("");
+    const [typeValue, setTypeValue] = useState("");
+    const [phoneNumber, setPhoneNumber] = useState("");
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
@@ -22,14 +23,16 @@ const SignUpForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         await firestore.collection("formData").add({
+            typeValue: typeValue,
             firstName: firstName,
-            lastName: lastName,
+            phoneNumber: phoneNumber,
             email: email,
             subject: subject,
             message: message
         }).then(() => {
+            setTypeValue("");
+            setPhoneNumber("");
             setFirstName("");
-            setLastName("");
             setEmail("");
             setSubject("");
             setMessage("");
@@ -89,9 +92,9 @@ const SignUpForm = () => {
                                                     Feel free to let us know your thoughts
                                                 </span>
                                             </h2>
-                                            <div>
+                                            {/* <div>
                                                 <span style={{ color: "white", background: "#00c664", borderRadius: "5px", padding: "5px" }}>Thank You! We'll Get Back To You Soon</span>
-                                            </div>
+                                            </div> */}
                                             <p itemprop="description">
                                                 {/* Want to bring in change? Join hands with us to make a difference. */}
                                             </p>
@@ -102,10 +105,22 @@ const SignUpForm = () => {
                                             >
                                                 <div class="row mrg10">
                                                     <div class="col-md-6 col-sm-6 col-lg-6">
+                                                        <select style={{ padding: "19.36px 30px", margin: "0px 0px 10px", width: "270px", background: "#FFFFFF"}}
+                                                            type="text"
+                                                            placeholder=""
+                                                            required
+                                                            value={typeValue}
+                                                            onChange={(e) => setTypeValue(e.target.value)}
+                                                        >
+                                                            <option value="Volunteer">Volunteer</option>
+                                                            <option value="Partner">Partner</option>
+                                                            <option value="Report a Problem">Report a Problem</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-6 col-lg-6">
                                                         <input
-                                                            name="entry.1472963030"
                                                             type="dropdown"
-                                                            placeholder="First Name"
+                                                            placeholder="Name"
                                                             required
                                                             value={firstName}
                                                             onChange={(e) => setFirstName(e.target.value)}
@@ -113,17 +128,15 @@ const SignUpForm = () => {
                                                     </div>
                                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                                         <input
-                                                            name="entry.1753890476"
-                                                            type="text"
-                                                            placeholder="Last Name"
+                                                            type="phone"
+                                                            placeholder="Phone Number"
                                                             required
-                                                            value={lastName}
-                                                            onChange={(e) => setLastName(e.target.value)}
+                                                            value={phoneNumber}
+                                                            onChange={(e) => setPhoneNumber(e.target.value)}
                                                         />
                                                     </div>
-                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                    <div class="col-md-6 col-sm-6 col-lg-6">
                                                         <input
-                                                            name="entry.750465195"
                                                             type="email"
                                                             placeholder="Email Address"
                                                             required
@@ -133,7 +146,6 @@ const SignUpForm = () => {
                                                     </div>
                                                     <div class="col-md-12 col-sm-12 col-lg-12">
                                                         <input
-                                                            name="entry.1475719518"
                                                             type="text"
                                                             placeholder="Subject"
                                                             required
@@ -143,7 +155,6 @@ const SignUpForm = () => {
                                                     </div>
                                                     <div class="col-md-12 col-sm-12 col-lg-12">
                                                         <textarea
-                                                            name="entry.582738885"
                                                             placeholder="Message"
                                                             required
                                                             value={message}
@@ -250,14 +261,6 @@ const SignUpForm = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div class="cnt-fq text-center">
-                <h2 itemprop="headline">
-                  <i class="fa fa-cog"></i>Find Your Answer Here
-                  <a class="thm-btn" href="#top" title="" itemprop="url">
-                    Faq's<span></span>
-                  </a>
-                </h2>
-              </div> */}
                         </div>
                     </div>
                 </section>
