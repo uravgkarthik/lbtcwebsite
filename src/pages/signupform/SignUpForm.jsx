@@ -9,7 +9,7 @@ import "./signupform.min.scss";
 import { firestore } from '../../services/firebase';
 
 const SignUpForm = () => {
-    const [firstName, setFirstName] = useState("");
+    const [Name, setName] = useState("");
     const [typeValue, setTypeValue] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
     const [email, setEmail] = useState("");
@@ -24,7 +24,7 @@ const SignUpForm = () => {
         event.preventDefault();
         await firestore.collection("formData").add({
             typeValue: typeValue,
-            firstName: firstName,
+            Name: Name,
             phoneNumber: phoneNumber,
             email: email,
             subject: subject,
@@ -32,7 +32,7 @@ const SignUpForm = () => {
         }).then(() => {
             setTypeValue("");
             setPhoneNumber("");
-            setFirstName("");
+            setName("");
             setEmail("");
             setSubject("");
             setMessage("");
@@ -122,8 +122,8 @@ const SignUpForm = () => {
                                                             type="dropdown"
                                                             placeholder="Name"
                                                             required
-                                                            value={firstName}
-                                                            onChange={(e) => setFirstName(e.target.value)}
+                                                            value={Name}
+                                                            onChange={(e) => setName(e.target.value)}
                                                         />
                                                     </div>
                                                     <div class="col-md-6 col-sm-6 col-lg-6">
