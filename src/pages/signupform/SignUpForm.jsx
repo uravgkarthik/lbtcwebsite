@@ -22,7 +22,7 @@ const SignUpForm = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        await firestore.collection("formData").add({
+        await firestore.collection("fSignUpForm").add({
             typeValue: typeValue,
             Name: Name,
             phoneNumber: phoneNumber,
@@ -89,7 +89,6 @@ const SignUpForm = () => {
                                             <h2 itemprop="headline">
                                                 Hello,{" "}
                                                 <span class="thm-clr contactheadingsmall">
-                                                    Feel free to let us know your thoughts
                                                 </span>
                                             </h2>
                                             {/* <div>

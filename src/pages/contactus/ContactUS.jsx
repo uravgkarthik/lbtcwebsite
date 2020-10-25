@@ -22,7 +22,7 @@ const ContactUS = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await firestore.collection("formData").add({
+    await firestore.collection("ContactUs").add({
       firstName: firstName,
       lastName: lastName,
       email: email,
