@@ -7,14 +7,16 @@ import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "./signupform.min.scss";
 import { firestore } from '../../services/firebase';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const SignUpForm = () => {
     const [Name, setName] = useState("");
-    const [typeValue, setTypeValue] = useState("");
-    const [phoneNumber, setPhoneNumber] = useState("");
-    const [email, setEmail] = useState("");
-    const [subject, setSubject] = useState("");
-    const [message, setMessage] = useState("");
+    const [TypeValue, setTypeValue] = useState("");
+    const [PhoneNumber, setPhoneNumber] = useState("");
+    const [Email, setEmail] = useState("");
+    const [Subject, setSubject] = useState("");
+    const [Message, setMessage] = useState("");
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
@@ -23,22 +25,38 @@ const SignUpForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         await firestore.collection("SignUpForm").add({
-            typeValue: typeValue,
+            TypeValue: TypeValue,
             Name: Name,
-            phoneNumber: phoneNumber,
-            email: email,
-            subject: subject,
-            message: message
+            PhoneNumber: PhoneNumber,
+            Email: Email,
+            Subject: Subject,
+            Message: Message
         }).then(() => {
+            toast.success('Thank You! We\'ll Get Back To You Soon', {
+                position: "bottom-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
             setTypeValue("");
             setPhoneNumber("");
             setName("");
             setEmail("");
             setSubject("");
             setMessage("");
-            alert("Success")
         }).catch((error) => {
-            console.log(error)
+            toast.error('Error! ', {
+                position: "bottom-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
         })
 
     }
@@ -106,11 +124,12 @@ const SignUpForm = () => {
                                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                                         <select style={{ padding: "19.36px 30px", margin: "0px 0px 10px", width: "270px", background: "#FFFFFF"}}
                                                             type="text"
-                                                            placeholder=""
+                                                            placeholder="Select a Option"
                                                             required
-                                                            value={typeValue}
+                                                            value={TypeValue}
                                                             onChange={(e) => setTypeValue(e.target.value)}
                                                         >
+                                                            <option value="Select a Option">Select a Option</option>
                                                             <option value="Volunteer">Volunteer</option>
                                                             <option value="Partner">Partner</option>
                                                             <option value="Report a Problem">Report a Problem</option>
@@ -118,7 +137,7 @@ const SignUpForm = () => {
                                                     </div>
                                                     <div class="col-md-6 col-sm-6 col-lg-6">
                                                         <input
-                                                            type="dropdown"
+                                                            type="text"
                                                             placeholder="Name"
                                                             required
                                                             value={Name}
@@ -130,7 +149,7 @@ const SignUpForm = () => {
                                                             type="phone"
                                                             placeholder="Phone Number"
                                                             required
-                                                            value={phoneNumber}
+                                                            value={PhoneNumber}
                                                             onChange={(e) => setPhoneNumber(e.target.value)}
                                                         />
                                                     </div>
@@ -139,7 +158,7 @@ const SignUpForm = () => {
                                                             type="email"
                                                             placeholder="Email Address"
                                                             required
-                                                            value={email}
+                                                            value={Email}
                                                             onChange={(e) => setEmail(e.target.value)}
                                                         />
                                                     </div>
@@ -148,7 +167,7 @@ const SignUpForm = () => {
                                                             type="text"
                                                             placeholder="Subject"
                                                             required
-                                                            value={subject}
+                                                            value={Subject}
                                                             onChange={(e) => setSubject(e.target.value)}
                                                         />
                                                     </div>
@@ -156,7 +175,7 @@ const SignUpForm = () => {
                                                         <textarea
                                                             placeholder="Message"
                                                             required
-                                                            value={message}
+                                                            value={Message}
                                                             onChange={(e) => setMessage(e.target.value)}
                                                         ></textarea>
                                                     </div>
@@ -164,6 +183,17 @@ const SignUpForm = () => {
                                                         <button class="thm-btn" type="submit">
                                                             Send Message<span></span>
                                                         </button>
+                                                        <ToastContainer
+                                                            position="bottom-right"
+                                                            autoClose={5000}
+                                                            hideProgressBar={false}
+                                                            newestOnTop={false}
+                                                            closeOnClick
+                                                            rtl={false}
+                                                            pauseOnFocusLoss
+                                                            draggable
+                                                            pauseOnHover
+                                                        />
                                                     </div>
                                                 </div>
                                             </form>

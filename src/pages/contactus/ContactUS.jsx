@@ -7,14 +7,16 @@ import { Link } from "react-router-dom";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
 import "../contactus/contactus.min.scss";
 import { firestore } from '../../services/firebase'
+import {ToastContainer,toast} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUS = () => {
 
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [FirstName, setFirstName] = useState("");
+  const [LastName, setLastName] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Subject, setSubject] = useState("");
+  const [Message, setMessage] = useState("");
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,20 +25,36 @@ const ContactUS = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     await firestore.collection("ContactUs").add({
-      firstName: firstName,
-      lastName: lastName,
-      email: email,
-      subject: subject,
-      message: message
+      FirstName: FirstName,
+      LastName: LastName,
+      Email: Email,
+      Subject: Subject,
+      Message: Message
     }).then(() => {
+      toast.success('Thank You! We\'ll Get Back To You Soon', {
+        position:"bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
       setFirstName("");
       setLastName("");
       setEmail("");
       setSubject("");
       setMessage("");
-      console.log("Success")
     }).catch((error) => {
-      console.log(error)
+      toast.error('Error! ', {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
     })
 
   }
@@ -109,7 +127,7 @@ const ContactUS = () => {
                               type="text"
                               placeholder="First Name"
                               required
-                              value={firstName}
+                              value={FirstName}
                               onChange={(e) => setFirstName(e.target.value)}
                             />
                           </div>
@@ -119,7 +137,7 @@ const ContactUS = () => {
                               type="text"
                               placeholder="Last Name"
                               required
-                              value={lastName}
+                              value={LastName}
                               onChange={(e) => setLastName(e.target.value)}
                             />
                           </div>
@@ -129,7 +147,7 @@ const ContactUS = () => {
                               type="email"
                               placeholder="Email Address"
                               required
-                              value={email}
+                              value={Email}
                               onChange={(e) => setEmail(e.target.value)}
                             />
                           </div>
@@ -139,7 +157,7 @@ const ContactUS = () => {
                               type="text"
                               placeholder="Subject"
                               required
-                              value={subject}
+                              value={Subject}
                               onChange={(e) => setSubject(e.target.value)}
                             />
                           </div>
@@ -148,7 +166,7 @@ const ContactUS = () => {
                               name="entry.582738885"
                               placeholder="Message"
                               required
-                              value={message}
+                              value={Message}
                               onChange={(e) => setMessage(e.target.value)}
                             ></textarea>
                           </div>
@@ -156,7 +174,19 @@ const ContactUS = () => {
                             <button class="thm-btn" type="submit">
                               Send Message<span></span>
                             </button>
+                            <ToastContainer
+                              position="bottom-right"
+                              autoClose={5000}
+                              hideProgressBar={false}
+                              newestOnTop={false}
+                              closeOnClick
+                              rtl={false}
+                              pauseOnFocusLoss
+                              draggable
+                              pauseOnHover
+                            />
                           </div>
+                          
                         </div>
                       </form>
                     </div>
