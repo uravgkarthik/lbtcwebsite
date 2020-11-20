@@ -144,6 +144,7 @@ class Covid19 extends Component {
                                                     </ul>
                                                 </p>
                                                 <br />
+                                                
                                                 <h2 itemprop="headline">Our Plan</h2>
                                                 {/* <p className="thm-clr blc-wt">
                                                     <strong>This is Dummy Text For Now</strong>
@@ -162,6 +163,30 @@ class Covid19 extends Component {
                                                         </li>
                                                     </ul>
                                                 </p>
+                                                <h2 itemprop="headline">Our Supporters</h2>
+                                                <p className="thm-clr blc-wt">
+                                                    <ul>
+                                                        <li>
+                                                            BBMP
+                                                        </li>
+                                                        <li>
+                                                            Jyotirmegha
+                                                        </li>
+                                                        <li>
+                                                            Banashankari Government Primary Health Centre
+                                                        </li>
+                                                        <li>
+                                                            Banashankari Mahila Samaja
+                                                        </li>
+                                                        <li>
+                                                            Ward 165 Councillor Smt. Lakshmi Umesh and Team
+                                                        </li>
+                                                        <li>
+                                                            Ward 166 councillor Smt. Yashoda Lakshmikanth and Team
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                                <br />
                                                 <img
                                                     src={require("../aboutus/TeamLBTC.png")}
                                                     alt="WhoAreWe.jpg"

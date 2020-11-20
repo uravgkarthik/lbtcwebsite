@@ -97,12 +97,10 @@ function Footer() {
                     class="fixed-bg thm-bg patern-bg"
                   ></div> */}
                   <p itemprop="description">
-                    Subscribe to our mailing list to get the{" "}
-                    <strong>update to you email.</strong>
+                    Feel free to get in touch with us{" "}
+                    {/* <strong>update to you email.</strong> */}
                   </p>
-                  <a href="#" title="" itemprop="url">
-                    Sign Up Now
-                  </a>
+                  <Link to="/contact">Contact Us</Link>
                 </div>
               </div>
             </div>
