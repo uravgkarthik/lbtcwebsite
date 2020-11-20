@@ -73,7 +73,7 @@ function Gallery() {
                             alt="gal-img2-1.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in Jayanagar</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -93,7 +93,7 @@ function Gallery() {
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in Koramangala</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -103,7 +103,7 @@ function Gallery() {
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in E-City</h4>
                         </div>
                       </div>
                     </div>
@@ -115,7 +115,7 @@ function Gallery() {
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
-                      <h4 itemprop="headline">Plog Run</h4>
+                      <h4 itemprop="headline">Plog Run 2018</h4>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-lg-6">
@@ -127,7 +127,7 @@ function Gallery() {
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plog Run</h4>
+                          <h4 itemprop="headline">Plog Run in Kanteerava Stadium</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -137,7 +137,7 @@ function Gallery() {
                             alt="gal-img2-7.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in Marathahalli</h4>
                         </div>
                       </div>
                       <div class="col-md-12 col-sm-12 col-lg-12">
@@ -147,7 +147,7 @@ function Gallery() {
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Mega Cleanathon 2017</h4>
                         </div>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ function Gallery() {
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in Belandur</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -171,7 +171,7 @@ function Gallery() {
                             alt="gal-img2-10.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Plog Run in Hebbal</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -181,7 +181,10 @@ function Gallery() {
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plog Run</h4>
+                          <h4 itemprop="headline">Mr Randeep IAS,
+                          Special Commissioner BBMP
+                          Participating in Plog Run
+Indiranagar</h4>
                         </div>
                       </div>
                     </div>

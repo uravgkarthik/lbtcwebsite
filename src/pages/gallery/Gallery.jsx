@@ -92,7 +92,7 @@ const Gallery = () => {
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Our Board</h4>
+                          <h4 itemprop="headline">Governing Council</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -102,7 +102,7 @@ const Gallery = () => {
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Team LBTC</h4>
+                          <h4 itemprop="headline">Core Team</h4>
                         </div>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ const Gallery = () => {
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
-                      <h4 itemprop="headline">Clay Ganesha Workshop</h4>
+                      <h4 itemprop="headline">Clay Ganesha Workshop 2018</h4>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-lg-6">
@@ -126,7 +126,7 @@ const Gallery = () => {
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Clay Ganesha Workshop</h4>
+                          <h4 itemprop="headline">Clay Ganesha Workshop 2017</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -148,7 +148,7 @@ const Gallery = () => {
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">5 Ways To Fight Poverty</h4>
+                          <h4 itemprop="headline">Let's Plog Bengaluru Innaugration</h4>
                         </div>
                       </div>
                     </div>
@@ -162,7 +162,7 @@ const Gallery = () => {
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plantathon</h4>
+                          <h4 itemprop="headline">Tree Plantation Drive</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -173,7 +173,7 @@ const Gallery = () => {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Development of Local Schools
+                            Activity in Government Schools
                           </h4>
                         </div>
                       </div>
@@ -184,7 +184,7 @@ const Gallery = () => {
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Muscial Cleanathon</h4>
+                          <h4 itemprop="headline">Awareness Stall</h4>
                         </div>
                       </div>
                     </div>
