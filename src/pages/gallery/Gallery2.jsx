@@ -195,8 +195,8 @@ Indiranagar</h4>
                 <ul class="pagination">
                   <li class="page-item">
                     <Link
-                      to="/gallery"
-                      class="page-link prev"
+                      to="/gallery-1"
+                      class="page-link next"
                       title=""
                       itemprop="url"
                     >
@@ -211,9 +211,19 @@ Indiranagar</h4>
                     >
                       1
                     </Link>
+                    
                   </li>
-                  <li class="page-item active">
-                    <span class="page-link">2</span>
+                  <li class="page-item">
+                    <Link
+                      to="/gallery-1"
+                      class="page-link"
+                      style={{ color: "#1b6dae" }}
+                    >
+                      2
+                    </Link>
+                  </li>
+                  <li class="page-item  active">
+                    <span class="page-link">3</span>
                   </li>
                   <li class="page-item">
                     <Link
@@ -221,13 +231,14 @@ Indiranagar</h4>
                       class="page-link"
                       style={{ color: "#1b6dae" }}
                     >
-                      3
+                      4
                     </Link>
                   </li>
                   <li class="page-item">
                     <Link
                       to="/gallery-3"
                       class="page-link next"
+                      href="#top"
                       title=""
                       itemprop="url"
                     >

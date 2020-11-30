@@ -194,21 +194,21 @@ const Gallery = () => {
               <div class="pgntin-wrp">
                 <ul class="pagination">
                   <li class="page-item">
-                    <a
-                      class="page-link prev"
-                      href="#top"
+                    <Link
+                      to="/gallery-3"
+                      class="page-link next"
                       title=""
                       itemprop="url"
                     >
                       <i class="fa fa-angle-left"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li class="page-item active">
                     <span class="page-link">1</span>
                   </li>
                   <li class="page-item">
                     <Link
-                      to="/gallery-2"
+                      to="/gallery-1"
                       class="page-link"
                       style={{ color: "#1b6dae" }}
                     >
@@ -217,7 +217,7 @@ const Gallery = () => {
                   </li>
                   <li class="page-item">
                     <Link
-                      to="/gallery-3"
+                      to="/gallery-2"
                       class="page-link"
                       style={{ color: "#1b6dae" }}
                     >
@@ -226,7 +226,16 @@ const Gallery = () => {
                   </li>
                   <li class="page-item">
                     <Link
-                      to="/gallery-2"
+                      to="/gallery-3"
+                      class="page-link"
+                      style={{ color: "#1b6dae" }}
+                    >
+                      4
+                    </Link>
+                  </li>
+                  <li class="page-item">
+                    <Link
+                      to="/gallery-1"
                       class="page-link next"
                       href="#top"
                       title=""

@@ -1,17 +1,18 @@
 import React from "react";
 import HeaderBar from "../../components/HeaderBar/HeaderBar";
 import MenuBar from "../../components/MenuBar/MenuBar";
-import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import MenuBarX from "../../components/MenuBar/MenuBarNav";
+import StickyHeader from "../../components/StickyHeader/StickyHeader";
 import Footer from "../../components/Footer/Footer";
 import "../gallery/gallery.min.scss";
 import "../blog/blog.min.scss";
 import { Link } from "react-router-dom";
 
-function Gallery() {
+const Gallery = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="App">
       <main>
@@ -21,6 +22,7 @@ function Gallery() {
 
         <StickyHeader></StickyHeader>
 
+        {/* <ResponsiveHeader></ResponsiveHeader> */}
         <MenuBarX></MenuBarX>
         <section>
           <div class="block no-padding aboutpaddingnotreqd">
@@ -33,7 +35,6 @@ function Gallery() {
             </div>
           </div>
         </section>
-
         <section>
           <div class="gray-bg3 brdcrmb-wrp">
             <div class="container">
@@ -67,7 +68,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/1.jpg")}
+                            src={require("../gallery/Images/gallery4page/1.jpg")}
                             alt="gal-img2-1.jpg"
                             itemprop="image"
                           />
@@ -77,7 +78,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/Images/gallery3page/8.jpg")}
+                            src={require("../gallery/Images/gallery4page/8.jpg")}
                             alt="gal-img2-2.jpg"
                             itemprop="image"
                           />
@@ -87,7 +88,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/Images/gallery3page/7.jpg")}
+                            src={require("../gallery/Images/gallery4page/7.jpg")}
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
@@ -97,7 +98,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/4.jpg")}
+                            src={require("../gallery/Images/gallery4page/4.jpg")}
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
@@ -109,11 +110,11 @@ function Gallery() {
                   <div class="col-md-6 col-sm-12 col-lg-6">
                     <div class="gal-itm">
                       <img
-                        src={require("../gallery/Images/gallery3page/3L.jpg")}
+                        src={require("../gallery/Images/gallery4page/1L.jpg")}
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
-                      <h4 itemprop="headline">Cleanathon</h4>
+                      <h4 itemprop="headline">Clay Ganesha Workshop 2018</h4>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-lg-6">
@@ -121,7 +122,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/3.jpg")}
+                            src={require("../gallery/Images/gallery4page/3.jpg")}
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
@@ -131,7 +132,7 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/Images/gallery3page/9.jpg")}
+                            src={require("../gallery/Images/gallery4page/9.jpg")}
                             alt="gal-img2-7.jpg"
                             itemprop="image"
                           />
@@ -143,11 +144,11 @@ function Gallery() {
                       <div class="col-md-12 col-sm-12 col-lg-12">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/2L.jpg")}
+                            src={require("../gallery/Images/gallery4page/2L.jpg")}
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Let's Plog Bengaluru Innauguration</h4>
+                          <h4 itemprop="headline">Let's Plog Bengaluru Innaugration</h4>
                         </div>
                       </div>
                     </div>
@@ -157,7 +158,7 @@ function Gallery() {
                       <div class="col-md-12 col-sm-12 col-lg-12">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/4L.jpg")}
+                            src={require("../gallery/Images/gallery4page/4L.jpg")}
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
@@ -167,19 +168,19 @@ function Gallery() {
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm">
                           <img
-                            src={require("../gallery/Images/gallery3page/10.jpg")}
+                            src={require("../gallery/Images/gallery4page/10.jpg")}
                             alt="gal-img2-10.jpg"
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Activity in Goverment School
+                            Activity in Government Schools
                           </h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
                         <div class="gal-itm mini-gal">
                           <img
-                            src={require("../gallery/Images/gallery3page/11.jpg")}
+                            src={require("../gallery/Images/gallery4page/11.jpg")}
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
@@ -194,7 +195,7 @@ function Gallery() {
                 <ul class="pagination">
                   <li class="page-item">
                     <Link
-                      to="/gallery-2"
+                      to="/gallery"
                       class="page-link next"
                       title=""
                       itemprop="url"
@@ -210,16 +211,9 @@ function Gallery() {
                     >
                       1
                     </Link>
-                    
                   </li>
-                  <li class="page-item">
-                    <Link
-                      to="/gallery-1"
-                      class="page-link"
-                      style={{ color: "#1b6dae" }}
-                    >
-                      2
-                    </Link>
+                  <li class="page-item active">
+                    <span class="page-link">2</span>
                   </li>
                   <li class="page-item">
                     <Link
@@ -230,12 +224,18 @@ function Gallery() {
                       3
                     </Link>
                   </li>
-                  <li class="page-item active">
-                    <span class="page-link">4</span>
+                  <li class="page-item">
+                    <Link
+                      to="/gallery-3"
+                      class="page-link"
+                      style={{ color: "#1b6dae" }}
+                    >
+                      4
+                    </Link>
                   </li>
                   <li class="page-item">
                     <Link
-                      to="/gallery"
+                      to="/gallery-2"
                       class="page-link next"
                       href="#top"
                       title=""
@@ -254,6 +254,6 @@ function Gallery() {
       </main>
     </div>
   );
-}
+};
 
 export default Gallery;

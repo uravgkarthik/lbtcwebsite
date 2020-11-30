@@ -5,8 +5,9 @@ import { Switch, Route} from "react-router-dom";
 import HomePage from "./pages/homepage/HomePage";
 import AboutUS from "./pages/aboutus/AboutUS";
 import Gallery from "./pages/gallery/Gallery";
-import Gallery2 from "./pages/gallery/Gallery2";
-import Gallery3 from "./pages/gallery/Gallery3";
+import Gallery2 from "./pages/gallery/Gallery4";
+import Gallery3 from "./pages/gallery/Gallery2";
+import Gallery4 from "./pages/gallery/Gallery3";
 import Events from "./pages/events/Events";
 import ContactUS from "./pages/contactus/ContactUS";
 import EventDetails from "./pages/events/EventDetails";
@@ -257,13 +258,17 @@ function App() {
       <Route
         exact
         path="/gallery-2/"
+        render={() => <Gallery3></Gallery3>}
+      ></Route>
+      <Route
+        exact
+        path="/gallery-1/"
         render={() => <Gallery2></Gallery2>}
       ></Route>
-
       <Route
         exact
         path="/gallery-3/"
-        render={() => <Gallery3></Gallery3>}
+        render={() => <Gallery4></Gallery4>}
       ></Route>
     </Switch>
   );
