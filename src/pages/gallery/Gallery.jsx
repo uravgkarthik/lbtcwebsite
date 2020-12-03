@@ -72,7 +72,7 @@ const Gallery = () => {
                             alt="gal-img2-1.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Cleanathon</h4>
+                          <h4 itemprop="headline">Covid Relief<br/> Project</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -82,7 +82,7 @@ const Gallery = () => {
                             alt="gal-img2-2.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Plog Run</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -92,7 +92,7 @@ const Gallery = () => {
                             alt="gal-img2-3.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Governing Council</h4>
+                          <h4 itemprop="headline">Kids <br/> Engagement</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -102,7 +102,7 @@ const Gallery = () => {
                             alt="gal-img2-4.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Core Team</h4>
+                          <h4 itemprop="headline">Surveying</h4>
                         </div>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ const Gallery = () => {
                         alt="gal-img2-5.jpg"
                         itemprop="image"
                       />
-                      <h4 itemprop="headline">Clay Ganesha Workshop 2018</h4>
+                      <h4 itemprop="headline">Covid Relief Project</h4>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-lg-6">
@@ -126,7 +126,7 @@ const Gallery = () => {
                             alt="gal-img2-6.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Clay Ganesha Workshop 2017</h4>
+                          <h4 itemprop="headline">Cleanathon</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -137,7 +137,7 @@ const Gallery = () => {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Plog Run With West Block Blues
+                            Street Play
                           </h4>
                         </div>
                       </div>
@@ -148,7 +148,7 @@ const Gallery = () => {
                             alt="gal-img2-8.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Let's Plog Bengaluru Innaugration</h4>
+                          <h4 itemprop="headline">Community Interaction</h4>
                         </div>
                       </div>
                     </div>
@@ -162,7 +162,7 @@ const Gallery = () => {
                             alt="gal-img2-9.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Tree Plantation Drive</h4>
+                          <h4 itemprop="headline">Waste Management Workshop</h4>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 col-lg-6">
@@ -173,7 +173,7 @@ const Gallery = () => {
                             itemprop="image"
                           />
                           <h4 itemprop="headline">
-                            Activity in Government Schools
+                            Awareness Session
                           </h4>
                         </div>
                       </div>
@@ -184,7 +184,7 @@ const Gallery = () => {
                             alt="gal-img2-11.jpg"
                             itemprop="image"
                           />
-                          <h4 itemprop="headline">Awareness Stall</h4>
+                          <h4 itemprop="headline">Covid Relief Team</h4>
                         </div>
                       </div>
                     </div>
