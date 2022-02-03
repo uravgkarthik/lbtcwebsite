@@ -2,6 +2,7 @@
   "name": "lbtcwebsite",
   "homepage": "http://www.letsbethechange.in",
   "version": "0.1.0",
+  "author": "Karthik Ravishankar",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.0.2",
