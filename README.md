@@ -6,8 +6,8 @@
 
 ## Co-Owners 🔰
 
-- [Adithya Krishna Sharma](https://adithyaakrishna.github.io/) ✅
 - [Karthik Ravishankar](https://uravgkarthik.github.io/) ✅
+- [Adithya Krishna Sharma](https://adithyaakrishna.github.io/) ✅
 
 ## Project Details
 
